@@ -1,6 +1,7 @@
 import { HeadContent, Scripts } from '@tanstack/react-router'
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
+import { Gtm } from '#/features/analytics/lib/gtm'
 import { SeoHelper } from '#/lib/helpers/seo-helper'
 
 import appCss from '../../styles/app.css?url'
@@ -20,7 +21,10 @@ export function rootDocumentHead() {
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       { rel: 'manifest', href: '/manifest.json' },
     ],
-    scripts: [SeoHelper.websiteJsonLd()],
+    scripts: [
+      ...(Gtm.enabled ? [{ children: Gtm.snippet }] : []),
+      SeoHelper.websiteJsonLd(),
+    ],
   }
 }
 
