@@ -5,6 +5,11 @@
   "author": "Santosh Bhandari",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=11"
+  },
   "imports": {
     "#/*": "./src/*"
   },
@@ -51,6 +56,7 @@
     "gray-matter": "^4.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
+    "nitro": "3.0.260610-beta",
     "png-to-ico": "^3.0.2",
     "prettier": "^3.8.1",
     "remark-frontmatter": "^5.0.0",

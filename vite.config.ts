@@ -2,6 +2,7 @@ import { join } from 'node:path'
 import { defineConfig } from 'vite'
 import { devtools } from '@tanstack/devtools-vite'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
+import { nitro } from 'nitro/vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import mdx from '@mdx-js/rollup'
@@ -76,7 +77,27 @@ const config = defineConfig({
       }),
     },
     tailwindcss(),
-    tanstackStart(),
+    nitro(),
+    tanstackStart({
+      // Fully static content — prerender every page to HTML and deploy the
+      // static output (.output/public). Crawls internal links to discover the
+      // program/course pages.
+      prerender: {
+        enabled: true,
+        crawlLinks: true,
+        autoSubfolderIndex: true,
+      },
+      pages: [
+        {
+          path: '/404',
+          prerender: {
+            enabled: true,
+            outputPath: '/404.html',
+            autoSubfolderIndex: false,
+          },
+        },
+      ],
+    }),
     viteReact({ include: /\.(jsx|js|mdx|md|tsx|ts)$/ }),
     seoBuildPlugin(),
   ],
