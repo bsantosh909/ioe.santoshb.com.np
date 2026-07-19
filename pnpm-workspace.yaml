@@ -1,6 +1,6 @@
-onlyBuiltDependencies:
-  - esbuild
-  - lightningcss
-  - unrs-resolver
+allowBuilds:
+  esbuild: true
+  lightningcss: true
+  unrs-resolver: true
 minimumReleaseAgeExclude:
   - '@fontsource-variable/source-code-pro@5.3.0'
