@@ -1,0 +1,5 @@
+onlyBuiltDependencies:
+  - esbuild
+  - lightningcss
+minimumReleaseAgeExclude:
+  - '@fontsource-variable/source-code-pro@5.3.0'

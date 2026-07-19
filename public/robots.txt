@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ioe.santoshb.com.np/sitemap.xml

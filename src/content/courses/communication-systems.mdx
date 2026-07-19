@@ -1,0 +1,76 @@
+---
+slug: communication-systems
+code: ENEX351
+title: 'Communication Systems'
+objective: 'This course provides a foundation in analog and digital communication systems, focusing on modulation and demodulation techniques, system performance analysis in the presence of noise, and fundamental concepts of multiplexing, multiple access, switching, and error control coding.'
+source: 'https://portal.tu.edu.np/downloads/ENEX351COMMUNICATIONSYSTEMS_2026_04_25_10_08_51.pdf'
+seoTitle: 'Communication Systems (ENEX351)'
+seoDescription: 'Communication Systems (ENEX351): foundation in analog and digital communication systems, focusing on modulation and demodulation techniques, system…'
+---
+
+## Syllabus
+
+1. **Introduction** (5 hours)
+   1. Review of signals and systems
+   2. Block diagram of analog and digital communication systems
+   3. System needs and requirements
+   4. Noise, attenuation, and interference
+2. **Amplitude Modulation** (8 hours)
+   1. Time domain expressions, frequency domain representation, modulation index, signal bandwidth of amplitude modulated signal
+   2. AM for single and double tone message, carrier and sideband components, power in carrier and sideband components, bandwidth and power efficiency, Hilbert transform
+   3. Double sideband AM (DSB-FC), generation (Square law), detection (Envelope and square law method)
+   4. Double sideband suppress carrier (DSB-SC), generation (Linear modulator, balance modulator), Synchronous detection method
+   5. Overview of SSB, VSB, and ISB modulations
+   6. Phase locked loop (PLL), demodulation of AM using PLL
+   7. Super-heterodyne AM receiver
+3. **Angle Modulation** (7 hours)
+   1. Basic definition, time domain expression for frequency modulation (FM) and phase modulation (PM)
+   2. Time domain expression for single tone, modulated FM signals, spectral representation
+   3. Bandwidth of FM, Carson's rule, narrow and wideband FM
+   4. Generation of FM: Direct and indirect
+   5. Demodulation of FM signals: Non-synchronous (Limiter discriminator) and synchronous (PLL)
+   6. Stereo FM, spectral details, pre-emphasis and de-emphasis network
+   7. Super-heterodyne Radio receiver for FM
+4. **Pulse Modulation** (8 hours)
+   1. Sampling theorem, ideal sampling, practical sampling, aliasing effect, aperture effect, signal reconstruction
+   2. Fundamentals of PAM, PWM, and PPM, time domain representation
+   3. Pulse coded modulation (PCM), quantization, quantization error, quantization noise
+   4. Signal to quantization noise ratio (SQNR) in uniform quantization, SQNR improvements, non-uniform quantization, companding techniques (A-law, mu-Law)
+   5. DPCM, DM: Encoder, decoder, advantage, disadvantage, noise in DM
+5. **Multiplexing Techniques** (3 hours)
+   1. Multiplexing fundamentals: FDM, TDM, WDM and applications
+   2. T1 and E1 TDM PCM telephony hierarchy
+   3. Multiple access fundamentals: FDMA, TDMA, CDMA, SDMA
+6. **Baseband Digital Data Transmission** (8 hours)
+   1. Information theory, measurement of information, entropy, symbol rates and data rates
+   2. Shannon Hartley channel capacity theorem, implication of theorem, and theoretical limits
+   3. Compression techniques: Shannon-Fano, Huffman codes
+   4. Line coding schemes: Unipolar, polar, bipolar
+   5. RZ, NRZ, AMI, Manchester, differential Manchester, B8ZS, HDB3 for digital data transmission
+   6. ISI, Nyquist criteria, pulse shaping for zero ISI
+7. **Digital Modulation Techniques** (8 hours)
+   1. Binary digital modulation (ASK, FSK, PSK), generation, properties, constellation diagram and detections
+   2. QPSK generation, properties, constellation diagram, and detections
+   3. M-ARY modulation techniques, M-PSK versus M-QAM
+8. **Error Detection and Correction Coding** (7 hours)
+   1. Hamming weight, hamming distance, code vectors, constraint length, code rate, syndromes
+   2. Error detection and correction: error detection codes (Checksum, CRC); error correction codes (Linear block codes, hamming codes)
+   3. Cyclic codes (Generator polynomial, parity-check polynomial)
+9. **Noise in Communication Systems** (6 hours)
+   1. Definition, white noise, AWGN channel, PSDF, and AC function of white noise
+   2. Ideal low-pass and RC filtering of white noise, noise equivalent bandwidth of a filter
+   3. Optimum detection of a pulse in additive white noise, the matched filter, realization of matched filters (Time correlators), the matched filter for a rectangular pulse
+   4. Overview of error probability function in digital communication (ASK, FSK, and PSK)
+
+## Practicals
+
+1. Review of different Signals using MATLAB
+2. Amplitude modulation generation and reconstruction
+3. Frequency modulation generation and reconstruction
+4. Pulse modulation generation and reconstruction
+5. Digital modulation ASK generation and reconstruction
+6. Digital modulation FSK generation and reconstruction
+7. Conversion of the given binary sequence into different line coding
+8. PCM generation and reconstruction
+9. DPCM and DM: Generation and detection
+10. FDM and TDM: Multiplexing and demultiplexing

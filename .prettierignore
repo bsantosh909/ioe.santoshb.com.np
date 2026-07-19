@@ -1,0 +1,8 @@
+routeTree.gen.ts
+dist
+.nitro
+.tanstack
+src/data/courses.generated.ts
+pnpm-lock.yaml
+public/sitemap.xml
+src/paraglide

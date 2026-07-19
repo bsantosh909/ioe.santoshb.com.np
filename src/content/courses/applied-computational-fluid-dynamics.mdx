@@ -1,0 +1,83 @@
+---
+slug: applied-computational-fluid-dynamics
+code: ENME413
+title: 'Applied Computational Fluid Dynamics'
+objective: 'To provide the principles and practices of Computational Fluid Dynamics (CFD), bridging theoretical fluid mechanics and industrial simulation, enabling students to discretize and solve governing equations, construct high-quality meshes and correctly apply physical boundary conditions.'
+source: 'https://portal.tu.edu.np/downloads/ENME413APPLIEDCOMPUTATIONAL_2026_06_30_10_38_11.pdf'
+seoTitle: 'Applied Computational Fluid Dynamics (ENME413)'
+seoDescription: 'Applied Computational Fluid Dynamics (ENME413): provide the principles and practices of Computational Fluid Dynamics (CFD), bridging theoretical fluid…'
+---
+
+## Syllabus
+
+1. **Introduction to CFD and Fluid Mechanics Review** (6 hours)
+   1. History and role of CFD in modern mechanical engineering design
+   2. Review of fluid kinematics: velocity field, streamlines, pathlines and flow classification
+   3. Laminar versus turbulent flow, Reynolds number and its engineering significance
+   4. CFD workflow: geometry, meshing, boundary conditions, solver and post-processing
+   5. Advantages, limitations and validation of CFD against experiments and analytical solutions
+   6. Interface layout, file structure and basic navigation of CFD software interface
+2. **Governing Equations and Numerical Foundations** (9 hours)
+   1. Continuity equation in differential and integral forms
+   2. Navier-Stokes equations and physical meaning of each term
+   3. Enthalpy formulation and simplified heat transfer equation
+   4. Application of Euler equations and Stokes flow
+   5. Boundary conditions: inlet, outlet, wall (no-slip), symmetry and periodic
+   6. Matrix systems, direct and iterative solution methods
+   7. Numerical errors: truncation error, round-off error, consistency and stability
+   8. Convergence concepts: residuals, iteration and physical convergence indicators
+3. **Discretization Methods** (12 hours)
+   1. Finite difference method (FDM): Taylor series expansion, forward, backward and central differences
+   2. Accuracy and order of approximation: first-order and second-order schemes
+   3. Finite volume method (FVM): control volume formulation, flux balance, cell-centered approach
+   4. Discretization of the diffusion term and convection term
+   5. Upwind, central differencing and hybrid schemes: numerical diffusion and stability
+   6. Time discretization: explicit and implicit schemes and CFL stability condition
+   7. Pressure-velocity coupling: physical motivation and SIMPLE algorithm
+   8. Iterative linear solvers used in CFD: Gauss-Seidel, conjugate gradient and algebraic multigrid
+   9. Practical application of FVM
+4. **Mesh Generation and Solver Setup** (9 hours)
+   1. Types of meshes: structured, unstructured and hybrid
+   2. 2D and 3D mesh elements: triangles, quads, tetrahedra, hexahedra and prism layers
+   3. Mesh quality metrics: skewness, aspect ratio and orthogonality
+   4. Near-wall mesh requirements: boundary layer resolution and the y+ parameter
+   5. Geometry preparation and meshing workflow
+   6. Mesh independence study: systematic refinement and solution sensitivity analysis
+   7. Defining boundary conditions: velocity inlet, pressure outlet, wall and symmetry
+   8. Solver configuration: steady-state vs. transient, under-relaxation factors and convergence monitoring
+   9. Post-processing: contour plots, vector fields, streamlines and surface integrals
+5. **Turbulence Modeling** (3 hours)
+   1. Physical nature of turbulence: chaotic fluctuations, energy cascade and engineering implications
+   2. Reynolds-Averaged Navier-Stokes (RANS) approach: time-averaging and the closure problem
+   3. Common turbulence models: k-epsilon and k-omega SST
+   4. Selection criteria of a turbulence model
+   5. Wall functions: role in near-wall treatment and relationship to mesh y+ requirements
+6. **CFD Applications** (6 hours)
+   1. Internal flow: pipe flow, duct flow and pressure drop prediction in pipe networks
+   2. External aerodynamics: flow over bluff bodies and streamlined profiles with lift and drag evaluation
+   3. Heat transfer applications: forced convection in channels, cooling fins and heat exchangers
+   4. HVAC and ventilation: airflow distribution, thermal comfort and indoor environment simulation
+   5. Fluid machinery: flow through pump impellers and turbine passages using rotating reference frames
+   6. Case studies and result interpretation: identifying flow features, validating against benchmarks
+
+## Practicals
+
+1. Orientation session: ANSYS Workbench interface, units and file management
+2. Laminar pipe flow simulation: velocity profile and comparison with the Hagen-Poiseuille solution
+3. 2D lid-driven cavity: mesh convergence study and visualization of recirculation zones
+4. Flow over a flat plate: boundary layer growth, skin friction and comparison with Blasius theory
+5. External flow over a circular cylinder: pressure distribution and drag coefficient measurement
+6. 2D airfoil simulation (NACA 0012): lift and drag at varying angles of attack
+7. Forced convection in a channel with heated walls: temperature contours and Nusselt number estimation
+8. Heat exchanger geometry: inlet/outlet temperature difference and pressure drop analysis
+9. Centrifugal pump impeller flow: rotating reference frame setup, pressure rise and velocity vectors
+10. Mini-project: student-chosen mechanical engineering flow problem, report covering geometry, mesh, results and validation
+
+## Evaluation
+
+Final exam questions cover all chapters. Approximate marks distribution (total 60 marks over 45 hours):
+
+1. Introduction to CFD and Fluid Mechanics Review, Governing Equations and Numerical Foundations: 20 marks
+2. Discretization Methods: 20 marks
+3. Mesh Generation and Solver Setup, Turbulence Modeling: 15 marks
+4. CFD Applications: 5 marks

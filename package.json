@@ -1,22 +1,72 @@
 {
   "name": "ioe.santoshb.com.np",
-  "version": "1.0.0",
-  "description": "IOE related institutes, courses and other details",
+  "version": "2.0.0",
+  "description": "IOE Student Hub — programs, courses, syllabi, notes and other IOE resources",
   "author": "Santosh Bhandari",
   "private": true,
+  "type": "module",
+  "imports": {
+    "#/*": "./src/*"
+  },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "vite dev --port 3000",
+    "generate-routes": "tsr generate",
+    "build": "vite build",
+    "check-seo": "node scripts/check-seo.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint",
+    "format": "prettier --write . && eslint --fix",
+    "check": "prettier --check .",
+    "prepare": "husky",
+    "generate-sitemap": "node scripts/generate-sitemap.mjs"
   },
   "dependencies": {
-    "@nuxtjs/sitemap": "^2.0.1",
-    "bootstrap": "^4.4.1",
-    "bootstrap-vue": "^2.2.1",
-    "frontmatter-markdown-loader": "^3.1.0",
-    "glob": "^7.1.6",
-    "nuxt": "^2.11.0"
+    "@fontsource-variable/inter": "^5.2.8",
+    "@mdx-js/react": "^3.1.1",
+    "@tailwindcss/vite": "^4.1.18",
+    "@tanstack/react-router": "^1.168.0",
+    "@tanstack/react-start": "^1.168.0",
+    "@tanstack/router-plugin": "^1.168.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.18"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@inlang/paraglide-js": "^2.22.0",
+    "@mdx-js/rollup": "^3.1.1",
+    "@tanstack/devtools-vite": "latest",
+    "@tanstack/eslint-config": "latest",
+    "@tanstack/react-devtools": "latest",
+    "@tanstack/react-router-devtools": "latest",
+    "@tanstack/router-cli": "latest",
+    "@types/mdx": "^2.0.14",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.20.0",
+    "gray-matter": "^4.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.8",
+    "png-to-ico": "^3.0.2",
+    "prettier": "^3.8.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-mdx-frontmatter": "^5.2.0",
+    "sharp": "^0.35.3",
+    "typescript": "^5.9.2",
+    "vite": "^8.0.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{css,md,mdx,json,mjs,js,yaml,yml}": [
+      "prettier --write"
+    ]
+  }
 }
