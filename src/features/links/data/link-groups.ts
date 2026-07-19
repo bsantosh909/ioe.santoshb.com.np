@@ -48,13 +48,12 @@ export const LINK_GROUPS: Array<LinkGroup> = [
     links: [
       {
         label: 'IOE Examination Control Division',
-        href: 'http://exam.ioe.edu.np',
+        href: 'https://exam.ioe.tu.edu.np',
       },
       {
         label: 'Exam Notices & Routines',
-        href: 'http://exam.ioe.edu.np/notices',
+        href: 'https://exam.ioe.tu.edu.np/notices',
       },
-      { label: 'IOE Results', href: 'http://exam.ioe.edu.np/results' },
     ],
   },
   {
