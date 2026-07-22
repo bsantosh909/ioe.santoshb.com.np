@@ -12,5 +12,192 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/advanced-java-programming",
+      "destination": "/courses/advanced-java-programming",
+      "statusCode": 301
+    },
+    {
+      "source": "/applied-mathematics",
+      "destination": "/courses/applied-mathematics",
+      "statusCode": 301
+    },
+    {
+      "source": "/applied-mechanics",
+      "destination": "/courses/applied-mechanics",
+      "statusCode": 301
+    },
+    {
+      "source": "/basic-electrical-engineering",
+      "destination": "/courses/basic-electrical-engineering",
+      "statusCode": 301
+    },
+    {
+      "source": "/basic-electronics-engineering",
+      "destination": "/courses/basic-electronics-engineering",
+      "statusCode": 301
+    },
+    {
+      "source": "/computer-network",
+      "destination": "/courses/computer-network",
+      "statusCode": 301
+    },
+    {
+      "source": "/computer-programming",
+      "destination": "/courses/computer-programming",
+      "statusCode": 301
+    },
+    {
+      "source": "/data-mining",
+      "destination": "/courses/data-mining",
+      "statusCode": 301
+    },
+    {
+      "source": "/data-structure-and-algorithms",
+      "destination": "/courses/data-structure-and-algorithms",
+      "statusCode": 301
+    },
+    {
+      "source": "/digital-logic",
+      "destination": "/courses/digital-logic",
+      "statusCode": 301
+    },
+    {
+      "source": "/digital-signal-analysis-and-processing",
+      "destination": "/courses/digital-signal-analysis-and-processing",
+      "statusCode": 301
+    },
+    {
+      "source": "/discrete-structure",
+      "destination": "/courses/discrete-structure",
+      "statusCode": 301
+    },
+    {
+      "source": "/distributed-systems",
+      "destination": "/courses/distributed-systems",
+      "statusCode": 301
+    },
+    {
+      "source": "/electric-circuit-theory",
+      "destination": "/courses/electric-circuit-theory",
+      "statusCode": 301
+    },
+    {
+      "source": "/electrical-machines",
+      "destination": "/courses/electrical-machines",
+      "statusCode": 301
+    },
+    {
+      "source": "/electromagnetics",
+      "destination": "/courses/electromagnetics",
+      "statusCode": 301
+    },
+    {
+      "source": "/electronic-devices-and-circuits",
+      "destination": "/courses/electronic-devices-and-circuits",
+      "statusCode": 301
+    },
+    {
+      "source": "/embedded-systems-design-using-arm-technology",
+      "destination": "/courses/embedded-systems-design-using-arm-technology",
+      "statusCode": 301
+    },
+    {
+      "source": "/energy-environment-and-society",
+      "destination": "/courses/energy-environment-and-society",
+      "statusCode": 301
+    },
+    {
+      "source": "/engineering-chemistry",
+      "destination": "/courses/engineering-chemistry",
+      "statusCode": 301
+    },
+    {
+      "source": "/engineering-drawing-i",
+      "destination": "/courses/engineering-drawing-i",
+      "statusCode": 301
+    },
+    {
+      "source": "/engineering-drawing-ii",
+      "destination": "/courses/engineering-drawing-ii",
+      "statusCode": 301
+    },
+    {
+      "source": "/engineering-mathematics-i",
+      "destination": "/courses/engineering-mathematics-i",
+      "statusCode": 301
+    },
+    {
+      "source": "/engineering-mathematics-ii",
+      "destination": "/courses/engineering-mathematics-ii",
+      "statusCode": 301
+    },
+    {
+      "source": "/engineering-mathematics-iii",
+      "destination": "/courses/engineering-mathematics-iii",
+      "statusCode": 301
+    },
+    {
+      "source": "/engineering-physics",
+      "destination": "/courses/engineering-physics",
+      "statusCode": 301
+    },
+    {
+      "source": "/fundamental-of-thermodynamics-and-heat-transfer",
+      "destination": "/courses/fundamental-of-thermodynamics-and-heat-transfer",
+      "statusCode": 301
+    },
+    {
+      "source": "/image-processing-and-pattern-recognition",
+      "destination": "/courses/image-processing-and-pattern-recognition",
+      "statusCode": 301
+    },
+    {
+      "source": "/instrumentation-i",
+      "destination": "/courses/instrumentation-i",
+      "statusCode": 301
+    },
+    {
+      "source": "/microprocessors",
+      "destination": "/courses/microprocessors",
+      "statusCode": 301
+    },
+    {
+      "source": "/numerical-methods",
+      "destination": "/courses/numerical-methods",
+      "statusCode": 301
+    },
+    {
+      "source": "/object-oriented-programming",
+      "destination": "/courses/object-oriented-programming",
+      "statusCode": 301
+    },
+    {
+      "source": "/organization-and-management",
+      "destination": "/courses/organization-and-management",
+      "statusCode": 301
+    },
+    {
+      "source": "/project-management",
+      "destination": "/courses/project-management",
+      "statusCode": 301
+    },
+    {
+      "source": "/theory-of-computation",
+      "destination": "/courses/theory-of-computation",
+      "statusCode": 301
+    },
+    {
+      "source": "/web-technologies-and-applications",
+      "destination": "/courses/web-technologies-and-applications",
+      "statusCode": 301
+    },
+    {
+      "source": "/workshop-technology",
+      "destination": "/courses/workshop-technology",
+      "statusCode": 301
+    }
   ]
 }
