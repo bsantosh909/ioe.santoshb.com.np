@@ -10,7 +10,7 @@ export function HeroSection() {
   const courseCount = CourseHelper.all().length
 
   return (
-    <section className="relative overflow-hidden bg-primary text-surface">
+    <section className="relative bg-primary text-surface">
       <div className="hero-glow absolute inset-0" />
       <Container className="relative pt-16 pb-14">
         <div className="max-w-2xl">
