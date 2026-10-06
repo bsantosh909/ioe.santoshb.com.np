@@ -4,3 +4,12 @@ allowBuilds:
   unrs-resolver: true
 minimumReleaseAgeExclude:
   - '@fontsource-variable/source-code-pro@5.3.0'
+# Security pins for vulnerable transitive dependencies (pnpm audit):
+# - seroval / seroval-plugins: via @tanstack/react-devtools (dev only)
+# - toml: via remark-mdx-frontmatter (MDX build)
+# sprintf-js (via gray-matter > js-yaml > argparse) is left as-is: no
+# patched release is published yet, and it only formats argparse CLI help.
+overrides:
+  seroval: ^1.6.3
+  seroval-plugins: ^1.6.3
+  toml: ^4.2.0
