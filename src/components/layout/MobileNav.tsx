@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from '@tanstack/react-router'
-import { CloseIcon } from '#/components/ui/CloseIcon'
-import { GithubIcon } from '#/components/ui/GithubIcon'
-import { MenuIcon } from '#/components/ui/MenuIcon'
+import { GithubLogoIcon, ListIcon, XIcon } from '@phosphor-icons/react'
 import { SITE } from '#/data/site'
 import { m } from '#/paraglide/messages.js'
 import type { LinkProps } from '@tanstack/react-router'
@@ -39,7 +37,7 @@ export function MobileNav({ items }: { items: Array<MobileNavItem> }) {
         onClick={() => setOpen(true)}
         className="inline-flex items-center justify-center rounded-lg p-2 text-on-primary-soft hover:text-surface"
       >
-        <MenuIcon className="h-6 w-6" />
+        <ListIcon className="size-6" />
       </button>
 
       <div
@@ -68,7 +66,7 @@ export function MobileNav({ items }: { items: Array<MobileNavItem> }) {
             onClick={() => setOpen(false)}
             className="inline-flex items-center justify-center rounded-lg p-1.5 text-on-primary-soft hover:text-surface"
           >
-            <CloseIcon className="h-5 w-5" />
+            <XIcon className="size-5" />
           </button>
         </div>
 
@@ -96,7 +94,7 @@ export function MobileNav({ items }: { items: Array<MobileNavItem> }) {
             rel="noreferrer"
             className="flex items-center gap-2.5 text-sm text-on-primary-soft hover:text-surface hover:no-underline"
           >
-            <GithubIcon className="h-5 w-5" />
+            <GithubLogoIcon className="size-5" />
             {m.nav_github()}
           </a>
         </div>

@@ -16,6 +16,7 @@ const { total } = writeSitemaps({
   publicDir: join(ROOT, 'public'),
   coursesDir: join(ROOT, 'src/content/courses'),
   programsSource: join(ROOT, 'src/features/programs/data/programs.ts'),
+  collegesSource: join(ROOT, 'src/features/colleges/data/colleges.ts'),
   now: new Date(),
 })
 

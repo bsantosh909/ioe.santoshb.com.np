@@ -9,6 +9,7 @@ import { m } from '#/paraglide/messages.js'
 import type { CourseMeta } from '#/features/courses/types'
 import type { CourseOffering } from '#/features/courses/helpers/course-helper'
 import type { Program } from '#/features/programs/types'
+import type { College } from '#/features/colleges/types'
 
 /** Input for building a page's meta tag set. */
 export interface SeoInput {
@@ -145,6 +146,31 @@ export class SeoHelper {
       url: SeoHelper.url(`/programs/${program.code}`),
       timeToComplete: `P${program.durationYears}Y`,
       provider: {
+        '@type': 'CollegeOrUniversity',
+        name: SITE.organization.name,
+        url: SITE.organization.url,
+      },
+    })
+  }
+
+  /** CollegeOrUniversity schema for a college detail page. */
+  static collegeJsonLd(college: College): ScriptTag {
+    return SeoHelper.jsonLd({
+      '@type': 'CollegeOrUniversity',
+      name: college.name,
+      ...(college.shortName ? { alternateName: college.shortName } : {}),
+      url: SeoHelper.url(`/colleges/${college.slug}`),
+      ...(college.website ? { sameAs: college.website } : {}),
+      ...(college.established
+        ? { foundingDate: String(college.established) }
+        : {}),
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: college.location.city,
+        addressRegion: college.location.province,
+        addressCountry: 'NP',
+      },
+      parentOrganization: {
         '@type': 'CollegeOrUniversity',
         name: SITE.organization.name,
         url: SITE.organization.url,

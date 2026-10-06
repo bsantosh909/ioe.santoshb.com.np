@@ -113,6 +113,22 @@ export class CourseHelper {
     return offerings
   }
 
+  /**
+   * Whether the course has an offering matching every given filter: program
+   * code and/or curriculum year. Omitted filters match anything.
+   */
+  static offeredWhere(
+    slug: string,
+    filter: { program?: string; year?: number },
+  ): boolean {
+    return CourseHelper.offerings(slug).some(
+      (offering) =>
+        (filter.program == null || offering.programCode === filter.program) &&
+        (filter.year == null ||
+          (!offering.elective && offering.year === filter.year)),
+    )
+  }
+
   /** Past board-exam question collections for the course, newest curriculum first. */
   static oldQuestions(slug: string): Array<OldQuestionSet> {
     return OLD_QUESTIONS[slug] ?? []

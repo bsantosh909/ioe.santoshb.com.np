@@ -14,9 +14,9 @@ export const PROGRAMS: Array<Program> = [
     degree: 'B.E. · IOE / TU',
     durationYears: 4,
     description:
-      'Computing fundamentals, software engineering, networks and embedded systems — the most sought-after program at IOE.',
+      'Computing fundamentals, software engineering, networks and embedded systems: the most sought-after program at IOE.',
     scope:
-      "BCT graduates work as software engineers, network and systems engineers, data and machine-learning engineers, and embedded developers — across Nepal's IT industry, telecom, banking, startups and international remote roles. Many continue to MSc/ME and PhD study in Nepal or abroad, or move into research and entrepreneurship.",
+      "BCT graduates work as software engineers, network and systems engineers, data and machine-learning engineers, and embedded developers, across Nepal's IT industry, telecom, banking, startups and international remote roles. Many continue to MSc/ME and PhD study in Nepal or abroad, or move into research and entrepreneurship.",
     seoTitle: 'BCT Computer Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Computer Engineering (BCT): year & semester-wise syllabus, subjects, credits and career scope. Software, networks, data and embedded systems.',
@@ -35,7 +35,7 @@ export const PROGRAMS: Array<Program> = [
     degree: 'B.E. · IOE / TU',
     durationYears: 4,
     description:
-      'Structures, hydraulics, transportation and construction management — the largest engineering discipline at IOE.',
+      'Structures, hydraulics, transportation and construction management: the largest engineering discipline at IOE.',
     scope:
       'BCE graduates join construction companies, design consultancies, hydropower developers and government bodies (Department of Roads, NEA, municipalities) as site, structural, transportation or water-resource engineers. The Nepal Engineering Council licence opens public-sector careers, and many pursue MSc/ME study in structural, geotechnical or water resources engineering.',
     seoTitle: 'BCE Civil Engineering: Syllabus & Subjects',
@@ -205,7 +205,7 @@ export const PROGRAMS: Array<Program> = [
     degree: 'B.E. · IOE / TU',
     durationYears: 4,
     description:
-      'Process engineering, unit operations, and industrial chemistry — introduced with the 2080 curriculum.',
+      'Process engineering, unit operations, and industrial chemistry, introduced with the 2080 curriculum.',
     seoTitle: 'BCH Chemical Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Chemical Engineering (BCH): year & semester-wise syllabus, subjects, credits and career scope. Process engineering and unit operations.',

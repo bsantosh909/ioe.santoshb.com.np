@@ -1,3 +1,4 @@
+import { ArchiveIcon } from '@phosphor-icons/react'
 import { getRouteApi } from '@tanstack/react-router'
 import { ButtonLink } from '#/components/ui/ButtonLink'
 import { Container } from '#/components/ui/Container'
@@ -16,13 +17,13 @@ export function CourseOldQuestionsPage() {
   const sets = CourseHelper.oldQuestions(course.slug)
 
   return (
-    <Container as="section" className="pt-8 pb-15">
-      <h2 className="mb-4 font-serif text-2xl font-semibold">
+    <Container as="section" className="pt-10 pb-20">
+      <h2 className="mb-3 text-2xl font-semibold tracking-tight">
         {m.oldq_title({ course: courseLabel })}
       </h2>
       {sets.length === 0 ? (
         <EmptyState
-          icon="🗃️"
+          icon={ArchiveIcon}
           title={m.oldq_empty_title({ course: courseLabel })}
           description={m.oldq_empty_desc()}
           action={
@@ -31,10 +32,10 @@ export function CourseOldQuestionsPage() {
         />
       ) : (
         <div className="max-w-4xl">
-          <p className="mb-6 leading-relaxed text-body">
+          <p className="mb-8 text-lg leading-relaxed text-body">
             {m.oldq_intro({ course: course.title })}
           </p>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-4">
             {sets.map((set) => (
               <OldQuestionSetCard
                 key={set.url}
@@ -54,14 +55,16 @@ export function CourseOldQuestionsPage() {
             </a>
             {'.'}
           </p>
-          <div className="mt-8 flex flex-col gap-3 rounded-2xl border border-line bg-tint p-5 sm:flex-row sm:items-center sm:justify-between">
+          <div className="mt-10 flex flex-col gap-4 rounded-3xl bg-pastel-gold p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <div className="font-semibold text-ink">
+              <div className="text-lg font-black text-pastel-gold-ink">
                 {m.oldq_more_title()}
               </div>
-              <p className="mt-1 text-sm text-muted">{m.oldq_more_desc()}</p>
+              <p className="mt-1 text-sm text-pastel-gold-ink">
+                {m.oldq_more_desc()}
+              </p>
             </div>
-            <ButtonLink to="/contribute" variant="outline" size="sm">
+            <ButtonLink to="/contribute" arrow className="shrink-0">
               {m.oldq_empty_action()}
             </ButtonLink>
           </div>

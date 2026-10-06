@@ -1,5 +1,12 @@
 import { SITE } from '#/data/site'
 import { m } from '#/paraglide/messages.js'
+import {
+  CalendarDotsIcon,
+  DownloadSimpleIcon,
+  GraduationCapIcon,
+  UsersThreeIcon,
+} from '@phosphor-icons/react'
+import type { Icon } from '@phosphor-icons/react'
 import type { Tone } from '#/lib/helpers/tone-helper'
 
 /** A single outbound link on the Important Links page. */
@@ -11,7 +18,7 @@ export interface ExternalLink {
 /** A titled group of curated external links. */
 export interface LinkGroup {
   id: string
-  icon: string
+  icon: Icon
   title: () => string
   tone: Tone
   links: Array<ExternalLink>
@@ -19,12 +26,12 @@ export interface LinkGroup {
 
 /**
  * Curated official shortcuts. Time-sensitive information must always be
- * verified on the official source — the page shows a disclaimer for this.
+ * verified on the official source; the page shows a disclaimer for this.
  */
 export const LINK_GROUPS: Array<LinkGroup> = [
   {
     id: 'ioe-official',
-    icon: '📥',
+    icon: DownloadSimpleIcon,
     title: () => m.links_group_official(),
     tone: 'primary',
     links: [
@@ -42,7 +49,7 @@ export const LINK_GROUPS: Array<LinkGroup> = [
   },
   {
     id: 'examinations',
-    icon: '📅',
+    icon: CalendarDotsIcon,
     title: () => m.links_group_exams(),
     tone: 'danger',
     links: [
@@ -58,7 +65,7 @@ export const LINK_GROUPS: Array<LinkGroup> = [
   },
   {
     id: 'academic',
-    icon: '🎓',
+    icon: GraduationCapIcon,
     title: () => m.links_group_academic(),
     tone: 'success',
     links: [
@@ -72,7 +79,7 @@ export const LINK_GROUPS: Array<LinkGroup> = [
   },
   {
     id: 'community',
-    icon: '👥',
+    icon: UsersThreeIcon,
     title: () => m.links_group_community(),
     tone: 'accent',
     links: [

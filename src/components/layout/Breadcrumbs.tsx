@@ -1,5 +1,7 @@
 import { Link, useLocation } from '@tanstack/react-router'
+import { CaretRightIcon } from '@phosphor-icons/react'
 import { Container } from '#/components/ui/Container'
+import { CollegeHelper } from '#/features/colleges/helpers/college-helper'
 import { CourseHelper } from '#/features/courses/helpers/course-helper'
 import { ProgramHelper } from '#/features/programs/helpers/program-helper'
 import { m } from '#/paraglide/messages.js'
@@ -12,6 +14,7 @@ interface Crumb {
 const SECTION_LABELS: Record<string, (() => string) | undefined> = {
   programs: () => m.label_programs(),
   courses: () => m.label_courses(),
+  colleges: () => m.label_colleges(),
   links: () => m.label_links(),
   about: () => m.label_about(),
   contact: () => m.label_contact(),
@@ -70,6 +73,11 @@ function buildCrumbs(pathname: string): Array<Crumb> {
     }
   }
 
+  if (section === 'colleges' && rest.length > 0) {
+    const college = CollegeHelper.bySlug(rest[0])
+    crumbs.push({ label: college?.shortName ?? college?.name ?? rest[0] })
+  }
+
   return crumbs
 }
 
@@ -81,22 +89,26 @@ export function Breadcrumbs() {
 
   return (
     <div className="border-b border-line bg-surface">
-      <Container className="flex flex-wrap items-center gap-2 py-2.5 text-sm">
+      <Container className="flex flex-wrap items-center gap-1.5 py-2.5 text-sm">
         {crumbs.map((crumb, index) => (
           <span
             key={`${crumb.label}-${index}`}
-            className="flex items-center gap-2"
+            className="flex items-center gap-1.5"
           >
-            {index > 0 ? <span className="text-line-strong">/</span> : null}
+            {index > 0 ? (
+              <CaretRightIcon className="size-3 text-faint" />
+            ) : null}
             {crumb.to ? (
               <Link
                 to={crumb.to}
-                className="text-faint hover:text-ink hover:no-underline"
+                className="rounded-md px-1.5 py-0.5 text-faint transition-colors duration-200 hover:bg-wash hover:text-ink hover:no-underline"
               >
                 {crumb.label}
               </Link>
             ) : (
-              <span className="font-semibold text-ink">{crumb.label}</span>
+              <span className="px-1.5 font-semibold text-ink">
+                {crumb.label}
+              </span>
             )}
           </span>
         ))}

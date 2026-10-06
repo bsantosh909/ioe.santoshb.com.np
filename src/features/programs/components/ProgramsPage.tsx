@@ -1,4 +1,7 @@
 import { Container } from '#/components/ui/Container'
+import { PageHeader } from '#/components/ui/PageHeader'
+import { StatPill } from '#/components/ui/StatPill'
+import { CourseHelper } from '#/features/courses/helpers/course-helper'
 import { ProgramCard } from '#/features/programs/components/ProgramCard'
 import { ProgramHelper } from '#/features/programs/helpers/program-helper'
 import { SeoHelper } from '#/lib/helpers/seo-helper'
@@ -19,16 +22,28 @@ export function programsPageHead() {
 /** Grid of all programs with status badges. */
 export function ProgramsPage() {
   return (
-    <Container as="section" className="pt-10 pb-15">
-      <h1 className="mb-1.5 font-serif text-3xl font-semibold">
-        {m.programs_title()}
-      </h1>
-      <p className="mb-7 max-w-2xl text-muted">{m.programs_subtitle()}</p>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {ProgramHelper.all().map((program) => (
-          <ProgramCard key={program.code} program={program} />
-        ))}
-      </div>
-    </Container>
+    <>
+      <PageHeader title={m.programs_title()} subtitle={m.programs_subtitle()}>
+        <div className="flex flex-wrap gap-3">
+          <StatPill
+            value={ProgramHelper.all().length}
+            label={m.programs_stat_programs()}
+            className="bg-pastel-gold text-pastel-gold-ink"
+          />
+          <StatPill
+            value={CourseHelper.all().length}
+            label={m.programs_stat_syllabi()}
+            className="bg-pastel-lilac text-pastel-lilac-ink"
+          />
+        </div>
+      </PageHeader>
+      <Container as="section" className="pt-10 pb-20">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {ProgramHelper.all().map((program) => (
+            <ProgramCard key={program.code} program={program} />
+          ))}
+        </div>
+      </Container>
+    </>
   )
 }

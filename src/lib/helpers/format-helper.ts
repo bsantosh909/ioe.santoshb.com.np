@@ -66,4 +66,20 @@ export class FormatHelper {
       ? m.course_oldq_available_one({ count })
       : m.course_oldq_available_other({ count })
   }
+
+  /** `12 colleges` label with singular/plural handling. */
+  static collegeCount(count: number): string {
+    return count === 1
+      ? m.colleges_count_one({ count })
+      : m.colleges_count_other({ count })
+  }
+
+  /** Hostname of a URL without `www.`, e.g. `kec.edu.np`. */
+  static hostname(href: string): string {
+    try {
+      return new URL(href).hostname.replace(/^www\./, '')
+    } catch {
+      return href
+    }
+  }
 }

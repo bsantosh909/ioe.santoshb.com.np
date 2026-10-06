@@ -1,3 +1,4 @@
+import { FolderOpenIcon } from '@phosphor-icons/react'
 import { lazy, useMemo } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
 import { Container } from '#/components/ui/Container'
@@ -21,7 +22,7 @@ export function CourseSyllabusPage() {
           <MdxContent component={Body} />
         ) : (
           <EmptyState
-            icon="🗂️"
+            icon={FolderOpenIcon}
             title={m.syllabus_empty_title()}
             description={m.syllabus_empty_desc()}
           />

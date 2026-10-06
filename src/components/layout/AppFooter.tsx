@@ -6,6 +6,7 @@ import { m } from '#/paraglide/messages.js'
 const EXPLORE_LINKS = [
   { to: '/programs', label: () => m.label_programs() },
   { to: '/courses', label: () => m.label_courses() },
+  { to: '/colleges', label: () => m.label_colleges() },
   { to: '/links', label: () => m.label_links() },
 ]
 
@@ -31,16 +32,16 @@ const LEGAL_LINKS = [
 /** Site footer with brand blurb and link columns. */
 export function AppFooter() {
   return (
-    <footer className="mt-auto bg-primary-deep text-on-primary-soft">
+    <footer className="mt-auto border-t border-line bg-surface text-muted">
       <Container className="grid grid-cols-1 gap-8 pt-11 pb-8 sm:grid-cols-2 lg:grid-cols-5">
         <div className="lg:col-span-2">
           <div className="mb-3 flex items-center gap-2.5">
-            <BrandLogo variant="white" className="h-5 w-auto" />
-            <span className="text-sm font-bold text-surface">
+            <BrandLogo variant="primary" className="h-5 w-auto" />
+            <span className="text-sm font-bold text-primary">
               {m.brand_name()}
             </span>
           </div>
-          <p className="mb-3 max-w-xs text-sm leading-relaxed text-on-primary-faint">
+          <p className="mb-3 max-w-xs text-sm leading-relaxed text-muted">
             {m.footer_blurb()}
           </p>
         </div>
@@ -48,15 +49,15 @@ export function AppFooter() {
         <FooterColumn title={m.footer_hub()} links={HUB_LINKS} />
         <FooterColumn title={m.footer_legal()} links={LEGAL_LINKS} />
       </Container>
-      <div className="border-t border-surface/10">
-        <Container className="flex flex-wrap justify-between gap-2.5 py-4 text-xs text-on-primary-dim">
+      <div className="border-t border-line">
+        <Container className="flex flex-wrap justify-between gap-2.5 py-4 text-xs text-faint">
           <span>{m.footer_copyright()}</span>
           <span className="flex gap-4">
             {LEGAL_LINKS.map((link) => (
               <Link
                 key={link.to}
                 to={link.to}
-                className="text-on-primary-dim hover:text-surface"
+                className="text-faint hover:text-ink"
               >
                 {link.short()}
               </Link>
@@ -76,13 +77,13 @@ interface FooterColumnProps {
 function FooterColumn({ title, links }: FooterColumnProps) {
   return (
     <div>
-      <div className="mb-3 text-sm font-semibold text-surface">{title}</div>
+      <div className="mb-3 text-sm font-semibold text-ink">{title}</div>
       <div className="flex flex-col gap-2 text-sm">
         {links.map((link) => (
           <Link
             key={link.to}
             to={link.to}
-            className="text-on-primary-soft hover:text-surface hover:no-underline"
+            className="text-muted transition-colors hover:text-ink hover:no-underline"
           >
             {link.label()}
           </Link>

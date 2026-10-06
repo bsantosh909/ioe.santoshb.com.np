@@ -1,4 +1,5 @@
-@import '@fontsource-variable/inter';
+@import '@fontsource-variable/geist';
+@import '@fontsource-variable/geist-mono';
 @import 'tailwindcss';
 
 /**
@@ -9,10 +10,13 @@
  * raw palette colors or arbitrary values.
  */
 @theme {
-  /* Single typeface across the UI: Inter for body, headings and code alike. */
-  --font-sans: 'Inter Variable', system-ui, sans-serif;
-  --font-serif: 'Inter Variable', system-ui, sans-serif;
-  --font-mono: 'Inter Variable', system-ui, sans-serif;
+  /* Geist for body and headings, Geist Mono for subject/program codes. */
+  --font-sans: 'Geist Variable', system-ui, sans-serif;
+  --font-serif: 'Geist Variable', system-ui, sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, monospace;
+
+  /* Long-tail ease used by every hover, lift and entry transition. */
+  --ease-snappy: cubic-bezier(0.16, 1, 0.3, 1);
 
   /* Wider page container steps beyond Tailwind's default 7xl (80rem). */
   --container-8xl: 88rem;
@@ -37,6 +41,21 @@
   --color-accent-soft: #c9b98f;
   --color-accent-tint: #fbf1dd;
   --color-accent-line: #f0dcb0;
+
+  /* Pastel bento fills (Animata-style), each paired with a deep ink. */
+  --color-pastel-gold: #f7d98b;
+  --color-pastel-gold-ink: #6e4a0c;
+  --color-pastel-sky: #c4d8fb;
+  --color-pastel-sky-ink: #1d3a78;
+  --color-pastel-mint: #c6ebd2;
+  --color-pastel-mint-ink: #1f5c3b;
+  --color-pastel-rose: #f6c9cf;
+  --color-pastel-rose-ink: #7a2533;
+  --color-pastel-lilac: #dcd0f6;
+  --color-pastel-lilac-ink: #45227a;
+  --color-pastel-teal: #c3e9e4;
+  --color-pastel-teal-ink: #0f5650;
+  --color-pastel-slate: #dfe5ef;
 
   /* Neutral foregrounds */
   --color-ink: #1b2435;
@@ -74,6 +93,43 @@
 
   --animate-ticker: ticker 34s linear infinite;
   --animate-toast-in: toast-in 0.25s ease;
+  --animate-rise: rise 0.7s var(--ease-snappy) both;
+  --animate-spotlight: spotlight 2.2s var(--ease-snappy) 0.4s both;
+  --animate-glow-spin: glow-spin 5s linear infinite;
+  --animate-caret: caret 1s steps(2) infinite;
+  --animate-marquee: ticker 60s linear infinite;
+
+  @keyframes spotlight {
+    from {
+      opacity: 0;
+      transform: translate(-72%, -62%) scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -40%) scale(1);
+    }
+  }
+  @keyframes caret {
+    to {
+      opacity: 0;
+    }
+  }
+  @keyframes glow-spin {
+    to {
+      --fx-angle: 360deg;
+    }
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
   @keyframes ticker {
     from {
@@ -97,10 +153,59 @@
 
 /* Named grid templates for the data tables (code | subject | … | action). */
 @utility grid-cols-subjects {
-  grid-template-columns: 6.5rem 1fr 4.5rem 4.5rem 7.5rem;
+  grid-template-columns: 6.5rem 1fr 4.5rem 4.5rem 7rem;
 }
 @utility grid-cols-catalogue {
-  grid-template-columns: 6rem 1fr 12rem 7.5rem;
+  grid-template-columns: 6.5rem 1fr 13rem 4rem 4rem 4.5rem 1.5rem;
+}
+
+/* Stagger steps for `animate-rise` entry sequences. */
+@utility rise-delay-1 {
+  animation-delay: 80ms;
+}
+@utility rise-delay-2 {
+  animation-delay: 160ms;
+}
+@utility rise-delay-3 {
+  animation-delay: 240ms;
+}
+@utility rise-delay-4 {
+  animation-delay: 320ms;
+}
+
+/* Colour/shadow-only transition, for elements whose size motion animates. */
+@utility transition-surface {
+  transition-property: background-color, border-color, box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: var(--ease-snappy);
+}
+
+/*
+ * Horizontal-only scroller (tab strips, chip rows). `overflow-x: auto` alone
+ * makes the browser compute `overflow-y: auto` too, so a child poking out by
+ * a pixel would add a vertical scroll; lock the y axis and keep sideways
+ * swipes from scrolling the page.
+ */
+@utility scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+/* Marquee helpers: reverse direction and pause while hovered. */
+@utility marquee-reverse {
+  animation-direction: reverse;
+}
+@utility animation-paused {
+  animation-play-state: paused;
+}
+
+/* Angle driving the rotating conic border of `.fx-glow-border`. */
+@property --fx-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
 }
 
 @layer base {
@@ -128,6 +233,13 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    letter-spacing: -0.02em;
+  }
+
   ::selection {
     background: var(--color-primary);
     color: var(--color-surface);
@@ -135,12 +247,187 @@
 }
 
 @layer components {
-  /* Warm radial glow overlaid on navy hero sections. */
+  /* Soft gold and blue wash behind light hero sections. */
   .hero-glow {
+    background:
+      radial-gradient(
+        48rem 22rem at 85% -10%,
+        --alpha(var(--color-accent) / 14%),
+        transparent 65%
+      ),
+      radial-gradient(
+        40rem 20rem at 0% 0%,
+        --alpha(var(--color-link) / 8%),
+        transparent 70%
+      );
+  }
+
+  /*
+   * Engineering-themed backdrops (see `Backdrop`). Each is faded toward the
+   * edges with a mask so it reads as texture, not a grid of lines.
+   */
+  .fx-contours {
+    background-image: url('../assets/patterns/contours.svg');
+    background-size: cover;
+    background-position: center;
+    mask-image: radial-gradient(
+      ellipse 85% 75% at 65% 35%,
+      black 25%,
+      transparent 90%
+    );
+  }
+  .fx-blueprint {
+    background-image:
+      linear-gradient(--alpha(var(--color-link) / 10%) 1px, transparent 1px),
+      linear-gradient(
+        90deg,
+        --alpha(var(--color-link) / 10%) 1px,
+        transparent 1px
+      ),
+      linear-gradient(--alpha(var(--color-link) / 5%) 1px, transparent 1px),
+      linear-gradient(
+        90deg,
+        --alpha(var(--color-link) / 5%) 1px,
+        transparent 1px
+      );
+    background-size:
+      6rem 6rem,
+      6rem 6rem,
+      1.5rem 1.5rem,
+      1.5rem 1.5rem;
+    background-position: center top;
+    mask-image: radial-gradient(
+      ellipse 75% 80% at 75% 20%,
+      black 15%,
+      transparent 80%
+    );
+  }
+  .fx-rings {
+    background-image: url('../assets/patterns/rings.svg');
+    background-size: cover;
+    background-position: right top;
+    mask-image: radial-gradient(
+      ellipse 85% 100% at 90% 0%,
+      black 25%,
+      transparent 85%
+    );
+  }
+  /* Isometric triangle lattice (colleges: campus blocks). */
+  .fx-iso {
+    background-image:
+      repeating-linear-gradient(
+        30deg,
+        --alpha(var(--color-primary) / 9%) 0 1px,
+        transparent 1px 2.5rem
+      ),
+      repeating-linear-gradient(
+        150deg,
+        --alpha(var(--color-primary) / 9%) 0 1px,
+        transparent 1px 2.5rem
+      ),
+      repeating-linear-gradient(
+        90deg,
+        --alpha(var(--color-primary) / 6%) 0 1px,
+        transparent 1px 2.9rem
+      );
+    mask-image: radial-gradient(
+      ellipse 75% 90% at 80% 10%,
+      black 10%,
+      transparent 75%
+    );
+  }
+  .fx-circuit {
+    background-image: url('../assets/patterns/circuit.svg');
+    background-size: 10rem 10rem;
+    mask-image: radial-gradient(
+      ellipse 70% 90% at 90% 10%,
+      black 10%,
+      transparent 75%
+    );
+  }
+
+  /* Soft gold-to-blue light beam swept in from the top-left on load. */
+  .fx-spotlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 120%;
+    pointer-events: none;
     background: radial-gradient(
-      56.25rem 25rem at 80% -10%,
-      --alpha(var(--color-accent-strong) / 22%),
-      transparent 60%
+      50% 50% at 50% 50%,
+      --alpha(var(--color-accent) / 22%) 0%,
+      --alpha(var(--color-link) / 8%) 45%,
+      transparent 72%
+    );
+    filter: blur(2rem);
+    rotate: -28deg;
+  }
+
+  /* Rotating gold/blue conic edge; the child paints the solid interior. */
+  .fx-glow-border {
+    background: conic-gradient(
+      from var(--fx-angle),
+      var(--color-line-strong) 0%,
+      var(--color-accent) 12%,
+      var(--color-line-strong) 26%,
+      var(--color-line-strong) 50%,
+      var(--color-link) 62%,
+      var(--color-line-strong) 76%
+    );
+  }
+
+  /* Cursor-following glow for `SpotlightCard` (x/y set from pointer). */
+  .fx-spotlight-card {
+    --fx-x: 50%;
+    --fx-y: 50%;
+  }
+  .fx-spotlight-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s var(--ease-snappy);
+    background: radial-gradient(
+      24rem circle at var(--fx-x) var(--fx-y),
+      --alpha(var(--color-accent) / 12%),
+      transparent 45%
+    );
+  }
+  .fx-spotlight-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    padding: 1px;
+    opacity: 0;
+    transition: opacity 0.4s var(--ease-snappy);
+    background: radial-gradient(
+      18rem circle at var(--fx-x) var(--fx-y),
+      --alpha(var(--color-accent) / 80%),
+      transparent 40%
+    );
+    mask:
+      linear-gradient(black, black) content-box,
+      linear-gradient(black, black);
+    mask-composite: exclude;
+  }
+  .fx-spotlight-card:hover::before,
+  .fx-spotlight-card:hover::after {
+    opacity: 1;
+  }
+
+  /* Horizontal edge fade for marquees. */
+  .fx-fade-x {
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 12%,
+      black 88%,
+      transparent
     );
   }
 

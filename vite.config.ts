@@ -53,6 +53,7 @@ function seoBuildPlugin(): Plugin {
         publicDir,
         coursesDir,
         programsSource: join(root, 'src/features/programs/data/programs.ts'),
+        collegesSource: join(root, 'src/features/colleges/data/colleges.ts'),
         now: new Date(),
       })
       this.info(`Sitemaps generated with ${total} URLs.`)

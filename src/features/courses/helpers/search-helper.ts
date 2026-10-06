@@ -1,7 +1,9 @@
 import { CourseHelper } from '#/features/courses/helpers/course-helper'
 import { FormatHelper } from '#/lib/helpers/format-helper'
 import { m } from '#/paraglide/messages.js'
+import { ProgramHelper } from '#/features/programs/helpers/program-helper'
 import type { CourseMeta } from '#/features/courses/types'
+import type { Program } from '#/features/programs/types'
 
 /** A course search hit with a human-readable placement line. */
 export interface CourseSearchResult {
@@ -21,6 +23,20 @@ export class SearchHelper {
           course.title.toLowerCase().includes(needle) ||
           course.slug.includes(needle) ||
           (course.code ?? '').toLowerCase().includes(needle),
+      )
+      .slice(0, limit)
+  }
+
+  /** Case-insensitive match on program code, name or full name. */
+  static programs(query: string, limit = Infinity): Array<Program> {
+    const needle = query.trim().toLowerCase()
+    if (!needle) return []
+    return ProgramHelper.all()
+      .filter(
+        (program) =>
+          program.code.toLowerCase().includes(needle) ||
+          program.name.toLowerCase().includes(needle) ||
+          program.fullName.toLowerCase().includes(needle),
       )
       .slice(0, limit)
   }

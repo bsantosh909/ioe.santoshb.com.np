@@ -1,4 +1,5 @@
 import { Link } from '@tanstack/react-router'
+import { ArrowRightIcon } from '@phosphor-icons/react'
 import { ButtonStyleHelper } from '#/lib/helpers/button-style-helper'
 import type { LinkProps } from '@tanstack/react-router'
 import type {
@@ -11,6 +12,8 @@ interface ButtonLinkProps {
   params?: LinkProps['params']
   variant?: ButtonVariant
   size?: ButtonSize
+  /** Trailing arrow that nudges right on hover. */
+  arrow?: boolean
   className?: string
   children: React.ReactNode
 }
@@ -21,6 +24,7 @@ export function ButtonLink({
   params,
   variant = 'primary',
   size = 'md',
+  arrow = false,
   className = '',
   children,
 }: ButtonLinkProps) {
@@ -28,9 +32,12 @@ export function ButtonLink({
     <Link
       to={to}
       params={params}
-      className={`${ButtonStyleHelper.classes(variant, size)} ${className}`}
+      className={`group ${ButtonStyleHelper.classes(variant, size)} ${className}`}
     >
       {children}
+      {arrow ? (
+        <ArrowRightIcon className="size-4 transition-transform duration-300 ease-snappy group-hover:translate-x-0.5" />
+      ) : null}
     </Link>
   )
 }

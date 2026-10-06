@@ -40,6 +40,46 @@ export interface Curriculum {
 }
 
 /** An undergraduate program offered at IOE. */
+/** Career icon categories; each has an illustration in `assets/careers/`. */
+export type CareerKind =
+  | 'software'
+  | 'networks'
+  | 'data'
+  | 'electronics'
+  | 'construction'
+  | 'structural'
+  | 'water'
+  | 'transport'
+  | 'power'
+  | 'manufacturing'
+  | 'automotive'
+  | 'aerospace'
+  | 'surveying'
+  | 'agriculture'
+  | 'chemical'
+  | 'architecture'
+
+/**
+ * Researched, source-cited program profile: what it covers, where it leads.
+ * Lives in `data/program-profiles.ts`; every entry lists its `sources`.
+ */
+export interface ProgramProfile {
+  /** Short paragraphs describing the program. */
+  overview: Array<string>
+  /** Core areas taught, grounded in the 2080 curriculum. */
+  focusAreas: Array<string>
+  /** Typical job roles for graduates, each tagged with an icon category. */
+  careers: Array<{ title: string; description: string; kind: CareerKind }>
+  /** Employer sectors in Nepal and abroad. */
+  sectors: Array<string>
+  higherStudies?: string
+  /** Nepal Engineering Council registration note. */
+  licensing?: string
+  /** IOE constituent campuses offering the program. */
+  campuses?: Array<string>
+  sources: Array<string>
+}
+
 export interface Program {
   code: string
   name: string

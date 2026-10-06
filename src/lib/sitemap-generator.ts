@@ -1,11 +1,12 @@
 /**
  * Build-time sitemap generation. Emits a sitemap index (`sitemap.xml`) that
- * points at three child sitemaps, split by source so each can be reasoned about
+ * points at four child sitemaps, split by source so each can be reasoned about
  * and regenerated independently:
  *
  *   sitemap-static.xml    — fixed pages (no slug-derived content)
  *   sitemap-programs.xml  — /programs/$code and its subject/scope tabs
  *   sitemap-courses.xml   — /courses/$slug and its syllabus/old-questions tabs
+ *   sitemap-colleges.xml  — /colleges/$slug detail pages
  *
  * Called from the Vite build plugin (see `vite.config.ts`) so it runs on every
  * build, and from `scripts/generate-sitemap.mjs` for manual regeneration. Paths
@@ -22,6 +23,7 @@ import { join } from 'node:path'
 import { SITE } from '../data/site.ts'
 import { PROGRAMS } from '../features/programs/data/programs.ts'
 import { COURSE_INDEX } from '../data/courses.generated.ts'
+import { COLLEGES } from '../features/colleges/data/colleges.ts'
 
 interface SitemapEntry {
   path: string
@@ -32,6 +34,7 @@ const STATIC_PATHS = [
   '/',
   '/programs',
   '/courses',
+  '/colleges',
   '/links',
   '/about',
   '/contact',
@@ -77,15 +80,18 @@ export interface SitemapPaths {
   coursesDir: string
   /** Absolute path to the programs data file (for programs lastmod). */
   programsSource: string
+  /** Absolute path to the colleges data file (for colleges lastmod). */
+  collegesSource: string
   /** Build timestamp used as the lastmod fallback. */
   now: Date
 }
 
-/** Writes the sitemap index and its three child sitemaps into `publicDir`. */
+/** Writes the sitemap index and its four child sitemaps into `publicDir`. */
 export function writeSitemaps({
   publicDir,
   coursesDir,
   programsSource,
+  collegesSource,
   now,
 }: SitemapPaths): { total: number } {
   const fileDate = (absPath: string) => {
@@ -119,10 +125,17 @@ export function writeSitemaps({
     ].map((path) => ({ path, lastmod }))
   })
 
+  const collegesMtime = fileDate(collegesSource)
+  const collegeEntries: Array<SitemapEntry> = COLLEGES.map((college) => ({
+    path: `/colleges/${college.slug}`,
+    lastmod: collegesMtime,
+  }))
+
   const children = [
     { file: 'sitemap-static.xml', entries: staticEntries },
     { file: 'sitemap-programs.xml', entries: programEntries },
     { file: 'sitemap-courses.xml', entries: courseEntries },
+    { file: 'sitemap-colleges.xml', entries: collegeEntries },
   ]
 
   for (const child of children) {

@@ -1,4 +1,5 @@
 import { createContext, useCallback, useContext, useRef, useState } from 'react'
+import { CheckIcon } from '@phosphor-icons/react'
 
 interface ToastContextValue {
   showToast: (message: string) => void
@@ -30,7 +31,7 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
       {message ? (
         <div className="animate-toast-in fixed bottom-7 left-1/2 z-50 flex max-w-lg -translate-x-1/2 items-center gap-3 rounded-xl bg-primary px-5 py-3.5 text-sm text-surface shadow-toast">
           <span className="grid size-6 place-items-center rounded-full bg-success text-sm">
-            ✓
+            <CheckIcon weight="bold" className="size-3.5" />
           </span>
           {message}
         </div>

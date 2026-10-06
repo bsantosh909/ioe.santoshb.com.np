@@ -1,59 +1,74 @@
+import { Backdrop } from '#/components/fx/Backdrop'
 import { Container } from '#/components/ui/Container'
+import { StatPill } from '#/components/ui/StatPill'
 import { ProgramHelper } from '#/features/programs/helpers/program-helper'
 import { m } from '#/paraglide/messages.js'
 import type { Program } from '#/features/programs/types'
 
-/** Navy header block on the program detail page. */
+/** Light program header: code, status, name and pastel fact pills. */
 export function ProgramHero({ program }: { program: Program }) {
   const ready = ProgramHelper.isReady(program)
+  const image = ProgramHelper.image(program)
 
   return (
-    <section className="bg-primary text-surface">
-      <Container className="pt-9 pb-8">
-        <div className="mb-3.5 flex items-center gap-3">
-          <span className="rounded-lg bg-surface px-3 py-1.5 font-mono text-base font-semibold text-primary">
-            {program.code}
-          </span>
-          <span
-            className={`rounded-full px-3 py-1 text-sm ${
-              ready
-                ? 'bg-success/20 text-success-bright'
-                : 'bg-surface/10 text-on-primary-soft'
-            }`}
-          >
-            {ready ? m.program_status_full() : m.program_status_soon()}
-          </span>
+    <section className="hero-glow relative overflow-hidden bg-surface">
+      <Backdrop pattern="blueprint" />
+      <Container className="relative grid grid-cols-1 items-center gap-10 pt-10 pb-10 sm:pt-12 lg:grid-cols-12">
+        <div className="lg:col-span-7">
+          <div className="mb-4 flex items-center gap-3 motion-safe:animate-rise">
+            <span className="rounded-lg bg-primary px-3 py-1.5 font-mono text-base font-semibold text-surface">
+              {program.code}
+            </span>
+            <span
+              className={`rounded-full px-3 py-1 text-sm font-medium ${
+                ready
+                  ? 'bg-pastel-mint text-pastel-mint-ink'
+                  : 'bg-tint text-muted'
+              }`}
+            >
+              {ready ? m.program_status_full() : m.program_status_soon()}
+            </span>
+          </div>
+          <h1 className="bg-linear-to-b from-ink to-primary bg-clip-text pb-1 text-4xl leading-tight font-semibold tracking-tight text-transparent sm:text-5xl motion-safe:animate-rise motion-safe:rise-delay-1">
+            {program.name}
+          </h1>
+          <p className="mt-2 max-w-xl text-lg text-muted motion-safe:animate-rise motion-safe:rise-delay-1">
+            {program.fullName}
+          </p>
+          <div className="mt-7 flex flex-wrap gap-3 motion-safe:animate-rise motion-safe:rise-delay-2">
+            <StatPill
+              value={program.durationYears}
+              label={m.program_stat_years({
+                semesters: program.durationYears * 2,
+              })}
+              className="bg-pastel-gold text-pastel-gold-ink"
+            />
+            {ready ? (
+              <StatPill
+                value={ProgramHelper.subjectCount(program)}
+                label={m.program_stat_subjects_unit()}
+                className="bg-pastel-sky text-pastel-sky-ink"
+              />
+            ) : null}
+            <StatPill
+              value={program.degree}
+              label={m.program_stat_degree_unit()}
+              className="bg-pastel-lilac text-pastel-lilac-ink"
+            />
+          </div>
         </div>
-        <h1 className="mb-2 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">
-          {program.name}
-        </h1>
-        <p className="mb-5 max-w-xl text-on-primary-soft">{program.fullName}</p>
-        <div className="flex flex-wrap gap-8">
-          <ProgramStat
-            label={m.program_stat_duration()}
-            value={m.program_duration({
-              years: program.durationYears,
-              semesters: program.durationYears * 2,
-            })}
-          />
-          <ProgramStat
-            label={m.program_stat_subjects()}
-            value={ready ? String(ProgramHelper.subjectCount(program)) : '—'}
-          />
-          <ProgramStat label={m.program_stat_degree()} value={program.degree} />
-        </div>
+        {image ? (
+          <div className="hidden overflow-hidden rounded-3xl bg-surface shadow-card-lg ring-1 ring-line lg:col-span-5 lg:block motion-safe:animate-rise motion-safe:rise-delay-2">
+            <img
+              src={image}
+              alt=""
+              width={1600}
+              height={900}
+              className="aspect-video w-full object-cover"
+            />
+          </div>
+        ) : null}
       </Container>
     </section>
-  )
-}
-
-function ProgramStat({ label, value }: { label: string; value: string }) {
-  return (
-    <div>
-      <div className="text-xs tracking-wide text-on-primary-faint uppercase">
-        {label}
-      </div>
-      <div className="mt-0.5 text-lg font-semibold">{value}</div>
-    </div>
   )
 }

@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as R404RouteImport } from './routes/404'
 import { Route as AboutIndexRouteImport } from './routes/about/index'
+import { Route as CollegesIndexRouteImport } from './routes/colleges/index'
 import { Route as ContactIndexRouteImport } from './routes/contact/index'
 import { Route as ContributeIndexRouteImport } from './routes/contribute/index'
 import { Route as CoursesIndexRouteImport } from './routes/courses/index'
@@ -21,6 +22,7 @@ import { Route as PrivacyIndexRouteImport } from './routes/privacy/index'
 import { Route as ProgramsIndexRouteImport } from './routes/programs/index'
 import { Route as ProgramsCodeRouteRouteImport } from './routes/programs/$code/route'
 import { Route as TermsIndexRouteImport } from './routes/terms/index'
+import { Route as CollegesSlugIndexRouteImport } from './routes/colleges/$slug/index'
 import { Route as CoursesSlugIndexRouteImport } from './routes/courses/$slug/index'
 import { Route as CoursesSlugOldQuestionsRouteImport } from './routes/courses/$slug/old-questions'
 import { Route as CoursesSlugSyllabusRouteImport } from './routes/courses/$slug/syllabus'
@@ -41,6 +43,11 @@ const R404Route = R404RouteImport.update({
 const AboutIndexRoute = AboutIndexRouteImport.update({
   id: '/about/',
   path: '/about/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CollegesIndexRoute = CollegesIndexRouteImport.update({
+  id: '/colleges/',
+  path: '/colleges/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactIndexRoute = ContactIndexRouteImport.update({
@@ -88,6 +95,11 @@ const TermsIndexRoute = TermsIndexRouteImport.update({
   path: '/terms/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CollegesSlugIndexRoute = CollegesSlugIndexRouteImport.update({
+  id: '/colleges/$slug/',
+  path: '/colleges/$slug/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CoursesSlugIndexRoute = CoursesSlugIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -125,6 +137,7 @@ export interface FileRoutesByFullPath {
   '/courses/$slug': typeof CoursesSlugRouteRouteWithChildren
   '/programs/$code': typeof ProgramsCodeRouteRouteWithChildren
   '/about/': typeof AboutIndexRoute
+  '/colleges/': typeof CollegesIndexRoute
   '/contact/': typeof ContactIndexRoute
   '/contribute/': typeof ContributeIndexRoute
   '/courses/': typeof CoursesIndexRoute
@@ -136,6 +149,7 @@ export interface FileRoutesByFullPath {
   '/courses/$slug/syllabus': typeof CoursesSlugSyllabusRoute
   '/programs/$code/scope': typeof ProgramsCodeScopeRoute
   '/programs/$code/subjects': typeof ProgramsCodeSubjectsRoute
+  '/colleges/$slug/': typeof CollegesSlugIndexRoute
   '/courses/$slug/': typeof CoursesSlugIndexRoute
   '/programs/$code/': typeof ProgramsCodeIndexRoute
 }
@@ -143,6 +157,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/404': typeof R404Route
   '/about': typeof AboutIndexRoute
+  '/colleges': typeof CollegesIndexRoute
   '/contact': typeof ContactIndexRoute
   '/contribute': typeof ContributeIndexRoute
   '/courses': typeof CoursesIndexRoute
@@ -154,6 +169,7 @@ export interface FileRoutesByTo {
   '/courses/$slug/syllabus': typeof CoursesSlugSyllabusRoute
   '/programs/$code/scope': typeof ProgramsCodeScopeRoute
   '/programs/$code/subjects': typeof ProgramsCodeSubjectsRoute
+  '/colleges/$slug': typeof CollegesSlugIndexRoute
   '/courses/$slug': typeof CoursesSlugIndexRoute
   '/programs/$code': typeof ProgramsCodeIndexRoute
 }
@@ -164,6 +180,7 @@ export interface FileRoutesById {
   '/courses/$slug': typeof CoursesSlugRouteRouteWithChildren
   '/programs/$code': typeof ProgramsCodeRouteRouteWithChildren
   '/about/': typeof AboutIndexRoute
+  '/colleges/': typeof CollegesIndexRoute
   '/contact/': typeof ContactIndexRoute
   '/contribute/': typeof ContributeIndexRoute
   '/courses/': typeof CoursesIndexRoute
@@ -175,6 +192,7 @@ export interface FileRoutesById {
   '/courses/$slug/syllabus': typeof CoursesSlugSyllabusRoute
   '/programs/$code/scope': typeof ProgramsCodeScopeRoute
   '/programs/$code/subjects': typeof ProgramsCodeSubjectsRoute
+  '/colleges/$slug/': typeof CollegesSlugIndexRoute
   '/courses/$slug/': typeof CoursesSlugIndexRoute
   '/programs/$code/': typeof ProgramsCodeIndexRoute
 }
@@ -186,6 +204,7 @@ export interface FileRouteTypes {
     | '/courses/$slug'
     | '/programs/$code'
     | '/about/'
+    | '/colleges/'
     | '/contact/'
     | '/contribute/'
     | '/courses/'
@@ -197,6 +216,7 @@ export interface FileRouteTypes {
     | '/courses/$slug/syllabus'
     | '/programs/$code/scope'
     | '/programs/$code/subjects'
+    | '/colleges/$slug/'
     | '/courses/$slug/'
     | '/programs/$code/'
   fileRoutesByTo: FileRoutesByTo
@@ -204,6 +224,7 @@ export interface FileRouteTypes {
     | '/'
     | '/404'
     | '/about'
+    | '/colleges'
     | '/contact'
     | '/contribute'
     | '/courses'
@@ -215,6 +236,7 @@ export interface FileRouteTypes {
     | '/courses/$slug/syllabus'
     | '/programs/$code/scope'
     | '/programs/$code/subjects'
+    | '/colleges/$slug'
     | '/courses/$slug'
     | '/programs/$code'
   id:
@@ -224,6 +246,7 @@ export interface FileRouteTypes {
     | '/courses/$slug'
     | '/programs/$code'
     | '/about/'
+    | '/colleges/'
     | '/contact/'
     | '/contribute/'
     | '/courses/'
@@ -235,6 +258,7 @@ export interface FileRouteTypes {
     | '/courses/$slug/syllabus'
     | '/programs/$code/scope'
     | '/programs/$code/subjects'
+    | '/colleges/$slug/'
     | '/courses/$slug/'
     | '/programs/$code/'
   fileRoutesById: FileRoutesById
@@ -245,6 +269,7 @@ export interface RootRouteChildren {
   CoursesSlugRouteRoute: typeof CoursesSlugRouteRouteWithChildren
   ProgramsCodeRouteRoute: typeof ProgramsCodeRouteRouteWithChildren
   AboutIndexRoute: typeof AboutIndexRoute
+  CollegesIndexRoute: typeof CollegesIndexRoute
   ContactIndexRoute: typeof ContactIndexRoute
   ContributeIndexRoute: typeof ContributeIndexRoute
   CoursesIndexRoute: typeof CoursesIndexRoute
@@ -252,6 +277,7 @@ export interface RootRouteChildren {
   PrivacyIndexRoute: typeof PrivacyIndexRoute
   ProgramsIndexRoute: typeof ProgramsIndexRoute
   TermsIndexRoute: typeof TermsIndexRoute
+  CollegesSlugIndexRoute: typeof CollegesSlugIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -275,6 +301,13 @@ declare module '@tanstack/react-router' {
       path: '/about'
       fullPath: '/about/'
       preLoaderRoute: typeof AboutIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/colleges/': {
+      id: '/colleges/'
+      path: '/colleges'
+      fullPath: '/colleges/'
+      preLoaderRoute: typeof CollegesIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact/': {
@@ -338,6 +371,13 @@ declare module '@tanstack/react-router' {
       path: '/terms'
       fullPath: '/terms/'
       preLoaderRoute: typeof TermsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/colleges/$slug/': {
+      id: '/colleges/$slug/'
+      path: '/colleges/$slug'
+      fullPath: '/colleges/$slug/'
+      preLoaderRoute: typeof CollegesSlugIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/courses/$slug/': {
@@ -421,6 +461,7 @@ const rootRouteChildren: RootRouteChildren = {
   CoursesSlugRouteRoute: CoursesSlugRouteRouteWithChildren,
   ProgramsCodeRouteRoute: ProgramsCodeRouteRouteWithChildren,
   AboutIndexRoute: AboutIndexRoute,
+  CollegesIndexRoute: CollegesIndexRoute,
   ContactIndexRoute: ContactIndexRoute,
   ContributeIndexRoute: ContributeIndexRoute,
   CoursesIndexRoute: CoursesIndexRoute,
@@ -428,6 +469,7 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacyIndexRoute: PrivacyIndexRoute,
   ProgramsIndexRoute: ProgramsIndexRoute,
   TermsIndexRoute: TermsIndexRoute,
+  CollegesSlugIndexRoute: CollegesSlugIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
