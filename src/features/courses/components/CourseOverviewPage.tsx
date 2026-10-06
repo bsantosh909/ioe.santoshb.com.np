@@ -3,6 +3,7 @@ import { ButtonLink } from '#/components/ui/ButtonLink'
 import { Container } from '#/components/ui/Container'
 import { OfferedInCard } from '#/features/courses/components/OfferedInCard'
 import { CourseHelper } from '#/features/courses/helpers/course-helper'
+import { FormatHelper } from '#/lib/helpers/format-helper'
 import { m } from '#/paraglide/messages.js'
 
 const route = getRouteApi('/courses/$slug')
@@ -11,6 +12,7 @@ const route = getRouteApi('/courses/$slug')
 export function CourseOverviewPage() {
   const { course, offerings } = route.useLoaderData()
   const details = CourseHelper.details(course.slug)
+  const oldQuestionCount = CourseHelper.oldQuestions(course.slug).length
 
   return (
     <Container
@@ -42,11 +44,37 @@ export function CourseOverviewPage() {
         ) : (
           <p className="mb-4 text-muted">{m.course_no_objective()}</p>
         )}
+        {course.units.length > 0 ? (
+          <>
+            <h2 className="mt-8 mb-2.5 font-serif text-2xl font-semibold">
+              {m.course_syllabus_units()}
+            </h2>
+            <ol className="mb-4 list-decimal space-y-1 pl-6 leading-relaxed text-body">
+              {course.units.map((unit) => (
+                <li key={unit}>{unit}</li>
+              ))}
+            </ol>
+          </>
+        ) : null}
         <ButtonLink to="/courses/$slug/syllabus" params={{ slug: course.slug }}>
           {m.course_read_syllabus()}
         </ButtonLink>
       </div>
       <aside className="flex flex-col gap-4">
+        {oldQuestionCount > 0 ? (
+          <div className="rounded-2xl border border-line bg-surface p-4.5">
+            <div className="mb-3 text-sm text-muted">
+              {FormatHelper.oldQuestionCount(oldQuestionCount)}
+            </div>
+            <ButtonLink
+              to="/courses/$slug/old-questions"
+              params={{ slug: course.slug }}
+              size="sm"
+            >
+              {m.course_oldq_cta()}
+            </ButtonLink>
+          </div>
+        ) : null}
         <OfferedInCard offerings={offerings} />
         <div className="rounded-xl border border-accent-line bg-accent-tint p-4">
           <div className="text-xs font-semibold text-accent-deep">

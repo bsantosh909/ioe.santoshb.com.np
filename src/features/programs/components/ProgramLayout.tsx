@@ -1,14 +1,33 @@
-import { Outlet, getRouteApi, notFound } from '@tanstack/react-router'
+import { Outlet, getRouteApi, notFound, redirect } from '@tanstack/react-router'
 import { TabBar } from '#/components/ui/TabBar'
 import { ProgramHero } from '#/features/programs/components/ProgramHero'
 import { ProgramHelper } from '#/features/programs/helpers/program-helper'
 import { SeoHelper } from '#/lib/helpers/seo-helper'
 import { m } from '#/paraglide/messages.js'
 
-/** Loader for the program detail layout route. */
-export function programLayoutLoader({ params }: { params: { code: string } }) {
+/**
+ * Loader for the program detail layout route. Codes match case-insensitively,
+ * so non-canonical casing (`/programs/bct`) is 301-redirected to the canonical
+ * code to avoid duplicate URLs in the index.
+ */
+export function programLayoutLoader({
+  params,
+  location,
+}: {
+  params: { code: string }
+  location: { pathname: string }
+}) {
   const program = ProgramHelper.byCode(params.code)
   if (!program) throw notFound()
+  if (params.code !== program.code) {
+    throw redirect({
+      href: location.pathname.replace(
+        `/programs/${params.code}`,
+        `/programs/${program.code}`,
+      ),
+      statusCode: 301,
+    })
+  }
   return { program }
 }
 

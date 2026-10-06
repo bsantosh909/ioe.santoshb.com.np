@@ -1,8 +1,9 @@
 import { COURSE_INDEX } from '#/data/courses.generated'
+import { OLD_QUESTIONS } from '#/features/courses/data/old-questions'
 import { PROGRAMS } from '#/features/programs/data/programs'
 import type { ComponentType } from 'react'
 import type { MDXComponents } from 'mdx/types'
-import type { CourseMeta } from '#/features/courses/types'
+import type { CourseMeta, OldQuestionSet } from '#/features/courses/types'
 import type { Curriculum } from '#/features/programs/types'
 
 type MdxModule = { default: ComponentType<{ components?: MDXComponents }> }
@@ -110,5 +111,24 @@ export class CourseHelper {
       )
     }
     return offerings
+  }
+
+  /** Past board-exam question collections for the course, newest curriculum first. */
+  static oldQuestions(slug: string): Array<OldQuestionSet> {
+    return OLD_QUESTIONS[slug] ?? []
+  }
+
+  /** Overall exam-year span covered by a course's question collections. */
+  static oldQuestionYears(
+    slug: string,
+  ): { from: number; to: number } | undefined {
+    const spans = CourseHelper.oldQuestions(slug).flatMap((set) =>
+      set.years ? [set.years] : [],
+    )
+    if (spans.length === 0) return undefined
+    return {
+      from: Math.min(...spans.map((span) => span.from)),
+      to: Math.max(...spans.map((span) => span.to)),
+    }
   }
 }

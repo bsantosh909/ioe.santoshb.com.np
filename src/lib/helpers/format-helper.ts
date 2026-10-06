@@ -51,4 +51,19 @@ export class FormatHelper {
       ? m.count_course_one({ count })
       : m.count_course_other({ count })
   }
+
+  /** `2071–2081 BS` style exam-year span; single year when both ends match. */
+  static examYears(years?: { from: number; to: number }): string | undefined {
+    if (!years) return undefined
+    return years.from === years.to
+      ? m.oldq_year_single({ year: years.from })
+      : m.oldq_years({ from: years.from, to: years.to })
+  }
+
+  /** `3 question collections available` with singular/plural handling. */
+  static oldQuestionCount(count: number): string {
+    return count === 1
+      ? m.course_oldq_available_one({ count })
+      : m.course_oldq_available_other({ count })
+  }
 }

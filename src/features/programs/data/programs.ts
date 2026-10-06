@@ -17,13 +17,13 @@ export const PROGRAMS: Array<Program> = [
       'Computing fundamentals, software engineering, networks and embedded systems — the most sought-after program at IOE.',
     scope:
       "BCT graduates work as software engineers, network and systems engineers, data and machine-learning engineers, and embedded developers — across Nepal's IT industry, telecom, banking, startups and international remote roles. Many continue to MSc/ME and PhD study in Nepal or abroad, or move into research and entrepreneurship.",
-    seoTitle: 'Computer Engineering (BCT) at IOE',
+    seoTitle: 'BCT Computer Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Computer Engineering (BCT): year & semester-wise syllabus, subjects, credits and career scope. Software, networks, data and embedded systems.',
-    seoSubjectsTitle: 'BCT Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BCT Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Computer Engineering (BCT) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BCT Career & Scope — IOE',
+    seoScopeTitle: 'BCT Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Computer Engineering (BCT) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BCT,
@@ -38,13 +38,13 @@ export const PROGRAMS: Array<Program> = [
       'Structures, hydraulics, transportation and construction management — the largest engineering discipline at IOE.',
     scope:
       'BCE graduates join construction companies, design consultancies, hydropower developers and government bodies (Department of Roads, NEA, municipalities) as site, structural, transportation or water-resource engineers. The Nepal Engineering Council licence opens public-sector careers, and many pursue MSc/ME study in structural, geotechnical or water resources engineering.',
-    seoTitle: 'Civil Engineering (BCE) at IOE',
+    seoTitle: 'BCE Civil Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Civil Engineering (BCE): year & semester-wise syllabus, subjects, credits and career scope. Structures, hydraulics and construction.',
-    seoSubjectsTitle: 'BCE Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BCE Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Civil Engineering (BCE) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BCE Career & Scope — IOE',
+    seoScopeTitle: 'BCE Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Civil Engineering (BCE) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BCE,
@@ -58,13 +58,13 @@ export const PROGRAMS: Array<Program> = [
     durationYears: 4,
     description:
       'Communication systems, signal processing, and information engineering.',
-    seoTitle: 'Electronics & Communication (BEX) at IOE',
+    seoTitle: 'BEX Electronics & Communication: Syllabus & Subjects',
     seoDescription:
       'IOE Electronics, Communication & Information Engineering (BEX): syllabus, subjects, credits and career scope by year and semester.',
-    seoSubjectsTitle: 'BEX Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BEX Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Electronics & Communication (BEX) in the IOE curriculum.',
-    seoScopeTitle: 'BEX Career & Scope — IOE',
+    seoScopeTitle: 'BEX Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Electronics & Communication (BEX) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BEX,
@@ -76,13 +76,13 @@ export const PROGRAMS: Array<Program> = [
     degree: 'B.E. · IOE / TU',
     durationYears: 4,
     description: 'Thermodynamics, design, manufacturing and energy systems.',
-    seoTitle: 'Mechanical Engineering (BME) at IOE',
+    seoTitle: 'BME Mechanical Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Mechanical Engineering (BME): year & semester-wise syllabus, subjects, credits and career scope. Thermodynamics, design and energy.',
-    seoSubjectsTitle: 'BME Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BME Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Mechanical Engineering (BME) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BME Career & Scope — IOE',
+    seoScopeTitle: 'BME Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Mechanical Engineering (BME) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BME,
@@ -94,13 +94,13 @@ export const PROGRAMS: Array<Program> = [
     degree: 'B.E. · IOE / TU',
     durationYears: 4,
     description: 'Power systems, machines and high-voltage engineering.',
-    seoTitle: 'Electrical Engineering (BEL) at IOE',
+    seoTitle: 'BEL Electrical Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Electrical Engineering (BEL): year & semester-wise syllabus, subjects, credits and career scope. Power systems, machines and drives.',
-    seoSubjectsTitle: 'BEL Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BEL Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Electrical Engineering (BEL) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BEL Career & Scope — IOE',
+    seoScopeTitle: 'BEL Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Electrical Engineering (BEL) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BEL,
@@ -112,13 +112,13 @@ export const PROGRAMS: Array<Program> = [
     degree: 'B.E. · IOE / TU',
     durationYears: 4,
     description: 'Surveying, GIS, remote sensing and land administration.',
-    seoTitle: 'Geomatics Engineering (BGE) at IOE',
+    seoTitle: 'BGE Geomatics Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Geomatics Engineering (BGE): year & semester-wise syllabus, subjects, credits and career scope. Surveying, GIS and remote sensing.',
-    seoSubjectsTitle: 'BGE Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BGE Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Geomatics Engineering (BGE) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BGE Career & Scope — IOE',
+    seoScopeTitle: 'BGE Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Geomatics Engineering (BGE) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BGE,
@@ -131,13 +131,13 @@ export const PROGRAMS: Array<Program> = [
     durationYears: 4,
     description:
       'Production systems, operations research and industrial management.',
-    seoTitle: 'Industrial Engineering (BIE) at IOE',
+    seoTitle: 'BIE Industrial Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Industrial Engineering (BIE): year & semester-wise syllabus, subjects, credits and career scope. Production, operations and management.',
-    seoSubjectsTitle: 'BIE Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BIE Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Industrial Engineering (BIE) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BIE Career & Scope — IOE',
+    seoScopeTitle: 'BIE Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Industrial Engineering (BIE) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BIE,
@@ -150,13 +150,13 @@ export const PROGRAMS: Array<Program> = [
     durationYears: 4,
     description:
       'Vehicle systems, powertrains and automotive maintenance engineering.',
-    seoTitle: 'Automobile Engineering (BAM) at IOE',
+    seoTitle: 'BAM Automobile Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Automobile Engineering (BAM): year & semester-wise syllabus, subjects, credits and career scope. Vehicle systems and powertrains.',
-    seoSubjectsTitle: 'BAM Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BAM Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Automobile Engineering (BAM) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BAM Career & Scope — IOE',
+    seoScopeTitle: 'BAM Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Automobile Engineering (BAM) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BAM,
@@ -169,13 +169,13 @@ export const PROGRAMS: Array<Program> = [
     durationYears: 4,
     description:
       'Farm machinery, irrigation and post-harvest process engineering.',
-    seoTitle: 'Agriculture Engineering (BAG) at IOE',
+    seoTitle: 'BAG Agriculture Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Agriculture Engineering (BAG): year & semester-wise syllabus, subjects, credits and career scope. Farm machinery and irrigation.',
-    seoSubjectsTitle: 'BAG Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BAG Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Agriculture Engineering (BAG) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BAG Career & Scope — IOE',
+    seoScopeTitle: 'BAG Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Agriculture Engineering (BAG) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BAG,
@@ -187,13 +187,13 @@ export const PROGRAMS: Array<Program> = [
     degree: 'B.E. · IOE / TU',
     durationYears: 4,
     description: 'Aerodynamics, flight mechanics and aircraft systems.',
-    seoTitle: 'Aerospace Engineering (BAE) at IOE',
+    seoTitle: 'BAE Aerospace Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Aerospace Engineering (BAE): year & semester-wise syllabus, subjects, credits and career scope. Aerodynamics and aircraft systems.',
-    seoSubjectsTitle: 'BAE Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BAE Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Aerospace Engineering (BAE) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BAE Career & Scope — IOE',
+    seoScopeTitle: 'BAE Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Aerospace Engineering (BAE) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BAE,
@@ -206,13 +206,13 @@ export const PROGRAMS: Array<Program> = [
     durationYears: 4,
     description:
       'Process engineering, unit operations, and industrial chemistry — introduced with the 2080 curriculum.',
-    seoTitle: 'Chemical Engineering (BCH) at IOE',
+    seoTitle: 'BCH Chemical Engineering: Syllabus & Subjects',
     seoDescription:
       'IOE Chemical Engineering (BCH): year & semester-wise syllabus, subjects, credits and career scope. Process engineering and unit operations.',
-    seoSubjectsTitle: 'BCH Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BCH Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Chemical Engineering (BCH) in the IOE 2080 curriculum.',
-    seoScopeTitle: 'BCH Career & Scope — IOE',
+    seoScopeTitle: 'BCH Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Chemical Engineering (BCH) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BCH,
@@ -224,13 +224,13 @@ export const PROGRAMS: Array<Program> = [
     degree: 'B.Arch · IOE / TU',
     durationYears: 5,
     description: 'Architectural design, building science and urban planning.',
-    seoTitle: 'Architecture (BArch) at IOE',
+    seoTitle: 'BArch Architecture: Syllabus & Subjects',
     seoDescription:
       'IOE Bachelor of Architecture (BArch): year & semester-wise syllabus, subjects, credits and career scope. Design and urban planning.',
-    seoSubjectsTitle: 'BArch Subjects & Syllabus — IOE',
+    seoSubjectsTitle: 'BArch Subjects by Semester (2080 Curriculum)',
     seoSubjectsDescription:
       'Year- and semester-wise subjects, course codes, credits and marks for Bachelor of Architecture (BArch) in the IOE curriculum.',
-    seoScopeTitle: 'BArch Career & Scope — IOE',
+    seoScopeTitle: 'BArch Career Scope & Job Opportunities',
     seoScopeDescription:
       'Career paths, job roles and further-study options for IOE Bachelor of Architecture (BArch) graduates in Nepal and abroad.',
     curriculum: CURRICULA_2080.BAR,

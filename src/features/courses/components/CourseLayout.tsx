@@ -25,11 +25,6 @@ export function courseLayoutLoader({
 
 type CourseTab = 'overview' | 'syllabus' | 'old-questions'
 
-/** Full document title base (with code) shared by every tab. */
-function courseTitleBase(course: CourseMeta): string {
-  return course.code ? `${course.title} (${course.code})` : course.title
-}
-
 /**
  * Per-tab head for a course page. Each tab gets its own title, description and
  * self-referential canonical so the syllabus and old-questions views are not
@@ -40,7 +35,6 @@ function courseTabHead(slug: string, tab: CourseTab) {
   if (!course) return {}
   const offerings = CourseHelper.offerings(slug)
   const base = `/courses/${course.slug}`
-  const titleBase = courseTitleBase(course)
   const crumbs = [
     { label: m.nav_home(), path: '/' },
     { label: m.label_courses(), path: '/courses' },
@@ -50,7 +44,7 @@ function courseTabHead(slug: string, tab: CourseTab) {
   if (tab === 'overview') {
     return {
       meta: SeoHelper.meta({
-        title: course.seoTitle ?? titleBase,
+        title: course.seoTitle ?? SeoHelper.courseOverviewTitle(course),
         description:
           course.seoDescription ??
           SeoHelper.courseDescription(course, offerings),
@@ -70,21 +64,22 @@ function courseTabHead(slug: string, tab: CourseTab) {
       ? {
           path: `${base}/syllabus`,
           title:
-            course.seoSyllabusTitle ??
-            m.seo_course_syllabus_title({ title: titleBase }),
+            course.seoSyllabusTitle ?? SeoHelper.courseSyllabusTitle(course),
           description:
             course.seoSyllabusDescription ??
-            m.seo_course_syllabus_desc({ title: course.title }),
+            SeoHelper.courseSyllabusDescription(course),
           crumb: m.tab_syllabus(),
         }
       : {
           path: `${base}/old-questions`,
-          title:
-            course.seoOldqTitle ??
-            m.seo_course_oldq_title({ title: titleBase }),
+          title: course.seoOldqTitle ?? SeoHelper.courseOldqTitle(course),
           description:
             course.seoOldqDescription ??
-            m.seo_course_oldq_desc({ title: course.title }),
+            SeoHelper.courseOldqDescription(
+              course,
+              CourseHelper.oldQuestionYears(course.slug),
+              CourseHelper.oldQuestions(course.slug).length,
+            ),
           crumb: m.tab_old_questions(),
         }
 

@@ -1,5 +1,9 @@
 import { SITE } from '#/data/site'
-import { SEO_TITLE_BRAND } from '#/lib/constants/seo'
+import {
+  SEO_DESCRIPTION_MAX,
+  SEO_TITLE_BRAND,
+  SEO_TITLE_MAX,
+} from '#/lib/constants/seo'
 import { FormatHelper } from '#/lib/helpers/format-helper'
 import { m } from '#/paraglide/messages.js'
 import type { CourseMeta } from '#/features/courses/types'
@@ -32,6 +36,30 @@ export class SeoHelper {
     return title
       ? `${title} | ${SEO_TITLE_BRAND}`
       : `${SITE.name} — ${m.seo_site_title_suffix()}`
+  }
+
+  /**
+   * First candidate whose rendered `<title>` fits `SEO_TITLE_MAX`, so long
+   * course names degrade to shorter variants instead of being truncated in
+   * the results. Falls back to the last (shortest) candidate.
+   */
+  static fitTitle(candidates: Array<string>): string {
+    return (
+      candidates.find(
+        (candidate) => SeoHelper.title(candidate).length <= SEO_TITLE_MAX,
+      ) ?? candidates[candidates.length - 1]
+    )
+  }
+
+  /** Cuts a description to a word boundary within `SEO_DESCRIPTION_MAX`. */
+  static clip(text: string): string {
+    if (text.length <= SEO_DESCRIPTION_MAX) return text
+    const cut = text.slice(0, SEO_DESCRIPTION_MAX - 1)
+    const lastSpace = cut.lastIndexOf(' ')
+    const body = (
+      lastSpace > SEO_DESCRIPTION_MAX * 0.6 ? cut.slice(0, lastSpace) : cut
+    ).replace(/[\s,;:.\-–—]+$/, '')
+    return `${body}…`
   }
 
   /** Standard, Open Graph and Twitter meta tags for a page. */
@@ -157,8 +185,86 @@ export class SeoHelper {
     const intro = m.seo_course_intro({
       title: `${course.title}${course.code ? ` (${course.code})` : ''}`,
     })
-    return placement
-      ? m.seo_course_offered({ intro, placement })
-      : m.seo_course_plain({ intro })
+    return SeoHelper.clip(
+      placement
+        ? m.seo_course_offered({ intro, placement })
+        : m.seo_course_plain({ intro }),
+    )
+  }
+
+  /** Overview title, aimed at "<course> ioe syllabus / old questions" searches. */
+  static courseOverviewTitle(course: CourseMeta): string {
+    return SeoHelper.fitTitle([
+      m.seo_course_overview_title_full({ title: course.title }),
+      m.seo_course_overview_title_short({ title: course.title }),
+      ...(course.code ? [`${course.title} (${course.code})`] : []),
+      course.title,
+    ])
+  }
+
+  /**
+   * Old-questions title. Keeps the established "<Title> (<CODE>) — Old
+   * Questions" wording, dropping the code and then the dash for long names.
+   */
+  static courseOldqTitle(course: CourseMeta): string {
+    return SeoHelper.fitTitle([
+      ...(course.code
+        ? [
+            m.seo_course_oldq_title({
+              title: `${course.title} (${course.code})`,
+            }),
+          ]
+        : []),
+      m.seo_course_oldq_title({ title: course.title }),
+      m.seo_course_oldq_title_short({ title: course.title }),
+    ])
+  }
+
+  /** Syllabus-tab title: leads with "<course> Syllabus", code when it fits. */
+  static courseSyllabusTitle(course: CourseMeta): string {
+    const title = course.title
+    return SeoHelper.fitTitle([
+      ...(course.code
+        ? [
+            m.seo_course_syllabus_title_full({ title, code: course.code }),
+            m.seo_course_syllabus_title_code({ title, code: course.code }),
+          ]
+        : []),
+      m.seo_course_syllabus_title({ title }),
+    ])
+  }
+
+  /** Syllabus-tab description listing the unit headings when known. */
+  static courseSyllabusDescription(course: CourseMeta): string {
+    if (course.units.length === 0) {
+      return m.seo_course_syllabus_desc({ title: course.title })
+    }
+    return SeoHelper.clip(
+      m.seo_course_syllabus_units_desc({
+        title: course.title,
+        count: course.units.length,
+        units: course.units.join(', '),
+      }),
+    )
+  }
+
+  /** Old-questions description, naming the exam-year span when known. */
+  static courseOldqDescription(
+    course: CourseMeta,
+    years: { from: number; to: number } | undefined,
+    count: number,
+  ): string {
+    if (count === 0) return m.seo_course_oldq_desc({ title: course.title })
+    return SeoHelper.clip(
+      years
+        ? m.seo_course_oldq_years_desc({
+            title: course.title,
+            years:
+              years.from === years.to
+                ? String(years.from)
+                : `${years.from}–${years.to}`,
+          })
+        : m.seo_course_oldq_sources_desc({ title: course.title }),
+    )
   }
 }

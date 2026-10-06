@@ -24,15 +24,28 @@ const SEO_FIELDS = [
   'seoOldqDescription',
 ]
 
+/**
+ * Top-level unit headings from the `## Syllabus` section — the bold text of
+ * each unindented numbered item (`1. **Introduction** (3 hours)`).
+ */
+function syllabusUnits(body) {
+  const section = body.match(/^## Syllabus\s*$([\s\S]*?)(?=^## |(?![\s\S]))/m)
+  if (!section) return []
+  return [...section[1].matchAll(/^\d+\.\s+\*\*(.+?)\*\*/gm)].map((match) =>
+    match[1].trim(),
+  )
+}
+
 const courses = []
 for (const file of readdirSync(COURSES).sort()) {
   if (!file.endsWith('.mdx')) continue
-  const { data } = matter(readFileSync(join(COURSES, file), 'utf8'))
+  const { data, content } = matter(readFileSync(join(COURSES, file), 'utf8'))
   const course = {
     slug: data.slug ?? basename(file, '.mdx'),
     code: data.code ?? null,
     title: data.title,
     objective: data.objective ?? '',
+    units: syllabusUnits(content),
   }
   for (const field of SEO_FIELDS) {
     if (data[field] != null) course[field] = String(data[field])

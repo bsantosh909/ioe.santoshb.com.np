@@ -8,1976 +8,3830 @@ export const COURSE_INDEX: Array<CourseMeta> = [
     "code": "ENCT153",
     "title": "Advanced Computer Programming",
     "objective": "This course gives an overview of programming paradigms and focuses on the multi-paradigm programming model Python, introducing the semantics of the Python programming language and helping learners master basic Python and object-oriented programming while highlighting why Python is a useful scripting language for all developers.",
-    "seoTitle": "Advanced Computer Programming (ENCT153)",
-    "seoDescription": "Advanced Computer Programming (ENCT153): programming paradigms and focuses on the multi-paradigm programming model Python, introducing the semantics of the…"
+    "units": [
+      "Programming Paradigms",
+      "Introduction to Python Programming",
+      "Basic Programming Concept in Python",
+      "Advanced Data Types and Operation in Python",
+      "Object Oriented Programming",
+      "Exceptions and File Handling in Python",
+      "Python Libraries and Maths"
+    ]
   },
   {
     "slug": "advanced-electronics",
     "code": "ENEX202",
     "title": "Advanced Electronics",
     "objective": "This course provides a fundamental understanding of operational amplifiers, including their performance, limitations, and suitability for specific applications; techniques for energy transformation and regulation in power electronic circuits; and the principles and components of data conversion using DAC and ADC systems.",
-    "seoTitle": "Advanced Electronics (ENEX202)",
-    "seoDescription": "Advanced Electronics (ENEX202): fundamental understanding of operational amplifiers, including their performance, limitations, and suitability for specific…"
+    "units": [
+      "Operational Amplifier Characterization",
+      "Digital-to-Analog and Analog-to-Digital Conversion",
+      "Instrumentation and Isolation Amplifiers",
+      "Operational Amplifier-Bipolar Transistor Logarithmic Amplifier",
+      "Log-Antilog Circuit Application",
+      "Power Electronics",
+      "Switched Mode Power Supplies and Drives"
+    ]
   },
   {
     "slug": "advanced-gis-and-remote-sensing",
     "code": "ENGE351",
     "title": "Advanced GIS and Remote Sensing",
     "objective": "The objective of this course is to provide advanced knowledge of GIS and remote sensing techniques for processing, analyzing, and interpreting spatial data, and to develop the ability to apply spatial analysis and modeling for solving real-world geospatial problems.",
-    "seoTitle": "Advanced GIS and Remote Sensing (ENGE351)",
-    "seoDescription": "Advanced GIS and Remote Sensing (ENGE351): advanced knowledge of GIS and remote sensing techniques for processing, analyzing, and interpreting spatial data…"
+    "units": [
+      "Introduction",
+      "Spatial Data Interpolation and Analysis",
+      "Multi-Criteria Decision Analysis (MCDA)",
+      "Network Analysis and Optimization",
+      "Remote Sensing Image Fusion and Multi-Resolution Analysis",
+      "Spectral Unmixing and Dimensionality Reduction",
+      "Spatial Modeling and Simulation",
+      "Emerging Trends in GIS and Remote Sensing"
+    ]
   },
   {
     "slug": "advanced-java-programming",
     "code": null,
     "title": "Advanced Java Programming",
     "objective": "To provide programming knowledge for both single system software distribution and across networks/devices and to focus on the advanced topics that a java programmer will need to know so that they will be in a position to do commercial Java development both for single services and also for distributed processes across multiple devices. To provide an in depth coverage of object serialization, Java Beans, XML, Servlets, JSP's, networking, remote objects (RMI), distributed computing, and Java database Connectivity.",
-    "seoTitle": "Advanced Java Programming",
-    "seoDescription": "Advanced Java Programming: provide programming knowledge for both single system software distribution and across networks/devices and to focus on the advanced…"
+    "units": [
+      "Introduction",
+      "GUI Programming and Components",
+      "Applets and Application Deployment",
+      "Streams and File Handling",
+      "XML Programming",
+      "Network Programming",
+      "Database Programming",
+      "Distributed Ojbects",
+      "Advanced Swing and advanced AWT",
+      "Java Beans Components",
+      "Miscellaneous"
+    ]
   },
   {
     "slug": "advanced-surveying",
     "code": "ENGE255",
     "title": "Advanced Surveying",
     "objective": "The objective of this course is to equip students with the theoretical knowledge and practical skills necessary to apply appropriate surveying methods for accurate map production and spatial data representation.",
-    "seoTitle": "Advanced Surveying (ENGE255)",
-    "seoDescription": "Advanced Surveying (ENGE255): the theoretical knowledge and practical skills necessary to apply appropriate surveying methods for accurate map production and…"
+    "units": [
+      "Orientation",
+      "Triangulation and Trilateration",
+      "Curves",
+      "Mining Survey",
+      "Hydrographic Survey",
+      "Construction Surveying",
+      "Areas and Volumes"
+    ]
   },
   {
     "slug": "aerodynamics",
     "code": "ENAS304",
     "title": "Aerodynamics",
     "objective": "To introduce the fundamental concepts of internal and external flows as applied to aerospace engineering, covering essential fluid mechanics and aerodynamic principles used in the design of airfoils and aircraft wings, along with the theoretical foundations, experimental approaches, and analytical methods used to evaluate the aerodynamic characteristics of aircraft configurations.",
-    "seoTitle": "Aerodynamics (ENAS304)",
-    "seoDescription": "Aerodynamics (ENAS304): introduce the fundamental concepts of internal and external flows as applied to aerospace engineering, covering essential fluid…"
+    "units": [
+      "Introduction",
+      "Fundamental Principles and Equations",
+      "Inviscid, Incompressible Flow",
+      "Incompressible Flow Over Airfoils",
+      "Finite Wing Theory",
+      "Three-Dimensional Incompressible Flow"
+    ]
   },
   {
     "slug": "agri-economics-and-entrepreneurship",
     "code": "ENAE303",
     "title": "Agri-Economics and Entrepreneurship",
     "objective": "The objective of this course is to provide principles of agricultural economics, farm management, agribusiness and entrepreneurship. It also aims to equip students to apply economic analysis on market assessment, risk management, and business planning skills to develop successful and innovative agricultural ventures.",
-    "seoTitle": "Agri-Economics and Entrepreneurship (ENAE303)",
-    "seoDescription": "Agri-Economics and Entrepreneurship (ENAE303): principles of agricultural economics, farm management, agribusiness and entrepreneurship. It also aims to equip…"
+    "units": [
+      "Agricultural Economics",
+      "Farm Management and Production Economics",
+      "Agricultural Marketing and Price Analysis",
+      "Agricultural Finance and Risk Management",
+      "Entrepreneurship in Agriculture",
+      "Business Plan Development",
+      "Agri-Policies and Sustainable Entrepreneurship",
+      "Current Issues and Future Trends"
+    ]
   },
   {
     "slug": "agricultural-engineering-for-sustainable-development",
     "code": "ENAE101",
     "title": "Agricultural Engineering for Sustainable Development",
     "objective": "The course is designed to provide comprehensive concepts of sustainable development, agricultural practices, irrigation practices, energy practices, post-harvest practices, soil and water conservation and farm machinery fostering a holistic approach from farm to fork and agro-food ecosystem.",
-    "seoTitle": "Agricultural Engineering for Sustainable Development",
-    "seoDescription": "Agricultural Engineering for Sustainable Development (ENAE101): provide comprehensive concepts of sustainable development, agricultural practices, irrigation…"
+    "units": [
+      "Overview of Sustainable Development",
+      "Sustainable Agricultural Practices",
+      "Sustainable Irrigation Practices",
+      "Sustainable Energy for Agriculture",
+      "Sustainable Soil and Water Conservation Practices",
+      "Sustainable Farm Machinery",
+      "Sustainable Post-Harvest Practices"
+    ]
   },
   {
     "slug": "aircraft-manufacturing-process",
     "code": "ENAS252",
     "title": "Aircraft Manufacturing Process",
     "objective": "To enable students to understand the fundamentals of a manufacturing process along with the fundamentals of an aircraft structure, and the analysis and application of materials used during aircraft manufacturing, so they can select aerospace materials as per manufacturing principles and processes to fabricate aircraft components.",
-    "seoTitle": "Aircraft Manufacturing Process (ENAS252)",
-    "seoDescription": "Aircraft Manufacturing Process (ENAS252): enable students to understand the fundamentals of a manufacturing process along with the fundamentals of an aircraft…"
+    "units": [
+      "Overview of Aircraft Manufacturing",
+      "Major Aircraft Materials and its Classification",
+      "Major Manufacturing Processes in Aerospace",
+      "Material Removal Processes: Chip-Forming",
+      "Welding Technology in Aerospace",
+      "Manufacturing Systems",
+      "Corrosion and its Prevention"
+    ]
   },
   {
     "slug": "aircraft-propulsion",
     "code": "ENAS303",
     "title": "Aircraft Propulsion",
     "objective": "To provide knowledge relevant to aircraft engines and aerospace propulsion systems, enabling students to gain in-depth knowledge of the design process of propulsion systems.",
-    "seoTitle": "Aircraft Propulsion (ENAS303)",
-    "seoDescription": "Aircraft Propulsion (ENAS303): provide knowledge relevant to aircraft engines and aerospace propulsion systems, enabling students to gain in-depth knowledge…"
+    "units": [
+      "Introduction",
+      "Fundamentals of Thermal Turbo-Machines",
+      "Combustion Chambers and Nozzles",
+      "Inlet and Compressors",
+      "Turbines",
+      "Losses in Turbo-Machines",
+      "Engine Systems"
+    ]
   },
   {
     "slug": "aircraft-systems",
     "code": "ENAS352",
     "title": "Aircraft Systems",
     "objective": "To provide knowledge relevant to aircraft systems, enabling students to understand the components and systems that help an aircraft or spacecraft function in air and space while ensuring human safety.",
-    "seoTitle": "Aircraft Systems (ENAS352)",
-    "seoDescription": "Aircraft Systems (ENAS352): provide knowledge relevant to aircraft systems, enabling students to understand the components and systems that help an aircraft…"
+    "units": [
+      "Airframe Structure",
+      "Ice and Rain Protection System",
+      "Hydraulic and Pneumatic Power System",
+      "Landing Gear Systems",
+      "Fire Protection System",
+      "Fuel System",
+      "Air Conditioning and Cabin Pressurization System",
+      "Water and Waste System",
+      "Aircraft Electrical System",
+      "On Board Systems",
+      "Equipment and Furnishing"
+    ]
   },
   {
     "slug": "applied-computational-fluid-dynamics",
     "code": "ENME413",
     "title": "Applied Computational Fluid Dynamics",
     "objective": "To provide the principles and practices of Computational Fluid Dynamics (CFD), bridging theoretical fluid mechanics and industrial simulation, enabling students to discretize and solve governing equations, construct high-quality meshes and correctly apply physical boundary conditions.",
-    "seoTitle": "Applied Computational Fluid Dynamics (ENME413)",
-    "seoDescription": "Applied Computational Fluid Dynamics (ENME413): provide the principles and practices of Computational Fluid Dynamics (CFD), bridging theoretical fluid…"
+    "units": [
+      "Introduction to CFD and Fluid Mechanics Review",
+      "Governing Equations and Numerical Foundations",
+      "Discretization Methods",
+      "Mesh Generation and Solver Setup",
+      "Turbulence Modeling",
+      "CFD Applications"
+    ]
   },
   {
     "slug": "applied-mathematics",
     "code": null,
     "title": "Applied Mathematics",
     "objective": "This course focuses on several branches of applied mathematics. The students are exposed to complex variables theory and a study of the Fourier and Z-Transforms, topics of current importance in signal processing. The course concludes with studies of the wave and heat equations in Cartesian and polar coordinates.",
-    "seoTitle": "Applied Mathematics",
-    "seoDescription": "Applied Mathematics: several branches of applied mathematics. The students are exposed to complex variables theory and a study of the Fourier and…"
+    "units": [
+      "Complex Analysis",
+      "The Z-Transform",
+      "Partial Differential Equations",
+      "Fourier Transform"
+    ]
   },
   {
     "slug": "applied-mechanics",
     "code": "ENCE104",
     "title": "Applied Mechanics",
     "objective": "To provide concept and knowledge of engineering mechanics and help understand structural engineering stress analysis principles in later courses or to use basics of mechanics in their branch of engineering. Emphasis has been given to Statics.",
-    "seoTitle": "Applied Mechanics (ENCE104)",
-    "seoDescription": "Applied Mechanics (ENCE104): provide concept and knowledge of engineering mechanics and help understand structural engineering stress analysis principles in…"
+    "units": [
+      "Introduction",
+      "Basic Concept in Statics and Static Equilibrium",
+      "Forces acting on particle and rigid body",
+      "Center of Gravity, Centroid and Moment of Inertia",
+      "Friction",
+      "Analysis of Beams and Frames",
+      "Analysis of Plane Trusses",
+      "Kinematics of Particles and Rigid Body",
+      "Kinetics of Particles and Rigid Body: Force and Acceleration"
+    ]
   },
   {
     "slug": "applied-thermodynamics-and-heat-transfer",
     "code": "ENME206",
     "title": "Applied Thermodynamics and Heat Transfer",
     "objective": "To provide comprehensive understanding of thermodynamic systems and their applications in engineering, enabling students to analyze and compare various power cycles and apply principles such as energy balance and efficiency calculations.",
-    "seoTitle": "Applied Thermodynamics and Heat Transfer (ENME206)",
-    "seoDescription": "Applied Thermodynamics and Heat Transfer (ENME206): provide comprehensive understanding of thermodynamic systems and their applications in engineering…"
+    "units": [
+      "Gas Power Cycle",
+      "Air Compressor",
+      "Refrigeration System",
+      "Heat Exchangers",
+      "Boilers",
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ]
   },
   {
     "slug": "architectural-graphics-i",
     "code": "ENAR104",
     "title": "Architectural Graphics I",
     "objective": "To provide students a sound knowledge of architectural graphics using graphical instruments and introduce drawings through the concepts and principles of orthographic, parallel and perspective projection, developing architectural graphic techniques and an understanding of graphics as a means of visual communication.",
-    "seoTitle": "Architectural Graphics I (ENAR104)",
-    "seoDescription": "Architectural Graphics I (ENAR104): provide students a sound knowledge of architectural graphics using graphical instruments and introduce drawings through…"
+    "units": [
+      "Preliminary Graphics Skill",
+      "Theory of Projection",
+      "Orthographic Projection (2D Drawings)",
+      "Isometric Projection",
+      "Conversion of 3D into 2D and 2D into 3D",
+      "Other Graphical Views, Sections and Intersection of Surfaces",
+      "Building Drawings",
+      "Perspective Projection"
+    ]
   },
   {
     "slug": "architectural-graphics-ii",
     "code": "ENAR151",
     "title": "Architectural Graphics II",
     "objective": "This course introduces two and three dimensional compositions, colour application and presentational techniques in architectural drawing, providing students with basic knowledge of graphical and presentational techniques through various exercises and an understanding of architectural graphics as a means of visual communication.",
-    "seoTitle": "Architectural Graphics II (ENAR151)",
-    "seoDescription": "Architectural Graphics II (ENAR151): two and three dimensional compositions, colour application and presentational techniques in architectural drawing…"
+    "units": [
+      "Sciography",
+      "Colour Theory and its Applications",
+      "Appropriate Rendering Techniques in Buildings",
+      "Architectural Rendering Development Skill in Different Mediums"
+    ]
   },
   {
     "slug": "artificial-intelligence-in-chemical-engineering",
     "code": "ENCH204",
     "title": "Artificial Intelligence in Chemical Engineering",
     "objective": "To provide students with a thorough understanding of data visualization, data quality, and key machine learning techniques, including classification, regression, and clustering, with hands-on experience with machine learning packages and hyperparameter tuning solidified through a collaborative group project.",
-    "seoTitle": "Artificial Intelligence in Chemical Engineering",
-    "seoDescription": "Artificial Intelligence in Chemical Engineering (ENCH204): provide students with a thorough understanding of data visualization, data quality, and key machine…"
+    "units": [
+      "Fundamentals of AI and Applications",
+      "Python Basics and Data Handling",
+      "Data Visualization and Scientific Computing",
+      "Data Engineering",
+      "Introduction to Machine Learning",
+      "Introduction to Neural Networks"
+    ]
   },
   {
     "slug": "artificial-intelligence",
     "code": "ENCT351",
     "title": "Artificial Intelligence",
     "objective": "The objective of this course is to provide students with a foundation in Artificial Intelligence covering intelligent agents, search techniques, knowledge representation, machine learning and AI ethics, equipping them with theoretical understanding and practical skills to apply AI techniques to real-world problems while developing awareness of the ethical and societal implications of AI systems.",
-    "seoTitle": "Artificial Intelligence (ENCT351)",
-    "seoDescription": "Artificial Intelligence (ENCT351): students with a foundation in Artificial Intelligence covering intelligent agents, search techniques, knowledge…"
+    "units": [
+      "Introduction",
+      "Problem Solving and Search",
+      "Knowledge Representation and Probabilistic Reasoning",
+      "Machine Learning Fundamentals",
+      "Neural Networks and Deep Learning Algorithms",
+      "AI Applications",
+      "Emerging Trends"
+    ]
   },
   {
     "slug": "automotive-technology",
     "code": "ENME301",
     "title": "Automotive Technology",
     "objective": "To provide a comprehensive understanding of the principles of automobile systems (engine, drivetrain, suspension, steering, braking, electrical and electronic systems), the analysis of vehicle stability, powertrain configurations and emission control, and recent advancements such as electric and hybrid vehicles, with practical experience in vehicle diagnostics, testing and assembly.",
-    "seoTitle": "Automotive Technology (ENME301)",
-    "seoDescription": "Automotive Technology (ENME301): provide a comprehensive understanding of the principles of automobile systems (engine, drivetrain, suspension, steering…"
+    "units": [
+      "Introduction",
+      "Fuel Supply Systems",
+      "Ignition and Combustion",
+      "Engine Cooling and Lubrication",
+      "Transmission Systems",
+      "Suspension and Steering",
+      "Braking Systems",
+      "Wheels and Tires",
+      "Vehicle Electrical Systems",
+      "Emissions and Emission Control Systems",
+      "Automotive Electronics",
+      "Trends in Automobiles"
+    ]
   },
   {
     "slug": "aviation-maintenance-engineering",
     "code": "ENAS351",
     "title": "Aviation Maintenance Engineering",
     "objective": "To provide knowledge relevant to aviation maintenance engineering and relevant regulations as well as best practices, enabling students to understand the intricate technical details of the working of an airline and aviation regulator.",
-    "seoTitle": "Aviation Maintenance Engineering (ENAS351)",
-    "seoDescription": "Aviation Maintenance Engineering (ENAS351): provide knowledge relevant to aviation maintenance engineering and relevant regulations as well as best practices…"
+    "units": [
+      "Need of Maintenance",
+      "Development of Maintenance Program",
+      "Aviation Industry Certification Requirement",
+      "Documentation for Maintenance",
+      "Maintenance and Engineering Organization",
+      "Engineering and Production Planning",
+      "Technical Publication and Training",
+      "Aircraft Maintenance Management",
+      "Line and Hangar Maintenance",
+      "Material Support",
+      "Quality Assurance and Control",
+      "Reliability and Maintenance Safety",
+      "Systems Engineering",
+      "Extended Twin Engine Operations (ETOPS)"
+    ]
   },
   {
     "slug": "avionics",
     "code": "ENAS301",
     "title": "Avionics",
     "objective": "To enable students to understand the needs of avionics for both civil and military aircraft, introduce various digital electronic principles and working operations of digital circuits, integrate digital electronics with cockpit equipment, understand the principles of flight deck and cockpit panels, and study communication and navigation equipment.",
-    "seoTitle": "Avionics (ENAS301)",
-    "seoDescription": "Avionics (ENAS301): enable students to understand the needs of avionics for both civil and military aircraft, introduce various digital electronic principles…"
+    "units": [
+      "Introduction",
+      "Cockpit Displays and Human-Machine Interface",
+      "Basic Navigation Systems",
+      "Fly-By-Wire System, Autopilot and Flight Management",
+      "Communication and Navigation Systems I",
+      "Communication and Navigation Systems II"
+    ]
   },
   {
     "slug": "basic-electrical-and-electronics-engineering",
     "code": "ENEE103",
     "title": "Basic Electrical and Electronics Engineering",
     "objective": "To provide foundational knowledge of electrical engineering fundamentals, including circuits and components with emphasis on safe installations, and to introduce students to electrical machines, semiconductor devices, and digital electronics applications.",
-    "seoTitle": "Basic Electrical and Electronics Engineering (ENEE103)",
-    "seoDescription": "Basic Electrical and Electronics Engineering (ENEE103): provide foundational knowledge of electrical engineering fundamentals, including circuits and…"
+    "units": [
+      "Fundamentals of Electrical and Electronics Circuits",
+      "Electrical Machines",
+      "Introduction to Electronics Engineering",
+      "Electrical Installations"
+    ]
   },
   {
     "slug": "basic-electrical-engineering",
     "code": "ENEX101",
     "title": "Basic Electrical Engineering",
     "objective": "To provide the fundamental concept of DC, AC & 3-phase electrical circuits",
-    "seoTitle": "Basic Electrical Engineering (ENEX101)",
-    "seoDescription": "Basic Electrical Engineering (ENEX101): provide the fundamental concept of DC, AC & 3-phase electrical circuits"
+    "units": [
+      "General Electric System",
+      "DC circuits",
+      "Network Theorems",
+      "Inductance & Capacitance in electric circuits",
+      "Alternating Quantities",
+      "Single-phase AC circuits",
+      "Power in AC Circuits",
+      "Three-Phase Circuit Analysis"
+    ]
   },
   {
     "slug": "basic-electronics-engineering",
     "code": null,
     "title": "Basic Electronics Engineering",
     "objective": "To understand the electronics elements and their functionality, basic understanding of analog and digital systems and their applications",
-    "seoTitle": "Basic Electronics Engineering",
-    "seoDescription": "Basic Electronics Engineering: understand the electronics elements and their functionality, basic understanding of analog and digital systems and their…"
+    "units": [
+      "Basic Circuits Concepts",
+      "Diodes",
+      "Transistor",
+      "The Operational Amplifier and Oscillator",
+      "Communication System",
+      "Digital Electronics",
+      "Application of Electronic System"
+    ]
   },
   {
     "slug": "basic-geoinformation-science",
     "code": "ENGE101",
     "title": "Basic Geoinformation Science",
     "objective": "This course covers fundamental concepts, principles, scope and applications of geomatics engineering approaches: surveying, photogrammetry, remote sensing, geographic information system and global navigation satellite system. Students acquire knowledge and skills in map making and interpretation, and basic techniques of spatial data acquisition used in geomatics engineering.",
-    "seoTitle": "Basic Geoinformation Science (ENGE101)",
-    "seoDescription": "Basic Geoinformation Science (ENGE101): fundamental concepts, principles, scope and applications of geomatics engineering approaches: surveying…"
+    "units": [
+      "Introduction and Overview of Geoinformation Science",
+      "Photogrammetry and Remote Sensing",
+      "Surveying and Map Making",
+      "History and Development of Cadastral System",
+      "Geographic Information System (GIS) and GNSS",
+      "Future Trends and Emerging Technologies"
+    ]
   },
   {
     "slug": "basic-surveying",
     "code": "ENGE201",
     "title": "Basic Surveying",
     "objective": "The objective of this course is to introduce students with the basic knowledge of land measurement and surveying techniques. The overall course is designed to make the students able to learn and understand the theory and practice of basic survey measurements.",
-    "seoTitle": "Basic Surveying (ENGE201)",
-    "seoDescription": "Basic Surveying (ENGE201): students with the basic knowledge of land measurement and surveying techniques. The overall course is designed to make the students…"
+    "units": [
+      "Introduction",
+      "Theory of Measurements and Errors",
+      "Linear Survey",
+      "Compass Survey",
+      "Plane Table Survey",
+      "Leveling",
+      "Theodolite and Theodolite Traversing",
+      "Tacheometry"
+    ]
   },
   {
     "slug": "building-construction-i",
     "code": "ENAR153",
     "title": "Building Construction I",
     "objective": "The main objective is to introduce students to the basic process and techniques of building construction, giving knowledge about major building components in the substructure and superstructure and building construction materials, with practical observation through field visits focused on traditional Nepalese architecture.",
-    "seoTitle": "Building Construction I (ENAR153)",
-    "seoDescription": "Building Construction I (ENAR153): the basic process and techniques of building construction, giving knowledge about major building components in the…"
+    "units": [
+      "Introduction",
+      "Site Works and Setting Out",
+      "Soil Investigation",
+      "Excavation",
+      "Timbering in Trenches",
+      "Foundation and their Types",
+      "Damp Protection",
+      "Floor Structure",
+      "Masonry Wall",
+      "Openings in Wall"
+    ]
   },
   {
     "slug": "building-construction-ii",
     "code": "ENAR206",
     "title": "Building Construction II",
     "objective": "This course provides a comprehensive understanding of building construction systems for small to medium-sized projects, introducing the key structural components of buildings with a focus on methods and techniques used in constructing staircases, doors, windows and roofs, along with an overview of retaining walls and basement waterproofing.",
-    "seoTitle": "Building Construction II (ENAR206)",
-    "seoDescription": "Building Construction II (ENAR206): comprehensive understanding of building construction systems for small to medium-sized projects, introducing the key…"
+    "units": [
+      "Temporary Works",
+      "Staircase",
+      "Openings in a Building",
+      "Reinforced Cement Concrete Structures",
+      "Retaining Walls and Basement Construction",
+      "Timber Roof"
+    ]
   },
   {
     "slug": "building-construction-iii",
     "code": "ENAR303",
     "title": "Building Construction III",
     "objective": "The objective is to provide concepts on different building structures and their components, enabling students to integrate steel structures, roof trusses, concrete floors and pavements, staircases, joints, claddings, false ceilings, curtain walls and lightweight partitions to develop coherent structural and architectural solutions for diverse building types.",
-    "seoTitle": "Building Construction III (ENAR303)",
-    "seoDescription": "Building Construction III (ENAR303): concepts on different building structures and their components, enabling students to integrate steel structures, roof…"
+    "units": [
+      "Steel Structure",
+      "Roof Trusses",
+      "Reinforced Cement Concrete Floors",
+      "Concrete Staircase",
+      "Joints in Concrete",
+      "Claddings",
+      "False Ceiling",
+      "Cavity Walls and Partitions"
+    ]
   },
   {
     "slug": "building-construction-iv",
     "code": "ENAR352",
     "title": "Building Construction IV",
     "objective": "The objective is to familiarise students with the terminology, concepts, principles, components, materials and details of advanced construction techniques and equip them to apply theoretical knowledge of construction details and develop working drawings for architectural projects through lectures and illustrative drawings.",
-    "seoTitle": "Building Construction IV (ENAR352)",
-    "seoDescription": "Building Construction IV (ENAR352): familiarise students with the terminology, concepts, principles, components, materials and details of advanced…"
+    "units": [
+      "Portal Frames",
+      "Shell Structure",
+      "Traditional Timber Construction",
+      "Insulation: Sound and Thermal",
+      "Moisture Prevention and Remedy",
+      "Fire Prevention",
+      "Mechanical Vertical Circulations and Facade System",
+      "Earthquake-Resistant Building Prototype and Construction"
+    ]
   },
   {
     "slug": "building-material-i",
     "code": "ENAR103",
     "title": "Building Material I",
     "objective": "The course enables students to select and use suitable building materials for various construction projects, covering different materials and their characteristics, production, quality, testing and application along with market survey and analysis techniques of the latest building material market scenario.",
-    "seoTitle": "Building Material I (ENAR103)",
-    "seoDescription": "Building Material I (ENAR103): select and use suitable building materials for various construction projects, covering different materials and their…"
+    "units": [
+      "Introduction",
+      "Stone",
+      "Brick",
+      "Lime",
+      "Sand",
+      "Cement",
+      "Concrete"
+    ]
   },
   {
     "slug": "building-materials-ii",
     "code": "ENAR203",
     "title": "Building Materials II",
     "objective": "The objective is to provide knowledge of different building materials, develop understanding of the properties, quality and uses of materials and their testing methods, introducing students to various building materials used in the building construction industry.",
-    "seoTitle": "Building Materials II (ENAR203)",
-    "seoDescription": "Building Materials II (ENAR203): knowledge of different building materials, develop understanding of the properties, quality and uses of materials and their…"
+    "units": [
+      "Introduction",
+      "Timber",
+      "Metals",
+      "Paints and Varnish",
+      "Insulators",
+      "Plasters",
+      "Wall and Floor Finishing",
+      "Miscellaneous Materials",
+      "Current Trend and Creativeness in Materials"
+    ]
   },
   {
     "slug": "building-science-i",
     "code": "ENAR205",
     "title": "Building Science I",
     "objective": "This course introduces the concept of architectural climatology and thermal aspects in relation to architectural design, dealing with the use of climatology and thermal aspects for comfort and security in buildings and the built-up environment.",
-    "seoTitle": "Building Science I (ENAR205)",
-    "seoDescription": "Building Science I (ENAR205): concept of architectural climatology and thermal aspects in relation to architectural design, dealing with the use of…"
+    "units": [
+      "Introduction to Building Science",
+      "Climatology",
+      "Thermal Aspects",
+      "Different Shelters for Different Climates",
+      "Building Design and Town Planning According to By-laws",
+      "Building Design in Different Conditions",
+      "Internal Comfort"
+    ]
   },
   {
     "slug": "building-science-ii",
     "code": "ENAR252",
     "title": "Building Science II",
     "objective": "The objective is to provide fundamental concepts of architectural lighting, acoustics and energy in relation to architectural design, equipping students with tools for providing comfort and security in buildings in relation to lighting, acoustics and energy.",
-    "seoTitle": "Building Science II (ENAR252)",
-    "seoDescription": "Building Science II (ENAR252): fundamental concepts of architectural lighting, acoustics and energy in relation to architectural design, equipping students…"
+    "units": [
+      "Architectural Acoustics",
+      "Properties of Acoustics",
+      "Room Acoustics",
+      "Acoustical Materials",
+      "Reverberation Time",
+      "Acoustical Design of an Auditorium",
+      "Noise Control",
+      "Architectural Lighting",
+      "Daylight in Buildings",
+      "Artificial Lighting in Buildings",
+      "Architectural Lighting Philosophy",
+      "Energy"
+    ]
   },
   {
     "slug": "building-technology",
     "code": "ENCE255",
     "title": "Building Technology",
     "objective": "To introduce functional requirement of building, its components, special work, special treatment in building and sustainable building.",
-    "seoTitle": "Building Technology (ENCE255)",
-    "seoDescription": "Building Technology (ENCE255): introduce functional requirement of building, its components, special work, special treatment in building and sustainable…"
+    "units": [
+      "Introduction",
+      "Functional Requirement of Building",
+      "Sub-structure and Superstructure Works",
+      "Building Components and Services",
+      "Special Works on Building",
+      "Sustainable Building"
+    ]
   },
   {
     "slug": "cadastral-and-lis",
     "code": "ENGE305",
     "title": "Cadastral and LIS",
     "objective": "The objective of this course is to equip students with the knowledge and skills of cadastral and land information system (LIS) and applications relevant to geomatics engineering. Students will be able to plan and conduct cadastral surveys using modern tools and techniques; prepare, maintain, and manage comprehensive cadastral documents and databases; and apply the integration of cadastral data with other geospatial systems.",
-    "seoTitle": "Cadastral and LIS (ENGE305)",
-    "seoDescription": "Cadastral and LIS (ENGE305): the knowledge and skills of cadastral and land information system (LIS) and applications relevant to geomatics engineering…"
+    "units": [
+      "Introduction",
+      "Components of Cadastre",
+      "Approaches of Cadastral Survey",
+      "Technical Requirements",
+      "Cadastral Mapping Techniques and Procedure",
+      "Land Registration",
+      "Stakeholder and Legal Framework of Cadastral System",
+      "Land Information System (LIS)",
+      "International Practices"
+    ]
   },
   {
     "slug": "cartography-and-geo-visualization",
     "code": "ENGE251",
     "title": "Cartography and Geo-visualization",
     "objective": "The objective of this course is to equip students with the skills and knowledge to create professional and aesthetically pleasing maps by applying cartographic conventions. Students will learn to select and combine visual variables to represent geospatial data, classify and generalize data, and make informed decisions regarding color, contrast, projections, and scales, while becoming familiar with current trends in cartographic science and technology.",
-    "seoTitle": "Cartography and Geo-visualization (ENGE251)",
-    "seoDescription": "Cartography and Geo-visualization (ENGE251): the skills and knowledge to create professional and aesthetically pleasing maps by applying cartographic…"
+    "units": [
+      "Fundamentals of Cartography",
+      "Maps",
+      "Generalization",
+      "Colour Theory and Graphic Variable",
+      "Typography",
+      "Elements of Map Projections",
+      "Data Classification",
+      "Mapping Techniques",
+      "Map Reproduction Techniques",
+      "Geo-visual Exploration and User Usability"
+    ]
   },
   {
     "slug": "chemical-engineering-thermodynamics",
     "code": "ENCH254",
     "title": "Chemical Engineering Thermodynamics",
     "objective": "To provide a comprehensive understanding of the volumetric and thermodynamic properties of fluids, thermodynamics of solutions, vapor-liquid equilibrium, and chemical reactions, equipping students with the theoretical knowledge and practical skills necessary to analyze, interpret and apply in chemical and process engineering.",
-    "seoTitle": "Chemical Engineering Thermodynamics (ENCH254)",
-    "seoDescription": "Chemical Engineering Thermodynamics (ENCH254): provide a comprehensive understanding of the volumetric and thermodynamic properties of fluids, thermodynamics…"
+    "units": [
+      "Volumetric Properties of Pure Fluids",
+      "Thermodynamic Properties of Fluids",
+      "Solutions Thermodynamics",
+      "Thermodynamics Formulations for Vapor-Liquid Equilibrium",
+      "Chemical Reaction Equilibria"
+    ]
   },
   {
     "slug": "chemical-process-calculations-i",
     "code": "ENCH203",
     "title": "Chemical Process Calculations I",
     "objective": "To develop systematic problem solving skills through learning of material balance and their formulation to the complex processes and problems.",
-    "seoTitle": "Chemical Process Calculations I (ENCH203)",
-    "seoDescription": "Chemical Process Calculations I (ENCH203): develop systematic problem solving skills through learning of material balance and their formulation to the complex…"
+    "units": [
+      "Fundamental Concepts",
+      "Behavior of Ideal and Real Gases",
+      "Fundamental of Material Balance",
+      "Multiphase Equilibrium",
+      "Energy Balance-I",
+      "Computational Technique"
+    ]
   },
   {
     "slug": "chemical-process-calculations-ii",
     "code": "ENCH253",
     "title": "Chemical Process Calculations II",
     "objective": "To enable students to learn and apply material balances for multistage processes and multiphase equilibrium processes, to develop a comprehensive understanding of steady-state energy balances in chemical processes, and to equip students with the skills to solve simultaneous material and energy balance problems effectively.",
-    "seoTitle": "Chemical Process Calculations II (ENCH253)",
-    "seoDescription": "Chemical Process Calculations II (ENCH253): enable students to learn and apply material balances for multistage processes and multiphase equilibrium…"
+    "units": [
+      "Material Balance without Reaction",
+      "Material Balance with Reaction",
+      "Multi-Unit Material Balance",
+      "Energy Balance with Reaction",
+      "Simultaneous Material and Energy Balances",
+      "Humidity and Saturation"
+    ]
   },
   {
     "slug": "chemical-process-technology",
     "code": "ENCH252",
     "title": "Chemical Process Technology",
     "objective": "To equip students with knowledge of the methods used in manufacturing various inorganic and organic chemicals in the chemical process industry, providing an understanding of the unit operations and unit processes involved in chemical production and the engineering challenges associated with the manufacture of different chemicals.",
-    "seoTitle": "Chemical Process Technology (ENCH252)",
-    "seoDescription": "Chemical Process Technology (ENCH252): equip students with knowledge of the methods used in manufacturing various inorganic and organic chemicals in the…"
+    "units": [
+      "Chlor-Alkali and Acid Industries",
+      "Industrial Gases and Fertilizer Industries",
+      "Inorganic Materials Industries",
+      "Water Industries",
+      "Natural Product Processing Industries",
+      "Industrial Microbial Processes and Edible Oil Industries",
+      "Surfactant and Paint Industries",
+      "Petroleum and Petrochemical Industries",
+      "Polymer Industries"
+    ]
   },
   {
     "slug": "chemical-reaction-engineering-i",
     "code": "ENCH305",
     "title": "Chemical Reaction Engineering I",
     "objective": "To provide concepts of chemical reaction engineering, including mole balances, reaction kinetics, reactor types, and design principles for isothermal and non-isothermal systems, so that students can analyze, evaluate, and design chemical reactors such as batch, CSTR, tubular, and membrane reactors, using both analytical methods and numerical simulation tools.",
-    "seoTitle": "Chemical Reaction Engineering I (ENCH305)",
-    "seoDescription": "Chemical Reaction Engineering I (ENCH305): provide concepts of chemical reaction engineering, including mole balances, reaction kinetics, reactor types, and…"
+    "units": [
+      "Mole Balances",
+      "Conversion and Reactor Sizing",
+      "Rate Laws and Stoichiometry",
+      "Isothermal Reactor Design",
+      "Collection and Analysis of Rate Data",
+      "Multiple Reactions"
+    ]
   },
   {
     "slug": "chemical-reaction-engineering-ii",
     "code": "ENCH354",
     "title": "Chemical Reaction Engineering II",
     "objective": "To familiarize students with the fundamentals of reaction mechanism, non-elementary rate laws, energy balance in reactors, reaction with catalysts, bioreactions, diffusion effects on heterogeneous reactions and residence time distribution in chemical reactors.",
-    "seoTitle": "Chemical Reaction Engineering II (ENCH354)",
-    "seoDescription": "Chemical Reaction Engineering II (ENCH354): familiarize students with the fundamentals of reaction mechanism, non-elementary rate laws, energy balance in…"
+    "units": [
+      "Reaction Mechanisms, Pathways, Bioreactions, and Bioreactor",
+      "Catalysis and Catalytic Reactors",
+      "Steady State Non Isothermal Reactor Design",
+      "Unsteady State Non Isothermal Reactor Design",
+      "Diffusion and Reaction",
+      "Residence Time Distribution"
+    ]
   },
   {
     "slug": "civil-engineering-materials",
     "code": "ENCE103",
     "title": "Civil Engineering Materials",
     "objective": "To provide students an introductory knowledge about the wide range of materials used in the construction of engineering projects.",
-    "seoTitle": "Civil Engineering Materials (ENCE103)",
-    "seoDescription": "Civil Engineering Materials (ENCE103): provide students an introductory knowledge about the wide range of materials used in the construction of engineering…"
+    "units": [
+      "Basics of Civil Engineering Materials",
+      "Stones",
+      "Clay and Clay Products",
+      "Lime",
+      "Cement",
+      "Mortar",
+      "Timber",
+      "Metals and Alloys",
+      "Paints and Varnishes",
+      "Miscellaneous Materials"
+    ]
   },
   {
     "slug": "communication-english",
     "code": "ENSH204",
     "title": "Communication English",
     "objective": "The general objective of this course is to focus on English as a communication tool, emphasizing professional communication for engineering works, including research formats and methodology, concept papers, research proposals and abstracts, literature review, technical proposals, formal and informal reports, and participation in project works, seminars and conferences.",
-    "seoTitle": "Communication English (ENSH204)",
-    "seoDescription": "Communication English (ENSH204): focus on English as a communication tool, emphasizing professional communication for engineering works, including research…"
+    "units": [
+      "Technical Communication",
+      "Writing Skills",
+      "Technical Writing",
+      "Business Correspondence",
+      "Listening and Oral Communication",
+      "Use of Visual Aids in Communication"
+    ]
   },
   {
     "slug": "communication-systems",
     "code": "ENEX351",
     "title": "Communication Systems",
     "objective": "This course provides a foundation in analog and digital communication systems, focusing on modulation and demodulation techniques, system performance analysis in the presence of noise, and fundamental concepts of multiplexing, multiple access, switching, and error control coding.",
-    "seoTitle": "Communication Systems (ENEX351)",
-    "seoDescription": "Communication Systems (ENEX351): foundation in analog and digital communication systems, focusing on modulation and demodulation techniques, system…"
+    "units": [
+      "Introduction",
+      "Amplitude Modulation",
+      "Angle Modulation",
+      "Pulse Modulation",
+      "Multiplexing Techniques",
+      "Baseband Digital Data Transmission",
+      "Digital Modulation Techniques",
+      "Error Detection and Correction Coding",
+      "Noise in Communication Systems"
+    ]
   },
   {
     "slug": "composite-materials",
     "code": "ENAS203",
     "title": "Composite Materials",
     "objective": "To provide basic understanding on the benefits of diverse composites to a variety of reinforcements and matrix materials as well as mechanisms behind reinforcement and failure in composites along with appropriate tools, manufacturing techniques and testing methods.",
-    "seoTitle": "Composite Materials (ENAS203)",
-    "seoDescription": "Composite Materials (ENAS203): provide basic understanding on the benefits of diverse composites to a variety of reinforcements and matrix materials as well…"
+    "units": [
+      "Introduction",
+      "Metal Matrix Composite",
+      "Ceramics Matrix Composite",
+      "Polymer Matrix Composite",
+      "Specialty Materials",
+      "Nanocomposite"
+    ]
   },
   {
     "slug": "computational-fluid-dynamics",
     "code": "ENCH355",
     "title": "Computational Fluid Dynamics",
     "objective": "To familiarize students with the governing equations of fluid flow, heat transfer, and mass transfer that form the foundation of computational fluid dynamics (CFD), and to teach appropriate numerical methods used in CFD.",
-    "seoTitle": "Computational Fluid Dynamics (ENCH355)",
-    "seoDescription": "Computational Fluid Dynamics (ENCH355): familiarize students with the governing equations of fluid flow, heat transfer, and mass transfer that form the…"
+    "units": [
+      "Introduction",
+      "Discretization and Numerical Methods",
+      "Grid Generation and Mesh Quality",
+      "Solvers and Algorithms",
+      "Turbulence Modelling",
+      "Multiphysics in Chemical Engineering"
+    ]
   },
   {
     "slug": "computational-techniques-in-geomatics",
     "code": "ENGE411",
     "title": "Computational Techniques in Geomatics",
     "objective": "The objective of this course is to equip students with the knowledge and skills to develop computational solutions for Geomatics Engineering problems. It builds awareness of a wide range of available tools, enables students to critically evaluate and select appropriate approaches, and develops an understanding of the underlying theory of numerical algorithms commonly used in geomatics software.",
-    "seoTitle": "Computational Techniques in Geomatics (ENGE411)",
-    "seoDescription": "Computational Techniques in Geomatics (ENGE411): the knowledge and skills to develop computational solutions for Geomatics Engineering problems. It builds…"
+    "units": [
+      "Introduction",
+      "Matrix Operations in Geomatics Engineering Problems",
+      "Coordinate System and Transformations",
+      "Blunder Detection in Horizontal Networks",
+      "Dynamic Mode Filtering and Prediction",
+      "Network Design"
+    ]
   },
   {
     "slug": "computer-aided-civil-drawing",
     "code": "ENCE204",
     "title": "Computer Aided Civil Drawing",
     "objective": "The objective of this course is to train students with computer aided design and drafting of civil engineering structures.",
-    "seoTitle": "Computer Aided Civil Drawing (ENCE204)",
-    "seoDescription": "Computer Aided Civil Drawing (ENCE204): train students with computer aided design and drafting of civil engineering structures."
+    "units": [
+      "Introduction",
+      "Autodesk AutoCAD",
+      "Computer Aided Civil Engineering Drawings",
+      "Building Information Modeling"
+    ]
   },
   {
     "slug": "computer-aided-design-and-drafting",
     "code": "ENAR255",
     "title": "Computer Aided Design and Drafting",
     "objective": "The objective is to introduce the fundamental concepts of Computer-Aided Design and Drafting (CADD) and enable students to develop drawing and modeling skills using CADD software, focusing on AutoCAD for precision two-dimensional drafting, layering, annotations and dimensioning, followed by an introduction to Google SketchUp for 3D building modeling.",
-    "seoTitle": "Computer Aided Design and Drafting (ENAR255)",
-    "seoDescription": "Computer Aided Design and Drafting (ENAR255): fundamental concepts of Computer-Aided Design and Drafting (CADD) and enable students to develop drawing and…"
+    "units": [
+      "Introduction",
+      "Drawing Aids and Commands",
+      "Drawing Modification Tools and Commands",
+      "Layer, Annotation and Hatching",
+      "Display Controls and Blocks, Attributes and External References",
+      "Layout, Plotting, Printing and Publishing",
+      "Basic Three-Dimensional Model of Solids",
+      "Basic 3D Modelling of Building"
+    ]
   },
   {
     "slug": "computer-aided-design",
     "code": "ENME253",
     "title": "Computer Aided Design",
     "objective": "To cover the theoretical concepts of geometric modeling, the mathematical foundations of curves, surfaces and solids, and practical applications, acquainting students with computer software for creating, modifying and analyzing engineering design.",
-    "seoTitle": "Computer Aided Design (ENME253)",
-    "seoDescription": "Computer Aided Design (ENME253): cover the theoretical concepts of geometric modeling, the mathematical foundations of curves, surfaces and solids, and…"
+    "units": [
+      "Introduction",
+      "Geometric Modeling Fundamentals",
+      "Mathematical Representation of Curves",
+      "Representation of Surfaces and Solids",
+      "CAD Modeling Techniques",
+      "CAM and Recent Technology"
+    ]
   },
   {
     "slug": "computer-aided-drawing",
     "code": "ENCH151",
     "title": "Computer Aided Drawing",
     "objective": "This course focuses on utilizing Computer Aided Drawing software for creating detailed 2D and 3D drawings and models relevant to chemical engineering. Students will learn to apply CAD tools to represent chemical process equipment, design process flows, and generate engineering drawings.",
-    "seoTitle": "Computer Aided Drawing (ENCH151)",
-    "seoDescription": "Computer Aided Drawing (ENCH151): utilizing Computer Aided Drawing software for creating detailed 2D and 3D drawings and models relevant to chemical…"
+    "units": [
+      "Introduction to CAD for Chemical Engineering",
+      "2D Drawing Fundamentals",
+      "PFD and P and ID",
+      "3D Modeling",
+      "Advanced 3D Modeling",
+      "Chemical Equipment Design"
+    ]
   },
   {
     "slug": "computer-graphics-and-visualization",
     "code": "ENCT201",
     "title": "Computer Graphics and Visualization",
     "objective": "The objective of this course is to provide basic principles and their applications to computer graphics and visualization, enabling students to understand geometric transformations, 2D and 3D object modeling, rendering techniques, animation and the latest trends in computer graphics.",
-    "seoTitle": "Computer Graphics and Visualization (ENCT201)",
-    "seoDescription": "Computer Graphics and Visualization (ENCT201): basic principles and their applications to computer graphics and visualization, enabling students to understand…"
+    "units": [
+      "Introduction and Application",
+      "Raster Graphics and Algorithms",
+      "2D and 3D Coordinate Systems and Viewing Transformations",
+      "Curve Modeling and Surface Modelling",
+      "Visible Surface Determination",
+      "Illumination and Surface Rendering Methods",
+      "Computer Animation and Visualization",
+      "Latest Trends in Computer Graphics"
+    ]
   },
   {
     "slug": "computer-network",
     "code": "ENCT304",
     "title": "Computer Networks",
     "objective": "To understand the concepts of computer networking, functions of different layers and protocols, and know the idea of IPV6 and security.",
-    "seoTitle": "Computer Networks (ENCT304)",
-    "seoDescription": "Computer Networks (ENCT304): understand the concepts of computer networking, functions of different layers and protocols, and know the idea of IPV6 and…"
+    "units": [
+      "Introduction to Computer Network",
+      "Physical Layer",
+      "Data Link Layer",
+      "Network Layer",
+      "Transport Layer",
+      "Application Layer",
+      "Introduction to IPV6",
+      "Network Security"
+    ]
   },
   {
     "slug": "computer-organization-and-architecture",
     "code": "ENCT303",
     "title": "Computer Organization and Architecture",
     "objective": "The objective of this course is to provide the organization and architectural concepts of a computer system including processor architecture, computer arithmetic, memory system, I/O organization, multiprocessor and multicore.",
-    "seoTitle": "Computer Organization and Architecture (ENCT303)",
-    "seoDescription": "Computer Organization and Architecture (ENCT303): organization and architectural concepts of a computer system including processor architecture, computer…"
+    "units": [
+      "Introduction",
+      "Central Processing Unit (CPU)",
+      "Control Unit",
+      "Memory System",
+      "Computer Arithmetic",
+      "Pipelining and Vector Processing",
+      "Input/Output",
+      "Multiprocessor System"
+    ]
   },
   {
     "slug": "computer-programming",
     "code": "ENCT101",
     "title": "Computer Programming",
     "objective": "To familiarize the student with computer software and high level programming languages and to develop the programming skill using C languages",
-    "seoTitle": "Computer Programming (ENCT101)",
-    "seoDescription": "Computer Programming (ENCT101): familiarize the student with computer software and high level programming languages and to develop the programming skill using…"
+    "units": [
+      "Overview of Computer Software & Programming Languages",
+      "Problem Solving Using Computers",
+      "Introduction to 'C' Programming",
+      "Input and Output",
+      "Control Statements",
+      "User-Defined Functions",
+      "Arrays and Strings",
+      "Structures",
+      "Pointers",
+      "Data Files",
+      "Programming Languages: FORTRAN"
+    ]
   },
   {
     "slug": "concrete-technology",
     "code": "ENCE205",
     "title": "Concrete Technology",
     "objective": "The objective of this course is to build the basic understanding of students on concrete ingredients and their properties, properties of fresh and hardened concrete, quality assurance and quality control in concreting works, concrete grade and concrete mix design, and special concrete.",
-    "seoTitle": "Concrete Technology (ENCE205)",
-    "seoDescription": "Concrete Technology (ENCE205): build the basic understanding of students on concrete ingredients and their properties, properties of fresh and hardened…"
+    "units": [
+      "Concrete and Constituents of Concrete",
+      "Properties of Fresh Concrete and Concreting Operations",
+      "Mix Design of Concrete",
+      "Properties of Hardened Concrete",
+      "Testing of Concrete, Quality Assurance and Control",
+      "Special Types of Concretes"
+    ]
   },
   {
     "slug": "contemporary-architecture",
     "code": "ENAR302",
     "title": "Contemporary Architecture",
     "objective": "The objective is to introduce the development of architecture in global and Nepali contexts, emphasizing the major modern movements (1920 to 1970) and their cultural, social and technological influences, critiquing modernism and tracing contemporary directions since 1970 so students can critically evaluate contemporary architecture as ecological, technological and socially responsive.",
-    "seoTitle": "Contemporary Architecture (ENAR302)",
-    "seoDescription": "Contemporary Architecture (ENAR302): development of architecture in global and Nepali contexts, emphasizing the major modern movements (1920 to 1970) and…"
+    "units": [
+      "Defining Modern and Contemporary Architecture",
+      "Early Modern Roots (Pre-1920 Foundations)",
+      "High Modernism (1920 to 1970)",
+      "Postmodernism and Pluralism (1970 to 1990)",
+      "Deconstructivism, High-Tech and Globalization (1990 to 2010)",
+      "Contemporary Practice (2010 to Present)",
+      "Contemporary Architecture of Nepal (Past to Present)"
+    ]
   },
   {
     "slug": "continuum-mechanics",
     "code": "ENAS302",
     "title": "Continuum Mechanics",
     "objective": "To provide fundamental knowledge in solid mechanics, focusing on the concepts of general stress, strain, and buckling of thin plates and their application in aircraft design.",
-    "seoTitle": "Continuum Mechanics (ENAS302)",
-    "seoDescription": "Continuum Mechanics (ENAS302): provide fundamental knowledge in solid mechanics, focusing on the concepts of general stress, strain, and buckling of thin…"
+    "units": [
+      "Load on Structure and Response of Material",
+      "Stress Tensor",
+      "Deformation on Body and Strain Tensor",
+      "General Hooke's Law",
+      "Statically Determinate and Indeterminate Structures",
+      "Curved Beams",
+      "Bending of Thin Plates",
+      "Torsion",
+      "Shear Centers for Thin Wall Beam Cross Section",
+      "Structural Instabilities of Thin Plates and Beams"
+    ]
   },
   {
     "slug": "control-survey",
     "code": "ENGE253",
     "title": "Control Survey",
     "objective": "The objective of this course is to provide students with both theoretical understanding and practical skills necessary to conduct accurate and efficient control surveys for geodetic and engineering applications, using traditional methods such as levelling, traversing, and triangulation, as well as modern techniques with advanced surveying instruments.",
-    "seoTitle": "Control Survey (ENGE253)",
-    "seoDescription": "Control Survey (ENGE253): students with both theoretical understanding and practical skills necessary to conduct accurate and efficient control surveys for…"
+    "units": [
+      "Introduction",
+      "Vertical Control Survey",
+      "Triangulation and Trilateration",
+      "Traversing",
+      "Resection and Intersection",
+      "Geodetic Control Networks",
+      "National Gravity Network"
+    ]
   },
   {
     "slug": "control-system",
     "code": "ENEE204",
     "title": "Control System",
     "objective": "To provide foundational knowledge in control system analysis and design, developing skills in modeling, analyzing, and applying control principles to real-world physical processes.",
-    "seoTitle": "Control System (ENEE204)",
-    "seoDescription": "Control System (ENEE204): provide foundational knowledge in control system analysis and design, developing skills in modeling, analyzing, and applying control…"
+    "units": [
+      "Control System Background",
+      "Component Modeling",
+      "System Transfer Function and Responses",
+      "Stability",
+      "Root Locus Technique",
+      "Frequency Response Techniques",
+      "Performance Specifications and Compensation Design",
+      "State Space Analysis"
+    ]
   },
   {
     "slug": "corrosion-engineering",
     "code": "ENCH351",
     "title": "Corrosion Engineering",
     "objective": "To introduce the fundamental concepts, mechanisms, and engineering aspects of corrosion and its prevention, integrating theoretical understanding with practical applications in industries, infrastructure and biomedical systems.",
-    "seoTitle": "Corrosion Engineering (ENCH351)",
-    "seoDescription": "Corrosion Engineering (ENCH351): introduce the fundamental concepts, mechanisms, and engineering aspects of corrosion and its prevention, integrating…"
+    "units": [
+      "Fundamental Concepts of Corrosion",
+      "Corrosion Theory",
+      "Electrochemical Behavior and Corrosion Kinetics",
+      "Preventive Strategies of Corrosion",
+      "Corrosion and Monitoring",
+      "Engineering Aspect of Corrosion"
+    ]
   },
   {
     "slug": "crop-production-technology",
     "code": "ENAE201",
     "title": "Crop Production Technology",
     "objective": "The objective of this course is to develop knowledge and skills on crop management and cultivation practices for efficient, productive and sustainable agricultural and horticultural systems with controlled crop disease by pest management.",
-    "seoTitle": "Crop Production Technology (ENAE201)",
-    "seoDescription": "Crop Production Technology (ENAE201): develop knowledge and skills on crop management and cultivation practices for efficient, productive and sustainable…"
+    "units": [
+      "Introduction",
+      "Crop Physiological Processes",
+      "Seeds and Seed Quality",
+      "Soil Fertility and Plant Nutrition",
+      "Cropping Systems",
+      "Climate and Weather Elements on Crop Production",
+      "Weed Management",
+      "Cultivation Practices of Major Crops",
+      "Introduction",
+      "Physiology of Horticultural Crops",
+      "Production of Vegetables and Spice Crops",
+      "Production of Fruits and Plantation Crops",
+      "Insect/Pest Management",
+      "Disease Management"
+    ]
   },
   {
     "slug": "dairy-and-food-engineering",
     "code": "ENAE353",
     "title": "Dairy and Food Engineering",
     "objective": "The objective of this course is to provide the fundamental principles of unit operations in dairy and food industries, including forms of moisture, water activity, and their relationship to food safety. At the end of the course, students will be able to apply appropriate preservation and processing techniques to maintain the quality, safety, and storage stability of dairy and food products.",
-    "seoTitle": "Dairy and Food Engineering (ENAE353)",
-    "seoDescription": "Dairy and Food Engineering (ENAE353): fundamental principles of unit operations in dairy and food industries, including forms of moisture, water activity, and…"
+    "units": [
+      "Introduction to Dairy Processing",
+      "Thermal Sterilization",
+      "Deterioration Controls",
+      "Evaporation",
+      "Dehydration and Drying",
+      "Freezing",
+      "Freeze Drying",
+      "Concentration",
+      "Irradiation"
+    ]
   },
   {
     "slug": "data-communication",
     "code": "ENCT253",
     "title": "Data Communication",
     "objective": "The objective of this course is to provide students with a solid foundation in the principles and theories of data communication, including terminology, protocols and standards, transmission media and their characteristics, and methods of data encoding and modulation for effective data transmission.",
-    "seoTitle": "Data Communication (ENCT253)",
-    "seoDescription": "Data Communication (ENCT253): students with a solid foundation in the principles and theories of data communication, including terminology, protocols and…"
+    "units": [
+      "Introduction",
+      "Data Communication Fundamentals",
+      "Transmission Media and Data Compression",
+      "Signal Encoding Technique",
+      "Multiplexing and Switching",
+      "Cellular Wireless Communications and Latest Trends"
+    ]
   },
   {
     "slug": "data-mining-and-machine-learning",
     "code": "ENGE413",
     "title": "Data Mining and Machine Learning",
     "objective": "The objective of this course is to introduce data mining and machine learning with a special focus on applications in geomatics engineering. Students will learn theoretical concepts as well as practical techniques for extracting meaningful patterns and knowledge from large geospatial datasets.",
-    "seoTitle": "Data Mining and Machine Learning (ENGE413)",
-    "seoDescription": "Data Mining and Machine Learning (ENGE413): data mining and machine learning with a special focus on applications in geomatics engineering. Students will…"
+    "units": [
+      "Introduction",
+      "Data Preprocessing and Cleaning",
+      "Exploratory Data Analysis",
+      "Supervised Classification Techniques",
+      "Unsupervised Classification Techniques",
+      "Association Rule Mining",
+      "Geospatial Applications and Case Studies"
+    ]
   },
   {
     "slug": "data-mining",
     "code": null,
     "title": "Data Mining",
     "objective": "To introduce the fundamental principles, algorithms and applications of intelligent data processing and analysis and to provide an in depth understanding of various concepts and popular techniques used in the field of data mining",
-    "seoTitle": "Data Mining",
-    "seoDescription": "Data Mining: introduce the fundamental principles, algorithms and applications of intelligent data processing and analysis and to provide an in depth…"
+    "units": [
+      "Introduction",
+      "Data Preprocessing",
+      "Classification",
+      "Association Analysis",
+      "Cluster Analysis",
+      "Anomaly / Fraud Detection",
+      "Advanced Applications"
+    ]
   },
   {
     "slug": "data-structure-and-algorithms",
     "code": "ENCT252",
     "title": "Data Structures and Algorithms",
     "objective": "TO provide fundamental knowledge of various data structures and their implementation and to provide the fundamental knowledge of various algorithms and their analysis.",
-    "seoTitle": "Data Structures and Algorithms (ENCT252)",
-    "seoDescription": "Data Structures and Algorithms (ENCT252): provide fundamental knowledge of various data structures and their implementation and to provide the fundamental…"
+    "units": [
+      "Concept of data structure",
+      "The Stack and Queue",
+      "List",
+      "Linked lists",
+      "Recursion",
+      "Trees",
+      "Sorting",
+      "Searching",
+      "Growth Functions",
+      "Graphs"
+    ]
   },
   {
     "slug": "database-management-system",
     "code": "ENCT301",
     "title": "Database Management System",
     "objective": "The objective of this course is to provide a comprehensive understanding of the principles and practices involved in the design and implementation of database systems, enabling students to develop data models and perform data modification, processing and management efficiently, including advanced concepts such as object-oriented databases, data warehousing and big data management.",
-    "seoTitle": "Database Management System (ENCT301)",
-    "seoDescription": "Database Management System (ENCT301): comprehensive understanding of the principles and practices involved in the design and implementation of database…"
+    "units": [
+      "Introduction",
+      "Data Models",
+      "Relational Query Languages",
+      "Database Constraints and Normalization",
+      "Query Processing and Optimization",
+      "File Structure and Hashing",
+      "Transaction Processing and Concurrency Control",
+      "Crash Recovery",
+      "Advanced Database Concepts"
+    ]
   },
   {
     "slug": "design-of-rcc-structures",
     "code": "ENCE352",
     "title": "Design of RCC Structures",
     "objective": "The course equips students with knowledge and skills for designing building structure elements using reinforced concrete, emphasizing the limit state method, structural analysis application, and ductile detailing per code provisions.",
-    "seoTitle": "Design of RCC Structures (ENCE352)",
-    "seoDescription": "Design of RCC Structures (ENCE352): knowledge and skills for designing building structure elements using reinforced concrete, emphasizing the limit state…"
+    "units": [
+      "Reinforced Concrete Structures and Design Methods",
+      "Working Stress Method",
+      "Limit State Method",
+      "Design for Flexure",
+      "Design for Shear, Torsion and Bond",
+      "Limit States of Serviceability: Deflection and Cracking",
+      "Design of Slabs and Staircase",
+      "Design of Compression Members: Columns",
+      "Design of Footings",
+      "Reinforcement Detailing: Codal Provisions",
+      "Earthquake Resistant Design and Provisions for Ductile Detailing"
+    ]
   },
   {
     "slug": "design-of-steel-structures",
     "code": "ENCE303",
     "title": "Design of Steel Structures",
     "objective": "To introduce the behavior and design of steel structural members, focusing on their response to various loads, covering key failure modes and design principles.",
-    "seoTitle": "Design of Steel Structures (ENCE303)",
-    "seoDescription": "Design of Steel Structures (ENCE303): introduce the behavior and design of steel structural members, focusing on their response to various loads, covering key…"
+    "units": [
+      "Introduction",
+      "Connections in Steel Structures",
+      "Tension Members",
+      "Flexure Members",
+      "Compression Members",
+      "Design of Roof Trusses"
+    ]
   },
   {
     "slug": "design-of-timber-and-masonry-structures",
     "code": "ENCE301",
     "title": "Design of Timber and Masonry Structures",
     "objective": "To develop conceptual and analytical skills for designing timber structures and masonry structures, covering timber beam and column design and masonry classification, construction methods and structural behavior.",
-    "seoTitle": "Design of Timber and Masonry Structures (ENCE301)",
-    "seoDescription": "Design of Timber and Masonry Structures (ENCE301): develop conceptual and analytical skills for designing timber structures and masonry structures, covering…"
+    "units": [
+      "Structural Timbers",
+      "Joints in Timber Structures",
+      "Structural Elements of Timber Structures",
+      "Masonry Structures",
+      "Design of Masonry Walls for Gravity Loads",
+      "Masonry Structures under Lateral Loads",
+      "Seismic Design and Strengthening of Masonry Buildings",
+      "Testing of Masonry Elements"
+    ]
   },
   {
     "slug": "design-studio-i",
     "code": "ENAR101",
     "title": "Design Studio I",
     "objective": "This course aims to provide students with a solid foundation in architectural design by teaching the basic principles of elements, space, form and order, and how to apply creativity and different materials to make models, developing design skills, critical thinking and problem-solving abilities essential for architecture.",
-    "seoTitle": "Design Studio I (ENAR101)",
-    "seoDescription": "Design Studio I (ENAR101): provide students with a solid foundation in architectural design by teaching the basic principles of elements, space, form and…"
+    "units": [
+      "Introduction",
+      "Design Principles of Composition",
+      "Spatial Understanding of Architectural Components",
+      "Project"
+    ]
   },
   {
     "slug": "design-studio-ii",
     "code": "ENAR152",
     "title": "Design Studio II",
     "objective": "The course aims to analyze anthropometric data and spatial configurations for exploring human dimensions and ergonomic considerations, integrating anthropometric data with environmental factors like natural light and ventilation, studying existing buildings to extract insights for personal space design and applying learned design principles.",
-    "seoTitle": "Design Studio II (ENAR152)",
-    "seoDescription": "Design Studio II (ENAR152): analyze anthropometric data and spatial configurations for exploring human dimensions and ergonomic considerations, integrating…"
+    "units": [
+      "Introduction to Design Standards",
+      "Visual Perception and Form Transformations",
+      "Research and Design of Building Programs, Architectural Spaces and Compositions"
+    ]
   },
   {
     "slug": "design-studio-iii",
     "code": "ENAR201",
     "title": "Design Studio III",
     "objective": "The objective is to learn systematic methods for developing innovative design solutions, addressing user needs, standards and regulations, and enhancing communication of concepts through presentations, drawings and models, enabling students to design functional spaces using appropriate materials, structures and a user-focused approach through small scale buildings such as residential buildings.",
-    "seoTitle": "Design Studio III (ENAR201)",
-    "seoDescription": "Design Studio III (ENAR201): learn systematic methods for developing innovative design solutions, addressing user needs, standards and regulations, and…"
+    "units": [
+      "First Studio Project",
+      "Literature and Case Study",
+      "Conceptualization",
+      "Design Consultation and Refinement",
+      "Final Presentation and Submission of First Studio Project",
+      "Second Studio Project",
+      "Design Concept and Design Development",
+      "Final Presentation and Submission of Second Studio Project",
+      "Final Presentation and Defense",
+      "Time Problem"
+    ]
   },
   {
     "slug": "design-studio-iv",
     "code": "ENAR251",
     "title": "Design Studio IV",
     "objective": "This course equips students to design climate-adaptive structures that integrate local architectural principles and contextual influences, developing skills in designing buildings such as climate-sensitive homes, cultural centers and small public facilities with a user-centered and environmentally responsive approach, applying knowledge from the building science course.",
-    "seoTitle": "Design Studio IV (ENAR251)",
-    "seoDescription": "Design Studio IV (ENAR251): equips students to design climate-adaptive structures that integrate local architectural principles and contextual influences…"
+    "units": [
+      "Project Introduction",
+      "Literature Review and Case Studies",
+      "Site Analysis",
+      "Conceptual Design",
+      "Design Development",
+      "Final Design Representation and Presentation",
+      "Final Presentation and Defense",
+      "Time Problem"
+    ]
   },
   {
     "slug": "design-studio-v",
     "code": "ENAR301",
     "title": "Design Studio V",
     "objective": "The objective is to provide architectural principles and design concepts of medium to large-scale building structures in urban, semi-urban and rural contexts, with emphasis on service-intensive, multi-storey buildings with advanced structural systems in dense urban settings, integrating spatial, structural and contextual considerations with climate responsive design and appropriate building technology.",
-    "seoTitle": "Design Studio V (ENAR301)",
-    "seoDescription": "Design Studio V (ENAR301): architectural principles and design concepts of medium to large-scale building structures in urban, semi-urban and rural contexts…"
+    "units": [
+      "Introduction",
+      "Literature Review",
+      "Case Studies",
+      "Site Analysis",
+      "Program Formulation",
+      "Design Concept",
+      "Design Development",
+      "Final Presentation and Submission",
+      "Time Problem"
+    ]
   },
   {
     "slug": "design-studio-vi",
     "code": "ENAR351",
     "title": "Design Studio VI",
     "objective": "The objective is to develop the ability to design large-span buildings with complex functional requirements by integrating spatial organization, structural systems, construction techniques and building services, fostering an understanding of the relationship between architecture and urban systems through building types such as arenas, auditoriums, exhibition halls, terminals and industrial facilities.",
-    "seoTitle": "Design Studio VI (ENAR351)",
-    "seoDescription": "Design Studio VI (ENAR351): develop the ability to design large-span buildings with complex functional requirements by integrating spatial organization…"
+    "units": [
+      "Introduction",
+      "Literature and Site Study",
+      "Conceptualization",
+      "Design Development",
+      "Final Design",
+      "Time Problem"
+    ]
   },
   {
     "slug": "design-theory-i",
     "code": "ENAR204",
     "title": "Design Theory I",
     "objective": "This course introduces students to foundational architectural theories including classical and modern principles, social and cultural influences, and the importance of place, context and design thinking, developing the ability to analyze contextual influences and apply design thinking and problem-solving techniques to architectural projects.",
-    "seoTitle": "Design Theory I (ENAR204)",
-    "seoDescription": "Design Theory I (ENAR204): foundational architectural theories including classical and modern principles, social and cultural influences, and the importance…"
+    "units": [
+      "Introduction to Architectural Theory",
+      "Ancient Architectural Treatise",
+      "Social and Cultural Theory in Architecture",
+      "Form, Function and Context",
+      "Anthropological Concepts of Space",
+      "Design Thinking in Architecture"
+    ]
   },
   {
     "slug": "design-theory-ii",
     "code": "ENAR254",
     "title": "Design Theory II",
     "objective": "The objective is to introduce theoretical frameworks, explore the influence of theory on design, and equip students with tools for procedural and reflective design thinking, focusing on the relationship between architectural theory and practice and incorporating key interdisciplinary and intradisciplinary concepts for critical assessment and reflective practice.",
-    "seoTitle": "Design Theory II (ENAR254)",
-    "seoDescription": "Design Theory II (ENAR254): theoretical frameworks, explore the influence of theory on design, and equip students with tools for procedural and reflective…"
+    "units": [
+      "Theory in Architecture",
+      "Space, Place and Atmosphere",
+      "Meaning, Language and Symbolism in Architecture",
+      "Context in Architecture",
+      "Responsibilities in Architecture",
+      "Procedural and Reflective Approaches"
+    ]
   },
   {
     "slug": "digital-logic",
     "code": "ENEX152",
     "title": "Digital Logic",
     "objective": "To introduce basic principles of digital logic design, its implementation and applications",
-    "seoTitle": "Digital Logic (ENEX152)",
-    "seoDescription": "Digital Logic (ENEX152): introduce basic principles of digital logic design, its implementation and applications"
+    "units": [
+      "Introduction",
+      "Digital Logic",
+      "Combinational Logic Circuits",
+      "Data Processing Circuits",
+      "Arithmetic Circuits",
+      "Flip Flops",
+      "Registers",
+      "Counters",
+      "Sequential Machines",
+      "Digital Integrate Circuits",
+      "Applications"
+    ]
   },
   {
     "slug": "digital-signal-analysis-and-processing",
     "code": "ENEX416",
     "title": "Digital Signal Analysis and Processing",
     "objective": "To introduce digital signal processing techniques and algorithms",
-    "seoTitle": "Digital Signal Analysis and Processing (ENEX416)",
-    "seoDescription": "Digital Signal Analysis and Processing (ENEX416): introduce digital signal processing techniques and algorithms"
+    "units": [
+      "Discrete time signals and systems",
+      "Z-transform",
+      "Analysis of LTI system in frequency domain",
+      "Discrete filter structures",
+      "FIR filter design",
+      "IIR filter design",
+      "Discrete Fourier transform"
+    ]
   },
   {
     "slug": "digital-signal-processing-and-application",
     "code": "ENEX304",
     "title": "Digital Signal Processing and Application",
     "objective": "This course covers discrete time signals and systems, the Z-transform, frequency domain analysis of LTI systems, discrete filter structures, FIR and IIR filter design, the discrete Fourier transform and FFT, and applications of digital signal processing.",
-    "seoTitle": "Digital Signal Processing and Application (ENEX304)",
-    "seoDescription": "Digital Signal Processing and Application (ENEX304): discrete time signals and systems, the Z-transform, frequency domain analysis of LTI systems, discrete…"
+    "units": [
+      "Discrete time signals and systems",
+      "Z-transform",
+      "Analysis of LTI system in frequency domain",
+      "Discrete filter structures",
+      "FIR filter design",
+      "IIR filter design",
+      "Discrete Fourier transform",
+      "Applications of Digital Signal Processing"
+    ]
   },
   {
     "slug": "digital-terrain-model",
     "code": "ENGE414",
     "title": "Digital Terrain Model",
     "objective": "The objective of this course is to provide fundamental knowledge and practical skills in Digital Terrain Modeling (DTM), including terrain data acquisition, processing, visualization, and 3D modeling. Students will learn to create and analyze raster-based terrain models and apply DTM techniques in civil engineering, surveying, geodesy, geophysics, geography, and environmental planning.",
-    "seoTitle": "Digital Terrain Model (ENGE414)",
-    "seoDescription": "Digital Terrain Model (ENGE414): fundamental knowledge and practical skills in Digital Terrain Modeling (DTM), including terrain data acquisition, processing…"
+    "units": [
+      "Introduction",
+      "Terrain Descriptors and Sampling Strategies",
+      "Data Acquisition for DTM",
+      "DTM Data Structures",
+      "Digital Terrain Modelling Manipulation",
+      "DTM Derivatives and Volume Computations",
+      "Applications of DTM",
+      "DTM Quality Assessment"
+    ]
   },
   {
     "slug": "discrete-structure",
     "code": "ENCT251",
     "title": "Discrete Structure",
     "objective": "To gain knowledge in discrete amthematics and finite state automata in an algorithmic approach and to gain fundamental and conceptual clarity in the area of Logic, Reasoning, ALgorithms, Recurrence Relation, Graph Theory, and Theory of Automata",
-    "seoTitle": "Discrete Structure (ENCT251)",
-    "seoDescription": "Discrete Structure (ENCT251): gain knowledge in discrete amthematics and finite state automata in an algorithmic approach and to gain fundamental and…"
+    "units": [
+      "Logic, Induction and Reasoning",
+      "Finite State Automata",
+      "Recurrence Relation",
+      "Graph Theory"
+    ]
   },
   {
     "slug": "distributed-systems",
     "code": "ENCT411",
     "title": "Distributed Systems",
     "objective": "To be familiar with different aspect of the distributed system, middleware, system level support and different issues in designing distributed algorithms",
-    "seoTitle": "Distributed Systems (ENCT411)",
-    "seoDescription": "Distributed Systems (ENCT411): be familiar with different aspect of the distributed system, middleware, system level support and different issues in designing…"
+    "units": [
+      "Introduction",
+      "Distributed Objects and File System",
+      "Operating System Support",
+      "Distributed Heterogeneous Applications and CORBA",
+      "Time and State in Distributed Systems",
+      "Coordination and Agreement",
+      "Replication",
+      "Transaction and Concurrency Control",
+      "Fault Tolerance",
+      "Case Studies"
+    ]
   },
   {
     "slug": "drawing-for-geomatics",
     "code": "ENGE151",
     "title": "Drawing for Geomatics",
     "objective": "To make familiar with the conventional practices of orthographic and sectional views and introduce how to draw Isolines including contour. Students will be able to comprehend standard symbols of different engineering fields and to develop basic concept of CAD technology for preparation of drawings and map related to engineering design and construction.",
-    "seoTitle": "Drawing for Geomatics (ENGE151)",
-    "seoDescription": "Drawing for Geomatics (ENGE151): make familiar with the conventional practices of orthographic and sectional views and introduce how to draw Isolines…"
+    "units": [
+      "Conventional Practices for Orthographic and Sectional Views",
+      "Familiarization with Graphical Symbols",
+      "Drawing of Isolines",
+      "Construction Drawing",
+      "Introduction to CAD",
+      "Map Design and Layout"
+    ]
   },
   {
     "slug": "electric-circuit-i",
     "code": "ENEE101",
     "title": "Electric Circuit I",
     "objective": "To understand the fundamental concept and analysis of AC and DC electrical circuits.",
-    "seoTitle": "Electric Circuit I (ENEE101)",
-    "seoDescription": "Electric Circuit I (ENEE101): understand the fundamental concept and analysis of AC and DC electrical circuits."
+    "units": [
+      "Introduction to Electric Circuits",
+      "DC Network Analysis",
+      "Capacitance and Inductance",
+      "AC System",
+      "Single Phase AC Circuit",
+      "Three Phase Circuit Analysis"
+    ]
   },
   {
     "slug": "electric-circuit-ii",
     "code": "ENEE151",
     "title": "Electric Circuit II",
     "objective": "To comprehensively understand and apply electrical circuit analysis techniques involving dependent sources, transient analysis, frequency response and bandwidth, and the concept and properties of two-port networks in circuit analysis.",
-    "seoTitle": "Electric Circuit II (ENEE151)",
-    "seoDescription": "Electric Circuit II (ENEE151): comprehensively understand and apply electrical circuit analysis techniques involving dependent sources, transient analysis…"
+    "units": [
+      "Network Analysis",
+      "Transients in Electric Circuit",
+      "Transient Analysis R-L-C Circuit by Classical Method",
+      "Review of Laplace Transformation",
+      "Transient Analysis Using Laplace Transform",
+      "Network Transfer Function and Frequency Response",
+      "Fourier Series",
+      "Two-Port Parameters of Network"
+    ]
   },
   {
     "slug": "electric-circuit-theory",
     "code": "ENEE154",
     "title": "Electric Circuit Theory",
     "objective": "To continue work in Basic Electrical Engineering including the use of Laplace Transform to determine the time and frequency domain responses of electric circuits.",
-    "seoTitle": "Electric Circuit Theory (ENEE154)",
-    "seoDescription": "Electric Circuit Theory (ENEE154): continue work in Basic Electrical Engineering including the use of Laplace Transform to determine the time and frequency…"
+    "units": [
+      "etwork Analysis of AC circuit & dependent sources",
+      "Initial Conditions:",
+      "Transient analysis in RLC circuit by direct solution",
+      "Transient analysis in RLC circuit by Laplace Transform",
+      "Frequency Response of Network",
+      "Fourier Series and transform",
+      "Two-port Parameter of Networks"
+    ]
   },
   {
     "slug": "electrical-engineering-material",
     "code": "ENEE203",
     "title": "Electrical Engineering Material",
     "objective": "To provide foundational knowledge of elementary quantum mechanics and solid-state theory, alongside essential knowledge of various materials utilized in electrical engineering.",
-    "seoTitle": "Electrical Engineering Material (ENEE203)",
-    "seoDescription": "Electrical Engineering Material (ENEE203): provide foundational knowledge of elementary quantum mechanics and solid-state theory, alongside essential…"
+    "units": [
+      "Elementary Quantum Mechanics",
+      "Modern Theory of Solids",
+      "Dielectric Materials",
+      "Magnetic Materials",
+      "Superconductivity",
+      "Semiconductors"
+    ]
   },
   {
     "slug": "electrical-installation-workshop",
     "code": "ENEE152",
     "title": "Electrical Installation Workshop",
     "objective": "To equip students with the theoretical knowledge and practical skills necessary for a career in electrical installation, designed to ensure a comprehensive understanding of electrical installation principles, practices, and safety standards.",
-    "seoTitle": "Electrical Installation Workshop (ENEE152)",
-    "seoDescription": "Electrical Installation Workshop (ENEE152): equip students with the theoretical knowledge and practical skills necessary for a career in electrical…"
+    "units": [
+      "Introduction to Electrical Workshop",
+      "Tinning and Wire Connection",
+      "Light and Power Circuit Wiring",
+      "Repair and Maintenance",
+      "Industrial Wiring"
+    ]
   },
   {
     "slug": "electrical-machine-i",
     "code": "ENEE202",
     "title": "Electrical Machine I",
     "objective": "To equip students with comprehensive knowledge about electrical machines, including their constructional details, operating principles, performance characteristics, and control mechanisms, covering transformers, DC generators, DC motors, and three-phase induction machines.",
-    "seoTitle": "Electrical Machine I (ENEE202)",
-    "seoDescription": "Electrical Machine I (ENEE202): equip students with comprehensive knowledge about electrical machines, including their constructional details, operating…"
+    "units": [
+      "Magnetism and Magnetic Circuits",
+      "Transformer",
+      "DC Generator",
+      "DC Motors",
+      "Three-Phase Induction Machines"
+    ]
   },
   {
     "slug": "electrical-machines",
     "code": "ENEE254",
     "title": "Electrical Machines",
     "objective": "To impart knowledge on constructional details, operating principle and performance of Transformers, DC Machines, 1-phase and 3-phase Induction Machines, 3-phase Synchronous Machines and Fractional Kilowatt Motors.",
-    "seoTitle": "Electrical Machines (ENEE254)",
-    "seoDescription": "Electrical Machines (ENEE254): impart knowledge on constructional details, operating principle and performance of Transformers, DC Machines, 1-phase and…"
+    "units": [
+      "Magnetic Circuits and Induction",
+      "Transformer",
+      "DC Generator",
+      "DC Motor",
+      "Three Phase Induction Machines",
+      "Three Phase Synchronous Machines",
+      "Fractional Kilowatt Motors"
+    ]
   },
   {
     "slug": "electromagnetics",
     "code": "ENEX254",
     "title": "Electromagnetics",
     "objective": "To provide basic understanding of the fundamentals of Electromagnetics",
-    "seoTitle": "Electromagnetics (ENEX254)",
-    "seoDescription": "Electromagnetics (ENEX254): provide basic understanding of the fundamentals of Electromagnetics"
+    "units": [
+      "Introduction",
+      "Electric field",
+      "Magnetic field",
+      "Wave equation and wave propagation",
+      "Transmission lines",
+      "Wave guides",
+      "Antennas"
+    ]
   },
   {
     "slug": "electronic-devices-and-circuits",
     "code": "ENEX151",
     "title": "Electronics Devices and Circuits",
     "objective": "To introduce the fundamentals of analysis of electronic circuits and to provide basic understanding of semiconductor devices and analog integrated circuits",
-    "seoTitle": "Electronics Devices and Circuits (ENEX151)",
-    "seoDescription": "Electronics Devices and Circuits (ENEX151): introduce the fundamentals of analysis of electronic circuits and to provide basic understanding of semiconductor…"
+    "units": [
+      "Diodes",
+      "The Bipolar Junction Transistor",
+      "Field-Effect Transistor",
+      "Output Stages and Power Amplifiers",
+      "Signal Generator and Waveform-Shaping Circuits",
+      "Power Supplies, Breakdown Diodes, and Voltage Regulators"
+    ]
   },
   {
     "slug": "electronics-circuits",
     "code": "ENEX154",
     "title": "Electronics Circuits",
     "objective": "To introduce the fundamentals of analysis of electronic circuits and to provide basic understanding of semiconductor devices and analog integrated circuits.",
-    "seoTitle": "Electronics Circuits (ENEX154)",
-    "seoDescription": "Electronics Circuits (ENEX154): introduce the fundamentals of analysis of electronic circuits and to provide basic understanding of semiconductor devices and…"
+    "units": [
+      "Diodes",
+      "The Bipolar Junction Transistor",
+      "Field-Effect Transistor",
+      "The Operational Amplifier and Oscillator",
+      "Output Stages and Power Amplifiers",
+      "Power Supplies, Breakdown Diodes, and Voltage Reference"
+    ]
   },
   {
     "slug": "embedded-systems-design-using-arm-technology",
     "code": "ENEX302",
     "title": "Embedded Systems Design using ARM Technology",
     "objective": "To provide fundamental concepts and insights for understanding of the ARM based Processors architecture and programming embedded systems based on ARM powered MCU for applicaiton in control, consumer, multimedia signal processing and mobile and wireless communications systems.",
-    "seoTitle": "Embedded Systems Design using ARM Technology (ENEX302)",
-    "seoDescription": "Embedded Systems Design using ARM Technology (ENEX302): provide fundamental concepts and insights for understanding of the ARM based Processors architecture…"
+    "units": [
+      "ARM Embedded Systems",
+      "ARM Processor Fundamentals",
+      "ARM Organization and Peripherals",
+      "Efficient C Programming for ARM",
+      "ARM Assembly Language Programming",
+      "ARM Instruction Set",
+      "Thumb Instruction Set",
+      "Architectural Support for System Development",
+      "Firmware and Embedded Operating Systems",
+      "Signal Processing and Communication Application using ARM Cortex Processors"
+    ]
   },
   {
     "slug": "energy-environment-and-society",
     "code": "ENEX417",
     "title": "Energy, Environment and Society",
     "objective": "To understand the various types of energy sources and their environmental impact. To know the role of engineers for creating better and responsible society.",
-    "seoTitle": "Energy, Environment and Society (ENEX417)",
-    "seoDescription": "Energy, Environment and Society (ENEX417): understand the various types of energy sources and their environmental impact. To know the role of engineers for…"
+    "units": [
+      "Technology and Development",
+      "Renewable Energy Sources",
+      "Environmental Impact of Energy sources",
+      "Energy Storage",
+      "Relevant International/national case studies"
+    ]
   },
   {
     "slug": "energy-resources-and-technology",
     "code": "ENME414",
     "title": "Energy Resources and Technology",
     "objective": "To provide key concepts of energy, including different energy resources and renewable energy technologies, emphasizing the design and evaluation of energy systems, energy storage technologies, energy efficiency measures, and the assessment of sustainable energy solutions in the context of Nepal.",
-    "seoTitle": "Energy Resources and Technology (ENME414)",
-    "seoDescription": "Energy Resources and Technology (ENME414): provide key concepts of energy, including different energy resources and renewable energy technologies, emphasizing…"
+    "units": [
+      "Introduction to Energy Resources",
+      "Solar Energy",
+      "Bio Energy",
+      "Wind Energy",
+      "Micro and Small Hydro Power Systems",
+      "Non-conventional Sources and Nuclear Energy",
+      "Energy Storage System",
+      "Energy Efficiency and Financial Analysis"
+    ]
   },
   {
     "slug": "engineering-chemistry",
     "code": "ENSH153",
     "title": "Engineering Chemistry",
     "objective": "To develop the basic concepts of Physical Chemistry, Inorgranic Chemistry and Organic Chemistry relevant to problems in engineering.",
-    "seoTitle": "Engineering Chemistry (ENSH153)",
-    "seoDescription": "Engineering Chemistry (ENSH153): develop the basic concepts of Physical Chemistry, Inorgranic Chemistry and Organic Chemistry relevant to problems in…"
+    "units": [
+      "Electro-chemistry and Buffer",
+      "Catalyst",
+      "Environmental Chemistry",
+      "Engineering Polymers",
+      "3-d Transition elements and their applications",
+      "Coordination Complexes",
+      "Explosives",
+      "Lubricants and Paints",
+      "Stereochemistry",
+      "Reaction Mechanism in Organic reactions"
+    ]
   },
   {
     "slug": "engineering-drawing-i",
     "code": "ENME101",
     "title": "Engineering Drawing I",
     "objective": "To develop basic projection concepts with reference to points, lines, planes and geometrical solids. Also to develop sketching and drafting skills to facilitate communication",
-    "seoTitle": "Engineering Drawing I (ENME101)",
-    "seoDescription": "Engineering Drawing I (ENME101): develop basic projection concepts with reference to points, lines, planes and geometrical solids. Also to develop sketching…"
+    "units": [
+      "Instrumental Drawing, Technical Lettering Practices and Techniques",
+      "Dimensioning",
+      "Applied Geometry",
+      "Basic Descriptive Geometry",
+      "Multi view (orthographic) projections",
+      "Developments and Intersections"
+    ]
   },
   {
     "slug": "engineering-drawing-ii",
     "code": null,
     "title": "Engineering Drawing II",
     "objective": "To make familiar with the conventional practices of sectional views. To develop basic concept and skill of pictorial drawing and working drawings. Also to make familiar with standard symbols of different engineering fields.",
-    "seoTitle": "Engineering Drawing II",
-    "seoDescription": "Engineering Drawing II: make familiar with the conventional practices of sectional views. To develop basic concept and skill of pictorial drawing and working…"
+    "units": [
+      "Conventional Practices for Orthographic and Sectional Views",
+      "Pictorial Drawings",
+      "Familiarization with Different Components and Conventions",
+      "Detail and Assembly Drawings"
+    ]
   },
   {
     "slug": "engineering-drawing",
     "code": "ENME158",
     "title": "Engineering Drawing",
     "objective": "To develop basic projection concepts with reference to points, lines, planes and geometrical solids, and to develop sketching and drafting skills to facilitate communication.",
-    "seoTitle": "Engineering Drawing (ENME158)",
-    "seoDescription": "Engineering Drawing (ENME158): develop basic projection concepts with reference to points, lines, planes and geometrical solids, and to develop sketching and…"
+    "units": [
+      "Instrumental Drawing, Technical Lettering Practices and Techniques",
+      "Dimensioning",
+      "Geometrical Construction",
+      "Basic Descriptive Geometry",
+      "Multi View (Orthographic) Projections",
+      "Developments and Intersections",
+      "Pictorial Drawings"
+    ]
   },
   {
     "slug": "engineering-economics",
     "code": "ENCE307",
     "title": "Engineering Economics",
     "objective": "The course provides concepts of economic principles and the economic environment at the project, firm, societal, and national levels, enabling students to apply economic theories for informed decision-making in engineering contexts.",
-    "seoTitle": "Engineering Economics (ENCE307)",
-    "seoDescription": "Engineering Economics (ENCE307): concepts of economic principles and the economic environment at the project, firm, societal, and national levels, enabling…"
+    "units": [
+      "Introduction",
+      "Market Economics",
+      "Cost",
+      "Time Value of Money",
+      "Methods of Economic Analysis",
+      "Replacement Analysis",
+      "Risk Analysis",
+      "Depreciation and Taxes",
+      "Measurement of National Income"
+    ]
   },
   {
     "slug": "engineering-geology-i",
     "code": "ENCE102",
     "title": "Engineering Geology I",
     "objective": "The course provides the basic knowledge of engineering geology to civil engineering students, enabling understanding of fundamental principles, natural processes, rock identification and mountain building relevant to civil engineering practice.",
-    "seoTitle": "Engineering Geology I (ENCE102)",
-    "seoDescription": "Engineering Geology I (ENCE102): basic knowledge of engineering geology to civil engineering students, enabling understanding of fundamental principles…"
+    "units": [
+      "Introduction to Engineering Geology",
+      "Structure of the Earth",
+      "Mineralogy and Petrology",
+      "Structural Geology",
+      "Physical Geology",
+      "Geology of the Himalaya"
+    ]
   },
   {
     "slug": "engineering-geology-ii",
     "code": "ENCE152",
     "title": "Engineering Geology II",
     "objective": "The course provides the fundamental knowledge of engineering geology to civil engineering students, enabling them to measure geological data from the field, analyze and interpret it for the development of civil infrastructures, their stability, and to provide input design parameters.",
-    "seoTitle": "Engineering Geology II (ENCE152)",
-    "seoDescription": "Engineering Geology II (ENCE152): fundamental knowledge of engineering geology to civil engineering students, enabling them to measure geological data from…"
+    "units": [
+      "Hydrogeology",
+      "Rock Properties and Laboratory Tests",
+      "Rock Mass Classification",
+      "Geological Hazards",
+      "Engineering Geology for Site Selection and Construction",
+      "Rock Slope Engineering"
+    ]
   },
   {
     "slug": "engineering-hydrology",
     "code": "ENCE306",
     "title": "Engineering Hydrology",
     "objective": "The course provides students with hydrology and meteorology concepts, computational analysis for water resources projects, and practical application of hydro-meteorological knowledge, enabling them to estimate precipitation, hydrological losses and runoff, measure streamflow, and analyze hydrographs and floods.",
-    "seoTitle": "Engineering Hydrology (ENCE306)",
-    "seoDescription": "Engineering Hydrology (ENCE306): students with hydrology and meteorology concepts, computational analysis for water resources projects, and practical…"
+    "units": [
+      "Introduction",
+      "Precipitation",
+      "Abstractions from Precipitation",
+      "Surface Runoff",
+      "Streamflow Measurement",
+      "Hydrograph Analysis",
+      "Flood Hydrology",
+      "Flood Routing"
+    ]
   },
   {
     "slug": "engineering-materials",
     "code": "ENAE151",
     "title": "Engineering Materials",
     "objective": "After the completion of this course students have better understanding of materials used in construction work, test materials for quality, strength and durability and use of materials in their proper field and state.",
-    "seoTitle": "Engineering Materials (ENAE151)",
-    "seoDescription": "Engineering Materials (ENAE151): After the completion of this course students have better understanding of materials used in construction work, test materials…"
+    "units": [
+      "Introduction",
+      "Timber and Wood Based Products",
+      "Ceramics Materials",
+      "Cementing Materials",
+      "Metal and Alloys",
+      "Asphalt Bitumen and Tar",
+      "Miscellaneous Materials"
+    ]
   },
   {
     "slug": "engineering-mathematics-i",
     "code": "ENSH101",
     "title": "Engineering Mathematics I",
     "objective": "To provide students a sound knowledge of calculus and analytic geometry to apply them in their relevant fields",
-    "seoTitle": "Engineering Mathematics I (ENSH101)",
-    "seoDescription": "Engineering Mathematics I (ENSH101): provide students a sound knowledge of calculus and analytic geometry to apply them in their relevant fields"
+    "units": [
+      "Derivatives and their Applications",
+      "Integration and its Applications",
+      "Plane Analytic Geometry",
+      "Ordinary Differential Equations and their Applications"
+    ]
   },
   {
     "slug": "engineering-mathematics-ii",
     "code": "ENSH151",
     "title": "Engineering Mathematics II",
     "objective": "To develop the skill of solving differential equations and to provide knowledge of vector algebra and calculus. To make students familiar with calculus of several variables and infinite series",
-    "seoTitle": "Engineering Mathematics II (ENSH151)",
-    "seoDescription": "Engineering Mathematics II (ENSH151): develop the skill of solving differential equations and to provide knowledge of vector algebra and calculus. To make…"
+    "units": [
+      "Calculus of two or more variables",
+      "Multiple Integrals",
+      "Three dimensional solid geometry",
+      "Solution of Differential equations in series and special Functions",
+      "Vector Algebra and Calculus",
+      "Infinite Series"
+    ]
   },
   {
     "slug": "engineering-mathematics-iii",
     "code": "ENSH201",
     "title": "Engineering Mathematics III",
     "objective": "To round out the students' preparation for more sophisticated applications with an introduction to linear algebra, Fourier series, Laplace Transforms, integral transformation theorems and linear programming.",
-    "seoTitle": "Engineering Mathematics III (ENSH201)",
-    "seoDescription": "Engineering Mathematics III (ENSH201): round out the students' preparation for more sophisticated applications with an introduction to linear algebra, Fourier…"
+    "units": [
+      "Determinants and Matrices",
+      "Line, Surface and Volume Integrals",
+      "Laplace Transform",
+      "Fourier Series",
+      "Linear Programming"
+    ]
   },
   {
     "slug": "engineering-mechanics-i",
     "code": "ENME103",
     "title": "Engineering Mechanics I",
     "objective": "To provide the fundamental principles, concepts and application of mechanics for solving engineering problems. To become familiar with the analytical and graphical methods for solving problems of mechanics, mainly of statics.",
-    "seoTitle": "Engineering Mechanics I (ENME103)",
-    "seoDescription": "Engineering Mechanics I (ENME103): provide the fundamental principles, concepts and application of mechanics for solving engineering problems. To become…"
+    "units": [
+      "Forces Acting on Particle",
+      "Forces Acting on Rigid Body",
+      "Center of Gravity and Centroids",
+      "Moment of Inertia",
+      "Friction",
+      "Introduction to Structure: Beam and Frame",
+      "Analysis of Trusses"
+    ]
   },
   {
     "slug": "engineering-mechanics-ii",
     "code": "ENME153",
     "title": "Engineering Mechanics II",
     "objective": "To provide students with a comprehensive understanding of the principles and applications of engineering mechanics (dynamics), enabling them to analyze and solve complex problems related to motion, forces, and energy within mechanical systems.",
-    "seoTitle": "Engineering Mechanics II (ENME153)",
-    "seoDescription": "Engineering Mechanics II (ENME153): provide students with a comprehensive understanding of the principles and applications of engineering mechanics…"
+    "units": [
+      "Introduction to Dynamics",
+      "Kinematics of Particles: Rectilinear Motion of Particles",
+      "Kinematics of Particles: Curvilinear Motion of Particles",
+      "Kinetics of Particles: Newton's Second Law",
+      "Kinetics of Particles: Work-Energy and Impulse-Momentum Principles",
+      "Kinetics of a System of Particles",
+      "Plane Kinematics of Rigid Bodies",
+      "Plane Kinetics of Rigid Bodies: Force, Mass and Acceleration",
+      "Plane Kinetics of Rigid Bodies: Work-Energy and Impulse-Momentum Principles"
+    ]
   },
   {
     "slug": "engineering-mechanics",
     "code": "ENCE101",
     "title": "Engineering Mechanics",
     "objective": "This course helps to analyze the effect of various types of forces on the particle and rigid body at rest and motion, and provides foundational knowledge for structural engineering applications.",
-    "seoTitle": "Engineering Mechanics (ENCE101)",
-    "seoDescription": "Engineering Mechanics (ENCE101): helps to analyze the effect of various types of forces on the particle and rigid body at rest and motion, and provides…"
+    "units": [
+      "Basic Concept of Mechanics and Static Equilibrium",
+      "Forces Acting on Particle and Rigid Body",
+      "Friction",
+      "Analysis of Simple Beams and Frames",
+      "Analysis of Plane Trusses",
+      "Centre of Gravity, Centroid, Moment of Inertia, and Mass Moment of Inertia",
+      "Kinematics of Particles (Rectilinear and Curvilinear Motion)",
+      "Kinetics of Particles: Force, Acceleration, Energy and Momentum",
+      "Kinematics and Kinetics of Rigid Body in Plane Motion, Energy and Momentum Methods"
+    ]
   },
   {
     "slug": "engineering-physics",
     "code": "ENSH102",
     "title": "Engineering Physics",
     "objective": "To provide the concept and knowledge of physics with the emphasis of present day application",
-    "seoTitle": "Engineering Physics (ENSH102)",
-    "seoDescription": "Engineering Physics (ENSH102): provide the concept and knowledge of physics with the emphasis of present day application"
+    "units": [
+      "Oscillation",
+      "Wave motion",
+      "Acoustics",
+      "Physical Optics",
+      "Geometrical Optics",
+      "Laser and Fiber Optics",
+      "Electrostatics",
+      "Electromagnetism",
+      "Electromagnetic waves",
+      "Photon and matter waves"
+    ]
   },
   {
     "slug": "engineering-properties-of-biomaterials",
     "code": "ENAE203",
     "title": "Engineering Properties of Biomaterials",
     "objective": "The objective of this course is to acquaint and equip the students with different techniques of measurement of engineering properties and their importance in the design of processing and material handling equipment. Additionally, the course aims to equip students with up-to-date standards and practices necessary to ensure and maintain food quality.",
-    "seoTitle": "Engineering Properties of Biomaterials (ENAE203)",
-    "seoDescription": "Engineering Properties of Biomaterials (ENAE203): acquaint and equip the students with different techniques of measurement of engineering properties and their…"
+    "units": [
+      "Importance of Engineering Properties of Bio-materials",
+      "Geometrical Properties",
+      "Gravimetric Properties",
+      "Optical Properties",
+      "Electrical Properties",
+      "Thermal Properties",
+      "Aerodynamic Properties",
+      "Frictional Properties",
+      "Rheological Properties",
+      "Quality Control"
+    ]
   },
   {
     "slug": "engineering-survey-i",
     "code": "ENCE153",
     "title": "Engineering Survey I",
     "objective": "To introduce students to the fundamentals of surveying, which is basic to all civil engineering projects.",
-    "seoTitle": "Engineering Survey I (ENCE153)",
-    "seoDescription": "Engineering Survey I (ENCE153): introduce students to the fundamentals of surveying, which is basic to all civil engineering projects."
+    "units": [
+      "Introduction",
+      "Distance Measurements",
+      "Basic Surveying Techniques",
+      "Compass Surveying",
+      "Levelling",
+      "Modern Surveying Techniques",
+      "Triangulation and Trilateration",
+      "Tacheometry",
+      "Plotting and Mapping"
+    ]
   },
   {
     "slug": "engineering-survey-ii",
     "code": "ENCE203",
     "title": "Engineering Survey II",
     "objective": "To familiarize students with surveying methods and techniques used for design and construction of civil engineering projects, with emphasis on plane surveying and preparing engineering maps.",
-    "seoTitle": "Engineering Survey II (ENCE203)",
-    "seoDescription": "Engineering Survey II (ENCE203): familiarize students with surveying methods and techniques used for design and construction of civil engineering projects…"
+    "units": [
+      "Traversing and Area Calculation",
+      "Indirect Leveling and Contouring",
+      "Orientation and Field Astronomy",
+      "Route Survey",
+      "Photogrammetry and Drone Surveying",
+      "Geospatial Technologies in Civil Engineering",
+      "Hydrographic Surveying",
+      "Specialized Civil Engineering Surveys"
+    ]
   },
   {
     "slug": "engineering-thermodynamics-and-heat-transfer",
     "code": "ENME310",
     "title": "Engineering Thermodynamics and Heat Transfer",
     "objective": "To provide concepts of energy conservation and transfer, focusing on the laws of thermodynamics, thermodynamic cycles, and heat transfer, and exploring their applications in electrical engineering.",
-    "seoTitle": "Engineering Thermodynamics and Heat Transfer (ENME310)",
-    "seoDescription": "Engineering Thermodynamics and Heat Transfer (ENME310): provide concepts of energy conservation and transfer, focusing on the laws of thermodynamics…"
+    "units": [
+      "Basic Concepts",
+      "Energy and Energy Transfer",
+      "Properties of Common Substances",
+      "First Law of Thermodynamics",
+      "Second Law of Thermodynamics",
+      "Gas Power Cycles",
+      "Vapor Power Cycles and Vapor Compression Refrigeration Cycles",
+      "Heat Transfer"
+    ]
   },
   {
     "slug": "engineering-thermodynamics-i",
     "code": "ENME151",
     "title": "Engineering Thermodynamics I",
     "objective": "To develop the laws of thermodynamics and their practice with real-world engineering examples.",
-    "seoTitle": "Engineering Thermodynamics I (ENME151)",
-    "seoDescription": "Engineering Thermodynamics I (ENME151): develop the laws of thermodynamics and their practice with real-world engineering examples."
+    "units": [
+      "Introduction",
+      "Energy and Energy Transfer",
+      "Properties of Pure Substance",
+      "First Law of Thermodynamics",
+      "First-Law Analysis for a Control Volume",
+      "Second Law of Thermodynamics",
+      "Entropy",
+      "Second-Law Analysis for a Control Volume",
+      "Irreversibility and Availability",
+      "Thermodynamic Relations",
+      "Gas Mixtures"
+    ]
   },
   {
     "slug": "engineering-thermodynamics-ii",
     "code": "ENME203",
     "title": "Engineering Thermodynamics II",
     "objective": "To comprehend the various applications of thermodynamics across different fields, apply its laws, and analyze the functioning of various mechanical system components using thermodynamic principles.",
-    "seoTitle": "Engineering Thermodynamics II (ENME203)",
-    "seoDescription": "Engineering Thermodynamics II (ENME203): comprehend the various applications of thermodynamics across different fields, apply its laws, and analyze the…"
+    "units": [
+      "Boilers",
+      "Air Compressor",
+      "Condensers",
+      "Refrigeration Systems",
+      "Air-Conditioning",
+      "Vapour Power Cycles",
+      "Other Power Cycles"
+    ]
   },
   {
     "slug": "engineering-workshop",
     "code": "ENME106",
     "title": "Engineering Workshop",
     "objective": "After completing this course, the students will be able to practice workshop safety rules effectively with different hand tools and machine tools for producing metal and sheet metal components, and acquire knowledge and practice on casting, forging, welding, soldering, brazing and riveting.",
-    "seoTitle": "Engineering Workshop (ENME106)",
-    "seoDescription": "Engineering Workshop (ENME106): After completing this course, the students will be able to practice workshop safety rules effectively with different hand…"
+    "units": [
+      "Safety Measures in the Workshop",
+      "Bench Work and Fittings",
+      "Thread Cutting",
+      "Sheet Metal",
+      "Machine Tools",
+      "Forging and Casting",
+      "Welding",
+      "Brazing and Soldering"
+    ]
   },
   {
     "slug": "entrepreneurship-development",
     "code": "ENME411",
     "title": "Entrepreneurship Development",
     "objective": "To provide basic concepts of entrepreneurship and its importance for individuals, organizations and society, enabling students to act in an entrepreneurial manner across contexts with a better understanding of the process of business creation, conceiving and planning the new venture.",
-    "seoTitle": "Entrepreneurship Development (ENME411)",
-    "seoDescription": "Entrepreneurship Development (ENME411): provide basic concepts of entrepreneurship and its importance for individuals, organizations and society, enabling…"
+    "units": [
+      "Introduction",
+      "Identification of Viable Business Cases",
+      "Market Validation",
+      "Business Model",
+      "Development of Business Plan and Execution",
+      "Growth and Startup Financing",
+      "Entrepreneurship and Economy",
+      "Entrepreneurship in Nepal"
+    ]
   },
   {
     "slug": "environmental-pollution-and-control",
     "code": "ENCH304",
     "title": "Environmental Pollution and Control",
     "objective": "To provide concepts of major environmental pollution issues, including air, water, land, and noise pollution, their sources, transport mechanisms, hazards, and impacts on ecosystems, so that students can analyze pollution problems, evaluate control strategies, and design appropriate solutions for sustainable environmental management.",
-    "seoTitle": "Environmental Pollution and Control (ENCH304)",
-    "seoDescription": "Environmental Pollution and Control (ENCH304): provide concepts of major environmental pollution issues, including air, water, land, and noise pollution…"
+    "units": [
+      "Introduction",
+      "Fundamental Concepts of Pollutant Transport",
+      "Water Pollution",
+      "Air Pollution",
+      "Noise Pollution",
+      "Solid Waste Management",
+      "Climate Science"
+    ]
   },
   {
     "slug": "estimating-and-costing",
     "code": "ENCE351",
     "title": "Estimating and Costing",
     "objective": "The course provides basic methods of measurement, techniques for taking out quantities, and their respective units of measurement, along with detailed estimation of civil engineering structures and property valuation methods.",
-    "seoTitle": "Estimating and Costing (ENCE351)",
-    "seoDescription": "Estimating and Costing (ENCE351): basic methods of measurement, techniques for taking out quantities, and their respective units of measurement, along with…"
+    "units": [
+      "Introduction",
+      "Methods of Quantity Estimate",
+      "Types of Estimate",
+      "Detail Quantity Estimate of Building Works",
+      "Detail Quantity Estimate for Road, Bridge, and Irrigation Works",
+      "Analysis of Rates",
+      "Valuation",
+      "Specification"
+    ]
   },
   {
     "slug": "farm-machinery-and-equipment",
     "code": "ENAE302",
     "title": "Farm Machinery and Equipment",
     "objective": "The objective of this course is to provide the principles and applications of appropriate farm machinery and equipment for soil preparation, planting, crop care, and harvesting, in order to enhance efficiency, ensure timely farm operations, improve crop productivity, reduce labor requirements, and promote sustainable farming practices.",
-    "seoTitle": "Farm Machinery and Equipment (ENAE302)",
-    "seoDescription": "Farm Machinery and Equipment (ENAE302): principles and applications of appropriate farm machinery and equipment for soil preparation, planting, crop care, and…"
+    "units": [
+      "Introduction",
+      "Basics of Tillage",
+      "Primary Tillage Implements",
+      "Secondary Tillage Implements",
+      "Seeding and Planting Machines",
+      "Machines and Equipment for Plant Protection",
+      "Harvesting Machines",
+      "Threshing Machines",
+      "Chaff and Silage Cutters and Forage Harvesters",
+      "Hill Agricultural Machinery and Tools",
+      "Selection and Economics of Farm Machines and Equipment",
+      "Custom Hiring of Agricultural Machinery and Tractor"
+    ]
   },
   {
     "slug": "farm-power-and-engine-system",
     "code": "ENAE202",
     "title": "Farm Power and Engine System",
     "objective": "The objective of this course is to acquire knowledge of prime sources of power utilized in agricultural field, internal combustion engine, its operating system and function, and estimate the power produced by engine and animal.",
-    "seoTitle": "Farm Power and Engine System (ENAE202)",
-    "seoDescription": "Farm Power and Engine System (ENAE202): acquire knowledge of prime sources of power utilized in agricultural field, internal combustion engine, its operating…"
+    "units": [
+      "Introduction to Farm Power",
+      "Animate and Inanimate Sources of Farm Power",
+      "Internal Combustion (IC) Engines",
+      "Performance of IC Engines",
+      "Operating Principle and Function of Engine Systems",
+      "Small Engines for Farm Operations"
+    ]
   },
   {
     "slug": "farm-structures-and-building-technology",
     "code": "ENAE354",
     "title": "Farm Structures and Building Technology",
     "objective": "The objective of this course is to provide fundamental knowledge of building technology and farm structures, enabling students to understand functional requirements and planning principles of buildings and farm buildings. Students will be able to prepare detailed drawings of buildings and farmsteads, analyze space and operational needs, and design or modify cattle housing and agricultural structures to ensure efficiency, safety, and suitability for agricultural operations.",
-    "seoTitle": "Farm Structures and Building Technology (ENAE354)",
-    "seoDescription": "Farm Structures and Building Technology (ENAE354): fundamental knowledge of building technology and farm structures, enabling students to understand…"
+    "units": [
+      "Foundation",
+      "Masonry Work",
+      "Floors, Roofs and Staircase",
+      "Opening and Ventilation",
+      "Protection and Finishing Works",
+      "Electricity and Plumbing Service",
+      "Fundamentals of Farm Structures and Planning",
+      "Livestock Housing Structures",
+      "Aquaculture Structures",
+      "Feed, Forage and Agricultural Storage Structures",
+      "Protected Cultivation and Auxiliary Farm Structures"
+    ]
   },
   {
     "slug": "field-operation-and-maintenance-of-farm-machines",
     "code": "ENAE306",
     "title": "Field Operation and Maintenance of Farm Machines",
     "objective": "The objective of this practical-based course is to provide hands-on-skills to identify and differentiate various makes and models of tractors and farm implements, operate them efficiently in agricultural fields, and apply essential safety protocols during field operations. It also aims to equip students with the skills to perform routine inspections, adjustments, and periodic maintenance to ensure optimal performance, longevity, and safe use of farm machinery.",
-    "seoTitle": "Field Operation and Maintenance of Farm Machines",
-    "seoDescription": "Field Operation and Maintenance of Farm Machines (ENAE306): The objective of this practical-based course is to provide hands-on-skills to identify and…"
+    "units": []
   },
   {
     "slug": "filter-design",
     "code": "ENEX301",
     "title": "Filter Design",
     "objective": "This course covers the analysis and design of analog filters, including filter fundamentals, approximation methods, frequency transformation, synthesis of passive networks, design of resistively-terminated lossless filters and active filters, sensitivity analysis, and other filter types.",
-    "seoTitle": "Filter Design (ENEX301)",
-    "seoDescription": "Filter Design (ENEX301): the analysis and design of analog filters, including filter fundamentals, approximation methods, frequency transformation, synthesis…"
+    "units": [
+      "Introduction",
+      "Approximation Methods",
+      "Frequency Transformation",
+      "Properties and Synthesis of Passive Networks",
+      "Design of Resistively-Terminated Lossless Filters",
+      "Design of Active Filters",
+      "Sensitivity",
+      "Other Filters"
+    ]
   },
   {
     "slug": "finite-element-analysis",
     "code": "ENAS355",
     "title": "Finite Element Analysis",
     "objective": "To introduce fundamental concepts of finite element methods and their applications, enabling students to develop finite element models for structural, non-structural and continuum problems such as heat transfer and plane elasticity, and gain experience using both custom programs and commercial software for analysis.",
-    "seoTitle": "Finite Element Analysis (ENAS355)",
-    "seoDescription": "Finite Element Analysis (ENAS355): introduce fundamental concepts of finite element methods and their applications, enabling students to develop finite…"
+    "units": [
+      "Overview",
+      "Mathematical Background",
+      "Direct Stiffness Method: Discrete Finite Elements",
+      "Continuum Problems",
+      "One-Dimensional Elements",
+      "Analysis of One-Dimensional Problems",
+      "Two-Dimensional Heat Transfer Problem"
+    ]
   },
   {
     "slug": "finite-element-method",
     "code": "ENME412",
     "title": "Finite Element Method",
     "objective": "To provide technical proficiency to develop finite element models for both discrete structural systems and continuum problems, with students demonstrating computational skills by coding solution algorithms in MATLAB and utilizing commercial simulation software to analyze and interpret complex engineering systems.",
-    "seoTitle": "Finite Element Method (ENME412)",
-    "seoDescription": "Finite Element Method (ENME412): provide technical proficiency to develop finite element models for both discrete structural systems and continuum problems…"
+    "units": [
+      "Introduction",
+      "Direct Stiffness Method for Discrete Elements",
+      "Finite Element Formulation of Continuum Problems",
+      "Interpolation Functions",
+      "Applications in General One-dimensional Problems",
+      "Applications in Heat Transfer Problems",
+      "Applications in Elasticity Problems",
+      "Higher Order Elements"
+    ]
   },
   {
     "slug": "flight-dynamics",
     "code": "ENAS353",
     "title": "Flight Dynamics",
     "objective": "To introduce the fundamentals of aircraft performance, stability and control, with emphasis on mathematical modeling and analytical techniques for evaluating aircraft motion and flying qualities, including equations of motion, configuration aerodynamics, and longitudinal, lateral and directional dynamics, with a brief discussion of guidance and navigation concepts.",
-    "seoTitle": "Flight Dynamics (ENAS353)",
-    "seoDescription": "Flight Dynamics (ENAS353): introduce the fundamentals of aircraft performance, stability and control, with emphasis on mathematical modeling and analytical…"
+    "units": [
+      "Introduction",
+      "Configuration Aerodynamics",
+      "Flight Performance",
+      "Flight Stability",
+      "Dynamic Stability"
+    ]
   },
   {
     "slug": "fluid-machines",
     "code": "ENME302",
     "title": "Fluid Machines",
     "objective": "To provide concepts of fluid force and power on fluid machinery, covering the general introduction to hydropower plants, water turbines, water pumps, steam turbines, and the working of hydraulic machines.",
-    "seoTitle": "Fluid Machines (ENME302)",
-    "seoDescription": "Fluid Machines (ENME302): provide concepts of fluid force and power on fluid machinery, covering the general introduction to hydropower plants, water…"
+    "units": [
+      "Turbomachine and Dynamic Action of Fluid",
+      "Hydroelectric Plant",
+      "Water Turbines",
+      "Water Pumps",
+      "Steam Turbine",
+      "Working of Hydraulic Machine"
+    ]
   },
   {
     "slug": "fluid-mechanics-and-machines",
     "code": "ENME255",
     "title": "Fluid Mechanics and Machines",
     "objective": "To provide students with basic concepts of fluid mechanics and machines with different practical applications, enabling them to apply this knowledge and solve basic engineering problems related to fluids and fluid machinery.",
-    "seoTitle": "Fluid Mechanics and Machines (ENME255)",
-    "seoDescription": "Fluid Mechanics and Machines (ENME255): provide students with basic concepts of fluid mechanics and machines with different practical applications, enabling…"
+    "units": [
+      "Introduction",
+      "Fluid Statics",
+      "Fluid Dynamics",
+      "Viscous Flow",
+      "Pipe Flows",
+      "Flow Measurement",
+      "Dimensional Analysis and Similitude",
+      "Fluid Machineries"
+    ]
   },
   {
     "slug": "fluid-mechanics-for-chemical-engineering",
     "code": "ENCH202",
     "title": "Fluid Mechanics for Chemical Engineering",
     "objective": "To provide understanding of fluid properties, focusing on fluid flow and its measurement techniques, covering the flow governing principles with practical applications in pipe flow, pump and compressor.",
-    "seoTitle": "Fluid Mechanics for Chemical Engineering (ENCH202)",
-    "seoDescription": "Fluid Mechanics for Chemical Engineering (ENCH202): provide understanding of fluid properties, focusing on fluid flow and its measurement techniques, covering…"
+    "units": [
+      "Introduction",
+      "Basic Equations of Fluid Flow",
+      "The Boundary Layer",
+      "Bernoulli''s Equation",
+      "Fluid Friction in Steady (One-dimensional Flow)",
+      "Pumps and Compressors",
+      "Flow Through Porous Media",
+      "Two-dimensional and Three-dimensional Fluid Mechanics",
+      "Mixing"
+    ]
   },
   {
     "slug": "fluid-mechanics-with-engineering-applications",
     "code": "ENME254",
     "title": "Fluid Mechanics with Engineering Applications",
     "objective": "To provide students with basic concepts of fluid mechanics with different practical applications, enabling them to apply this knowledge and solve basic engineering problems related to fluids.",
-    "seoTitle": "Fluid Mechanics with Engineering Applications",
-    "seoDescription": "Fluid Mechanics with Engineering Applications (ENME254): provide students with basic concepts of fluid mechanics with different practical applications…"
+    "units": [
+      "Introduction",
+      "Fluid Statics",
+      "Kinematics of Fluid Flow",
+      "Fluid Dynamics",
+      "Viscous Flow",
+      "Pipe Flows",
+      "Flow Measurement",
+      "Dimensional Analysis and Similitude",
+      "Compressible Flow"
+    ]
   },
   {
     "slug": "fluid-mechanics",
     "code": "ENCE201",
     "title": "Fluid Mechanics",
     "objective": "To provide students with a deep understanding of the principles governing the behavior of fluids, encompassing both liquids and gases, and to equip them with skills to analyze practical problems and apply concepts to engineering systems like pipelines, pumps, and turbines.",
-    "seoTitle": "Fluid Mechanics (ENCE201)",
-    "seoDescription": "Fluid Mechanics (ENCE201): provide students with a deep understanding of the principles governing the behavior of fluids, encompassing both liquids and gases…"
+    "units": [
+      "Fundamental Concepts of Fluids",
+      "Fluid Statics",
+      "Fluid Flow Kinematics",
+      "Fluid Dynamics",
+      "Application of Energy and Momentum Equation",
+      "Dimensional Analysis and Physical Modelling",
+      "Flow Through Submerged Body and Boundary Layer Theory"
+    ]
   },
   {
     "slug": "foundation-engineering",
     "code": "ENCE302",
     "title": "Foundation Engineering",
     "objective": "The course aims to provide comprehensive understanding of the geotechnical investigation and analysis of structures commonly encountered in civil engineering practice, focusing on slope stability, retaining structures, and shallow and deep foundations.",
-    "seoTitle": "Foundation Engineering (ENCE302)",
-    "seoDescription": "Foundation Engineering (ENCE302): provide comprehensive understanding of the geotechnical investigation and analysis of structures commonly encountered in…"
+    "units": [
+      "Geotechnical Investigation",
+      "Slope Stability Analysis",
+      "Earth Pressure Theories",
+      "Bearing Capacity Theories",
+      "Analysis of Shallow Foundation",
+      "Analysis of Deep Foundation",
+      "Analysis of Foundation in Rock",
+      "Retaining Structures: Rigid and Flexible"
+    ]
   },
   {
     "slug": "foundation-of-data-science",
     "code": "ENCT202",
     "title": "Foundation of Data Science",
     "objective": "The objective of this course is to introduce the core concepts, tools, and methodologies of data science, covering the entire data science process from data acquisition, manipulation, visualization, probability and statistics to machine learning, with applications in business and engineering.",
-    "seoTitle": "Foundation of Data Science (ENCT202)",
-    "seoDescription": "Foundation of Data Science (ENCT202): core concepts, tools, and methodologies of data science, covering the entire data science process from data acquisition…"
+    "units": [
+      "Introduction to Data Science",
+      "Mathematics for Data Science",
+      "Data Understanding and Preprocessing",
+      "Data Analysis",
+      "Regression and Predictive Modeling",
+      "Modeling and Validation Processes",
+      "Ethics and Recent Trends"
+    ]
   },
   {
     "slug": "free-hand-sketching-i",
     "code": "ENAR105",
     "title": "Free Hand Sketching I",
     "objective": "To develop the ability to draw free hand lines, basic shapes and different forms using pencil and pencil colour, introduce colour theory and its application, and draw different compositions with rendering using pencil and pencil colour.",
-    "seoTitle": "Free Hand Sketching I (ENAR105)",
-    "seoDescription": "Free Hand Sketching I (ENAR105): develop the ability to draw free hand lines, basic shapes and different forms using pencil and pencil colour, introduce…"
+    "units": [
+      "Introduction",
+      "Elements",
+      "Free Hand Practice of Basic Composition and Rendering",
+      "Free Hand Practice of Still Life in Studio",
+      "Free Hand Fast Sketching"
+    ]
   },
   {
     "slug": "free-hand-sketching-ii",
     "code": "ENAR155",
     "title": "Free Hand Sketching II",
     "objective": "This course provides students with knowledge and basic skills of free hand sketching, covering the basics of sketching, shading, texture, perspective and composition in different techniques such as pencil, ink pen and water colour, developing the ability to graphically express 3D objects and views of buildings and surroundings for effective visual thinking.",
-    "seoTitle": "Free Hand Sketching II (ENAR155)",
-    "seoDescription": "Free Hand Sketching II (ENAR155): students with knowledge and basic skills of free hand sketching, covering the basics of sketching, shading, texture…"
+    "units": [
+      "Introduction",
+      "Free Hand Practice of Landscaping",
+      "Fast Sketching",
+      "Free Hand Sketching of Interior Spaces",
+      "Free Hand Sketching of Exterior Spaces",
+      "Sketching by Memory and Rendering in Building and Surrounding"
+    ]
   },
   {
     "slug": "fuels-and-combustion",
     "code": "ENCH302",
     "title": "Fuels and Combustion",
     "objective": "To provide concepts of solid, liquid, and gaseous fuels, their properties, combustion characteristics, and the thermochemical principles governing combustion processes, so that students can analyze efficient and sustainable combustion appliances for industrial applications.",
-    "seoTitle": "Fuels and Combustion (ENCH302)",
-    "seoDescription": "Fuels and Combustion (ENCH302): provide concepts of solid, liquid, and gaseous fuels, their properties, combustion characteristics, and the thermochemical…"
+    "units": [
+      "Energy Resources",
+      "Solid Fuels",
+      "Liquid and Gaseous Fuels",
+      "Stoichiometry of Combustion Process",
+      "Thermodynamics of Combustion Process",
+      "Kinetics of Combustion Process",
+      "Combustion Appliances"
+    ]
   },
   {
     "slug": "fundamental-of-thermodynamics-and-heat-transfer",
     "code": "ENME105",
     "title": "Fundamentals of Thermodynamics and Heat Transfer",
     "objective": "To develop basic concepts, laws of thermodynamics and heat transfer and their applications.",
-    "seoTitle": "Fundamentals of Thermodynamics and Heat Transfer",
-    "seoDescription": "Fundamentals of Thermodynamics and Heat Transfer (ENME105): develop basic concepts, laws of thermodynamics and heat transfer and their applications."
+    "units": [
+      "Introduction",
+      "Energy and Energy Transfer",
+      "Properties of Common Substance",
+      "First Law of Thermodynamics",
+      "Second Law of Thermodynamics",
+      "Thermodynamic Cycles",
+      "Introduction to Heat Transfer"
+    ]
   },
   {
     "slug": "fundamentals-of-aerospace-engineering",
     "code": "ENAS201",
     "title": "Fundamentals of Aerospace Engineering",
     "objective": "To familiarize students with the fundamentals of aerospace engineering, including propulsion, flight mechanics, aircraft structures, stability, aerodynamics and space applications as well as the basics of atmospheric and space flight, aircraft design and aviation history.",
-    "seoTitle": "Fundamentals of Aerospace Engineering (ENAS201)",
-    "seoDescription": "Fundamentals of Aerospace Engineering (ENAS201): familiarize students with the fundamentals of aerospace engineering, including propulsion, flight mechanics…"
+    "units": [
+      "Introduction",
+      "Atmosphere and Aerodynamics",
+      "Airfoils and Wings",
+      "Aircraft Performance and Propulsion",
+      "Aircraft Structure",
+      "Airplane Stability",
+      "Space Applications"
+    ]
   },
   {
     "slug": "geospatial-database-management-system",
     "code": "ENGE303",
     "title": "Geospatial Database Management System",
     "objective": "The objective of this course is to provide the principles, techniques, and tools of geospatial data management within database systems. It emphasizes database management systems, data models, ER models, spatial data models, spatial queries, spatial indexing, and computational geometry, enabling students to design and implement spatial data models and apply geospatial database techniques to real-world problems.",
-    "seoTitle": "Geospatial Database Management System (ENGE303)",
-    "seoDescription": "Geospatial Database Management System (ENGE303): principles, techniques, and tools of geospatial data management within database systems. It emphasizes…"
+    "units": [
+      "Introduction",
+      "Data Models and Database Languages",
+      "Relational Data Model",
+      "Structured Query Language (SQL)",
+      "Spatial Database Technology",
+      "Spatial Concepts and Data Models",
+      "Spatial Query Language",
+      "Computational Geometry",
+      "Spatial Storage and Optimization"
+    ]
   },
   {
     "slug": "groundwater-development-and-tube-well-technology",
     "code": "ENAE352",
     "title": "Groundwater Development and Tube well Technology",
     "objective": "The objective of this course is to provide concepts of groundwater occurrence, movement, and storage, and to analyze aquifer characteristics and groundwater flow behavior. Students will be able to design tube-wells using hydrogeological and grain size data, conduct pumping tests to determine aquifer parameters, and select appropriate drilling methods, well screens, and pumps. They will also evaluate environmental impacts and apply GIS, geophysical surveys, and digital tools for sustainable groundwater development.",
-    "seoTitle": "Groundwater Development and Tube well Technology",
-    "seoDescription": "Groundwater Development and Tube well Technology (ENAE352): concepts of groundwater occurrence, movement, and storage, and to analyze aquifer characteristics…"
+    "units": [
+      "Occurrence and Movement of Groundwater",
+      "Well Hydraulics",
+      "Ground Water Exploration",
+      "Well Classification and Design",
+      "Tube-well Construction and Operation",
+      "Environmental Impacts on Groundwater",
+      "Positive Displacement Pumps",
+      "Rotodynamic Pumps",
+      "Design Considerations of Pumping Plant"
+    ]
   },
   {
     "slug": "heat-and-mass-transfer",
     "code": "ENME352",
     "title": "Heat and Mass Transfer",
     "objective": "To provide students with a clear understanding of the mechanisms of heat and mass transfer under both steady and transient conditions, emphasizing the application of heat transfer principles in thermal design (including fins and other systems), thermal analysis and sizing of heat exchangers, and the fundamental concepts of mass transfer for practical engineering problems.",
-    "seoTitle": "Heat and Mass Transfer (ENME352)",
-    "seoDescription": "Heat and Mass Transfer (ENME352): provide students with a clear understanding of the mechanisms of heat and mass transfer under both steady and transient…"
+    "units": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Applications of Heat Transfer",
+      "Condensation and Boiling",
+      "Mass Transfer"
+    ]
   },
   {
     "slug": "heating-ventilation-and-cold-storage",
     "code": "ENME207",
     "title": "Heating Ventilation and Cold Storage",
     "objective": "To provide students with foundational knowledge of vapor compression systems, including their theoretical cycles, components and operation, and the skills to estimate load, size components for cold storage, and design, operate, diagnose and maintain systems used in cooling and heating applications.",
-    "seoTitle": "Heating Ventilation and Cold Storage (ENME207)",
-    "seoDescription": "Heating Ventilation and Cold Storage (ENME207): provide students with foundational knowledge of vapor compression systems, including their theoretical cycles…"
+    "units": [
+      "Thermodynamic Cycles",
+      "Refrigeration System",
+      "Reciprocating Air Compressor",
+      "Other Compressors",
+      "Evaporators and Condensers",
+      "Principle of Psychometrics",
+      "Cold Storage",
+      "Different Application of Heating and Cooling Processes"
+    ]
   },
   {
     "slug": "history-of-eastern-architecture",
     "code": "ENAR202",
     "title": "History of Eastern Architecture",
     "objective": "The objective is to provide students with a comprehensive understanding of the architectural traditions, developments and cultural influences that shaped the built environment in Eastern civilizations, including South Asia, East Asia and Southeast Asia.",
-    "seoTitle": "History of Eastern Architecture (ENAR202)",
-    "seoDescription": "History of Eastern Architecture (ENAR202): students with a comprehensive understanding of the architectural traditions, developments and cultural influences…"
+    "units": [
+      "Introduction to Eastern Architecture",
+      "Indus Valley Civilization and Vedic Architecture",
+      "Indian Buddhist Architecture",
+      "Indian Hindu Temple Architecture",
+      "Indian Jain Temple Architecture",
+      "Indian Islamic Architecture",
+      "Ancient East Asia and Southeast Asian Architecture"
+    ]
   },
   {
     "slug": "history-of-nepalese-architecture",
     "code": "ENAR154",
     "title": "History of Nepalese Architecture",
     "objective": "The main objective is to develop a comprehensive understanding of the historical development of Nepalese architecture from the ancient to the Rana sub-periods, investigate the impact of cultural and contextual factors including politics, religion, society, climate and geography, and emphasize the significance of preserving Nepal's architectural heritage.",
-    "seoTitle": "History of Nepalese Architecture (ENAR154)",
-    "seoDescription": "History of Nepalese Architecture (ENAR154): develop a comprehensive understanding of the historical development of Nepalese architecture from the ancient to…"
+    "units": [
+      "Pre-historic Period",
+      "Lichchhavi Period",
+      "Malla Period",
+      "Shah Period and Rana Sub-period",
+      "Development Outside the Valley"
+    ]
   },
   {
     "slug": "history-of-western-architecture",
     "code": "ENAR253",
     "title": "History of Western Architecture",
     "objective": "The objective is to equip students with a comprehensive understanding of the evolution of architectural styles, techniques and cultural influences in the Western world from prehistory to the Industrial Revolution, analyzing the cultural, religious and technological factors that shaped architecture and fostering critical thinking to compare historical advancements with modern architecture.",
-    "seoTitle": "History of Western Architecture (ENAR253)",
-    "seoDescription": "History of Western Architecture (ENAR253): a comprehensive understanding of the evolution of architectural styles, techniques and cultural influences in the…"
+    "units": [
+      "Prehistoric Architecture",
+      "Ancient Egyptian Architecture",
+      "Ancient Greek Architecture",
+      "Ancient Roman Architecture",
+      "Early Christian and Byzantine Architecture",
+      "Romanesque Architecture",
+      "Gothic Architecture",
+      "Renaissance Architecture",
+      "Neoclassical Architecture and Industrial Revolution"
+    ]
   },
   {
     "slug": "human-settlement-planning",
     "code": "ENAR353",
     "title": "Human Settlement Planning",
     "objective": "The objective is to equip students with a foundation in human settlement planning concepts, tools and techniques in urban and rural contexts, with emphasis on socio-spatial systems across scales and basic spatial analysis and mapping.",
-    "seoTitle": "Human Settlement Planning (ENAR353)",
-    "seoDescription": "Human Settlement Planning (ENAR353): a foundation in human settlement planning concepts, tools and techniques in urban and rural contexts, with emphasis on…"
+    "units": [
+      "Introduction",
+      "Classical Settlement-Oriented Thoughts and Approaches",
+      "Settlement Planning Scales, Tools and Techniques",
+      "Rural Settlement Planning",
+      "Settlement Analysis and Profiling",
+      "Emerging Directions in Settlement Planning"
+    ]
   },
   {
     "slug": "hydraulics",
     "code": "ENCE251",
     "title": "Hydraulics",
     "objective": "To provide knowledge of hydraulics to impart the concept of water resources engineering and their application in the field of civil engineering, equipping students to analyze fluid flow problems in closed conduits and open channels.",
-    "seoTitle": "Hydraulics (ENCE251)",
-    "seoDescription": "Hydraulics (ENCE251): provide knowledge of hydraulics to impart the concept of water resources engineering and their application in the field of civil…"
+    "units": [
+      "Pipe Flow Regimes",
+      "Pipe Flow Problems",
+      "Unsteady Flow in Pipes",
+      "Uniform Flow in Open Channels",
+      "Energy and Momentum Principles in Open Channel Flow",
+      "Rapidly Varied Flow in Open Channels",
+      "Gradually Varied Flow in Open Channels"
+    ]
   },
   {
     "slug": "hydrology-and-agricultural-meteorology",
     "code": "ENAE301",
     "title": "Hydrology and Agricultural Meteorology",
     "objective": "The objective of this course is to provide concept of hydrological processes; equip students with skills in instrumentation, data recording, and analytical techniques; develop proficiency in computational analysis for the design and management of water resources projects; and familiarize students with the agricultural meteorology.",
-    "seoTitle": "Hydrology and Agricultural Meteorology (ENAE301)",
-    "seoDescription": "Hydrology and Agricultural Meteorology (ENAE301): concept of hydrological processes; equip students with skills in instrumentation, data recording, and…"
+    "units": [
+      "Introduction",
+      "Agricultural Meteorology",
+      "Precipitation",
+      "Hydrologic Abstractions",
+      "Runoff and Stream Flow",
+      "Hydrograph",
+      "Flood Hydrology",
+      "Flood Routing"
+    ]
   },
   {
     "slug": "ict-project-management",
     "code": "ENCT355",
     "title": "ICT Project Management",
     "objective": "The objective of this course is to provide knowledge of fundamental concepts and practices of project management in ICT environments, focusing on project planning, scheduling, cost estimation, quality assurance, risk assessment, procurement and stakeholder management, so students can apply project management tools, methodologies and ethical practices to plan, execute, monitor and control ICT-based projects.",
-    "seoTitle": "ICT Project Management (ENCT355)",
-    "seoDescription": "ICT Project Management (ENCT355): knowledge of fundamental concepts and practices of project management in ICT environments, focusing on project planning…"
+    "units": [
+      "Introduction",
+      "Project Management Body of Knowledge",
+      "Portfolio and Project Management Framework",
+      "Project Management Process Groups",
+      "Project Integration Management",
+      "Project Scope Management",
+      "Project Time Management",
+      "Project Cost Management",
+      "Project Quality Management",
+      "Project Communication Management",
+      "Project Risk Management",
+      "Project Procurement Management",
+      "Project Resource and Stakeholder Management",
+      "Trends in ICT Project Management"
+    ]
   },
   {
     "slug": "image-processing-and-pattern-recognition",
     "code": null,
     "title": "Image Processing and Pattern Recognition",
     "objective": "To be familiar with processing of images, pattern recognition and their applications",
-    "seoTitle": "Image Processing and Pattern Recognition",
-    "seoDescription": "Image Processing and Pattern Recognition: be familiar with processing of images, pattern recognition and their applications"
+    "units": [
+      "Introduction to digital image processing",
+      "Two-dimensional systems",
+      "Image enhancement and restoration",
+      "Image coding and compression",
+      "Introduction to pattern recognition in images",
+      "Recognition and classification",
+      "Grey level features edges and lines",
+      "Segmentation",
+      "Frequency approach and transform domain",
+      "Advanced Topics"
+    ]
   },
   {
     "slug": "industrial-engineering-and-management",
     "code": "ENME351",
     "title": "Industrial Engineering and Management",
     "objective": "To provide students with a strong foundation in the principles and practices of industrial engineering and management, enabling them to analyze, design and optimize production and operational systems, applying modern tools in production planning, forecasting, inventory control, maintenance management and quality assurance.",
-    "seoTitle": "Industrial Engineering and Management (ENME351)",
-    "seoDescription": "Industrial Engineering and Management (ENME351): provide students with a strong foundation in the principles and practices of industrial engineering and…"
+    "units": [
+      "Industrial Engineering and Production System Design",
+      "Production Planning and Control",
+      "Scheduling and Project Management",
+      "Inventory and Supply Chain Management",
+      "Material Requirement Planning and Lean Systems",
+      "Forecasting and Data-Driven Decision Making",
+      "Maintenance and Reliability Engineering",
+      "Quality Management and Continuous Improvement"
+    ]
   },
   {
     "slug": "industrial-management-and-entrepreneurship",
     "code": "ENCH306",
     "title": "Industrial Management and Entrepreneurship",
     "objective": "To provide concepts of management theories, industrial organizational practices, quality control systems, and entrepreneurship, including the processes of establishing and operating new ventures, so that students can analyze industrial management practices, evaluate entrepreneurial opportunities, and design a comprehensive business plan.",
-    "seoTitle": "Industrial Management and Entrepreneurship (ENCH306)",
-    "seoDescription": "Industrial Management and Entrepreneurship (ENCH306): provide concepts of management theories, industrial organizational practices, quality control systems…"
+    "units": [
+      "Organization and Management",
+      "Human Resource Management",
+      "Production and Operation Management",
+      "Quality and Productivity Engineering",
+      "Entrepreneurship",
+      "Business Idea and Business Plan",
+      "Establishing a Firm",
+      "Marketing Management and Growth Strategies"
+    ]
   },
   {
     "slug": "instrumentation-and-automation",
     "code": "ENCH256",
     "title": "Instrumentation and Automation",
     "objective": "To provide a comprehensive understanding of the functional elements, classification, and performance characteristics of measurement instruments and their applications in process industries, equipping students with knowledge of sensors, transducers, signal conditioning, and data acquisition systems, and introducing the fundamentals of automation and industrial automation systems such as PLC, DCS, and SCADA.",
-    "seoTitle": "Instrumentation and Automation (ENCH256)",
-    "seoDescription": "Instrumentation and Automation (ENCH256): provide a comprehensive understanding of the functional elements, classification, and performance characteristics of…"
+    "units": [
+      "Introduction",
+      "Characteristics of Instruments",
+      "Process Instrumentation",
+      "Building Blocks of Instrument",
+      "Control System and Automation Strategy",
+      "Computer Based Control Systems"
+    ]
   },
   {
     "slug": "instrumentation-and-measurement",
     "code": "ENEE201",
     "title": "Instrumentation and Measurement",
     "objective": "To provide students foundational knowledge in instrumentation and measurement systems, developing competency in selecting appropriate instruments for electrical measurements, analyzing measurement techniques, and applying troubleshooting skills in practical contexts.",
-    "seoTitle": "Instrumentation and Measurement (ENEE201)",
-    "seoDescription": "Instrumentation and Measurement (ENEE201): provide students foundational knowledge in instrumentation and measurement systems, developing competency in…"
+    "units": [
+      "Instrumentation Systems",
+      "Theory of Measurement",
+      "Transducers",
+      "Electrical Signal Processing and Transmission",
+      "Analog-Digital and Digital-Analog Conversion",
+      "Digital Instrumentation",
+      "Electrical Equipment"
+    ]
   },
   {
     "slug": "instrumentation-and-sensors",
     "code": "ENME252",
     "title": "Instrumentation and Sensors",
     "objective": "To introduce students to the methods for instrumentation and sensing in the engineering industry and research, covering the principle and application of intrusive and non-intrusive techniques and hands-on experience in the development and application of sensors important across engineering fields.",
-    "seoTitle": "Instrumentation and Sensors (ENME252)",
-    "seoDescription": "Instrumentation and Sensors (ENME252): introduce students to the methods for instrumentation and sensing in the engineering industry and research, covering…"
+    "units": [
+      "Measurement System",
+      "Signal Conditioning and Processing",
+      "Dynamic Response of Measurement System",
+      "Sensors and Transducers",
+      "Smart Systems"
+    ]
   },
   {
     "slug": "instrumentation-i",
     "code": "ENEX252",
     "title": "Instrumentation I",
     "objective": "To provide comprehensive treatment of methods and instrument for a wide range of measurement problems.",
-    "seoTitle": "Instrumentation I (ENEX252)",
-    "seoDescription": "Instrumentation I (ENEX252): provide comprehensive treatment of methods and instrument for a wide range of measurement problems."
+    "units": [
+      "Instrumentations Systems",
+      "Theory of measurement",
+      "Transducer",
+      "Electrical Signal Processing and transmission",
+      "Analog - Digital and Digital - Analog Conversion",
+      "Digital Instrumentation",
+      "Electrical equipment"
+    ]
   },
   {
     "slug": "introduction-to-architecture",
     "code": "ENAR102",
     "title": "Introduction to Architecture",
     "objective": "This course aims to provide students with a comprehensive introduction to the field of architecture and its relation with society, culture, religion, technology, politics and the built environment, along with an understanding of the profession of architecture, its scope and opportunities, and the rules and regulations of architecture in Nepal.",
-    "seoTitle": "Introduction to Architecture (ENAR102)",
-    "seoDescription": "Introduction to Architecture (ENAR102): provide students with a comprehensive introduction to the field of architecture and its relation with society…"
+    "units": [
+      "Introduction to the Field of Architecture",
+      "Architecture, Built Environment and the Society",
+      "Social, Cultural and Religious Context of Architecture",
+      "Technology and Material Context of Architecture",
+      "Site, City and Ecological Context of Architecture",
+      "Architecture and Public Spaces",
+      "Architecture and its Relationship with Allied Professionals",
+      "Role and Relation of Architect, Client and Contractor",
+      "The Profession of Architecture in Nepal",
+      "Planning and Building Controls, Bye-laws"
+    ]
   },
   {
     "slug": "introduction-to-cubesats",
     "code": "ENAS202",
     "title": "Introduction to CubeSats",
     "objective": "To provide the fundamental understanding of the terms and design process of a popular nano-satellite standard called the CubeSat, along with the limitations of the space environment and systems engineering involved in the process.",
-    "seoTitle": "Introduction to CubeSats (ENAS202)",
-    "seoDescription": "Introduction to CubeSats (ENAS202): provide the fundamental understanding of the terms and design process of a popular nano-satellite standard called the…"
+    "units": [
+      "Small Satellites and the Rise of a Standard",
+      "CubeSat Design Process Overview",
+      "CubeSat Mission Design",
+      "CubeSat Hardware",
+      "CubeSat Software",
+      "CubeSat Testing",
+      "Launch, Ground Segment and Operations"
+    ]
   },
   {
     "slug": "irrigation-and-drainage-engineering",
     "code": "ENCE354",
     "title": "Irrigation and Drainage Engineering",
     "objective": "The course equips students with knowledge and skills for planning, design, construction, operation, maintenance and management of irrigation and drainage systems.",
-    "seoTitle": "Irrigation and Drainage Engineering (ENCE354)",
-    "seoDescription": "Irrigation and Drainage Engineering (ENCE354): knowledge and skills for planning, design, construction, operation, maintenance and management of irrigation…"
+    "units": [
+      "Introduction",
+      "Irrigation Water Requirements and Water Availability",
+      "Canal Irrigation System and Design of Canals",
+      "Diversion Headworks",
+      "River Training Works",
+      "Canal Regulating Structures",
+      "Cross-Drainage Structures",
+      "Waterlogging and Drainage"
+    ]
   },
   {
     "slug": "land-administration-and-land-law",
     "code": "ENGE353",
     "title": "Land Administration and Land Law",
     "objective": "The objective of this course is to provide fundamental knowledge of land administration and land law relevant to geomatics practice. Students will be able to analyze land administration components and systems to serve society, and formulate institutional, operational, and technological requirements for operating land administration procedures in a transitional environment.",
-    "seoTitle": "Land Administration and Land Law (ENGE353)",
-    "seoDescription": "Land Administration and Land Law (ENGE353): fundamental knowledge of land administration and land law relevant to geomatics practice. Students will be able to…"
+    "units": [
+      "Land and Land Administration",
+      "Land Laws",
+      "Land Tenure and Property",
+      "Formalizing Property Rights",
+      "Land and Property Right Transfer Process",
+      "Land Administration and Management Issues",
+      "Land Conflict and Resolution",
+      "Emerging Trends in Land Administration",
+      "Fit for Purpose (FFP) Land Administration and VGGT"
+    ]
   },
   {
     "slug": "logic-circuit",
     "code": "ENEX203",
     "title": "Logic Circuit",
     "objective": "This course provides basic understanding of the digital world and design of the basic digital circuits using various logic gates ICs, focusing on the study of basic principles, design and applications of digital circuitries in various fields.",
-    "seoTitle": "Logic Circuit (ENEX203)",
-    "seoDescription": "Logic Circuit (ENEX203): basic understanding of the digital world and design of the basic digital circuits using various logic gates ICs, focusing on the…"
+    "units": [
+      "Introduction",
+      "Logic Gates",
+      "Boolean Algebra and K-Maps",
+      "Combinational Logic Circuits",
+      "Sequential Logic Circuits",
+      "Registers and Counters",
+      "Sequential Machine Design",
+      "Digital Devices Applications"
+    ]
   },
   {
     "slug": "machine-design-i",
     "code": "ENME353",
     "title": "Machine Design I",
     "objective": "To provide students with fundamental knowledge and essential skills required for the design of commonly used machine elements, developing their ability to analyze, design and select a wide range of mechanical components and systems for safe, reliable, efficient and economical engineering applications.",
-    "seoTitle": "Machine Design I (ENME353)",
-    "seoDescription": "Machine Design I (ENME353): provide students with fundamental knowledge and essential skills required for the design of commonly used machine elements…"
+    "units": [
+      "Introduction",
+      "Material Selection for Design",
+      "New Product Design",
+      "Problem Solving and Decision Making",
+      "Design of Shafts",
+      "Rolling Contact Bearings",
+      "Lubrication and Journal Bearings",
+      "Design of Flexible Mechanical Elements",
+      "Force Analysis of Gears"
+    ]
   },
   {
     "slug": "machine-design-ii",
     "code": "ENME415",
     "title": "Machine Design II",
     "objective": "To provide fundamental knowledge and skills for designing machine elements and selecting mechanical components with emphasis on safety, reliability, efficiency and economy, while developing engineering judgment and problem-solving ability.",
-    "seoTitle": "Machine Design II (ENME415)",
-    "seoDescription": "Machine Design II (ENME415): provide fundamental knowledge and skills for designing machine elements and selecting mechanical components with emphasis on…"
+    "units": [
+      "Modelling and Optimization",
+      "Product Design Considerations",
+      "Design of Springs",
+      "Design of Spur and Helical Gears",
+      "Design of Clutches and Brakes",
+      "Design of Power Screws"
+    ]
   },
   {
     "slug": "machine-drawing",
     "code": "ENME152",
     "title": "Machine Drawing",
     "objective": "To enable students to prepare working drawings and use computer aided drafting software for producing two dimensional and three-dimensional drawings.",
-    "seoTitle": "Machine Drawing (ENME152)",
-    "seoDescription": "Machine Drawing (ENME152): enable students to prepare working drawings and use computer aided drafting software for producing two dimensional and…"
+    "units": [
+      "Limit Dimensioning and Machining Symbols",
+      "Threads, Bolts, Studs and Nuts",
+      "Welding and Riveting",
+      "Pipe Joints",
+      "Detail and Assembly Drawings",
+      "Basic Drawing Commands",
+      "Modifying Commands",
+      "Drawing Aids and Tools",
+      "Fine Tuning Drawings and Grouping",
+      "Annotations and Dimensions",
+      "Three Dimensional Drawing",
+      "Plotting Drawings"
+    ]
   },
   {
     "slug": "machine-dynamics",
     "code": "ENME354",
     "title": "Machine Dynamics",
     "objective": "To introduce students to the principles of machine dynamics, including engine forces, flywheels, gyroscopic effects, governors and vibrations, covering analytical and numerical methods to study system behavior and the concepts of vibration measurement and condition monitoring.",
-    "seoTitle": "Machine Dynamics (ENME354)",
-    "seoDescription": "Machine Dynamics (ENME354): introduce students to the principles of machine dynamics, including engine forces, flywheels, gyroscopic effects, governors and…"
+    "units": [
+      "Engine Force Analysis",
+      "Turning Moment Diagram and Flywheel",
+      "Gyroscopic Couple",
+      "Governors",
+      "Vibration of Single Degree of Freedom Systems",
+      "Vibration of Two Degree of Freedom Systems",
+      "Vibration of Multi Degree of Freedom Systems",
+      "Vibrations of Continuous Systems",
+      "Approximate Numerical Methods",
+      "Vibration Measurement and Condition Monitoring"
+    ]
   },
   {
     "slug": "manufacturing-and-production-processes",
     "code": "ENME202",
     "title": "Manufacturing and Production Processes",
     "objective": "To impart knowledge and skills in the field of manufacturing and production processes, covering different metal forming and manufacturing processes along with advanced manufacturing techniques and automation processes used in modern industries.",
-    "seoTitle": "Manufacturing and Production Processes (ENME202)",
-    "seoDescription": "Manufacturing and Production Processes (ENME202): impart knowledge and skills in the field of manufacturing and production processes, covering different metal…"
+    "units": [
+      "Overview of Manufacturing",
+      "Solidification Process and Powder Metallurgy",
+      "Bulk Deformation Process",
+      "Sheet Metal Product Manufacturing Process",
+      "Material Removal Processes: Chip-forming",
+      "Material Removal Processes: Abrasive and Advanced",
+      "Automation of Manufacturing Process",
+      "Rapid Prototyping Process and Applications",
+      "Material Joining Processes"
+    ]
   },
   {
     "slug": "mass-transfer-i",
     "code": "ENCH301",
     "title": "Mass Transfer I",
     "objective": "To provide concepts of the principles of mass transfer, emphasizing analyzing and comparing different mass transfer theories, evaluating gas-liquid contacting equipment, and applying design principles to separation processes, so that students can design separation systems, extend mass transfer concepts to multicomponent mixtures, and solve complex industrial problems.",
-    "seoTitle": "Mass Transfer I (ENCH301)",
-    "seoDescription": "Mass Transfer I (ENCH301): provide concepts of the principles of mass transfer, emphasizing analyzing and comparing different mass transfer theories…"
+    "units": [
+      "Mass Transfer by Diffusion",
+      "Mass Transfer by Convection",
+      "Gas-Liquid Contacting Equipment",
+      "Gas Absorption and Stripping",
+      "Distillation",
+      "Multicomponent Distillation"
+    ]
   },
   {
     "slug": "mass-transfer-ii",
     "code": "ENCH353",
     "title": "Mass Transfer II",
     "objective": "To provide students with a comprehensive understanding of the fundamental principles of phase equilibria and mass transfer mechanisms and various separation processes.",
-    "seoTitle": "Mass Transfer II (ENCH353)",
-    "seoDescription": "Mass Transfer II (ENCH353): provide students with a comprehensive understanding of the fundamental principles of phase equilibria and mass transfer mechanisms…"
+    "units": [
+      "Liquid-Liquid Extraction",
+      "Solid-Liquid Extraction",
+      "Adsorption",
+      "Membrane Separation Process",
+      "Drying",
+      "Crystallization"
+    ]
   },
   {
     "slug": "material-science-and-engineering",
     "code": "ENCH201",
     "title": "Material Science and Engineering",
     "objective": "The objective of this course is to familiarize the students with the relationship among structure, properties, processing and application of materials. After completion of this course, the students are able to evaluate criteria for selection of materials in various industrial sectors.",
-    "seoTitle": "Material Science and Engineering (ENCH201)",
-    "seoDescription": "Material Science and Engineering (ENCH201): familiarize the students with the relationship among structure, properties, processing and application of…"
+    "units": [
+      "Introduction and Classification",
+      "Atomic and Crystal Structure",
+      "Phase Diagrams and Transformations",
+      "Electrical, Magnetic and Thermal Properties of Materials",
+      "Mechanical Behavior of Materials",
+      "Processing and Selection of Materials"
+    ]
   },
   {
     "slug": "material-science",
     "code": "ENME201",
     "title": "Material Science",
     "objective": "To equip students with a solid foundation in materials science and characterization, enabling them to analyze the relationship between the structure and properties of ferrous and non-ferrous alloys, polymers, ceramics and composite materials, and to make informed decisions on selecting appropriate materials for various applications.",
-    "seoTitle": "Material Science (ENME201)",
-    "seoDescription": "Material Science (ENME201): equip students with a solid foundation in materials science and characterization, enabling them to analyze the relationship…"
+    "units": [
+      "Introduction",
+      "Atomic Structure, Interatomic Bonding and Crystalline Structure",
+      "Mechanical Properties and Their Tests",
+      "Solidification, Phase Relations and Strengthening Mechanism",
+      "Heat Treatment",
+      "Metals and Alloys",
+      "Ceramics and Glasses",
+      "Polymers",
+      "Nanomaterials",
+      "Composite",
+      "Failure, Corrosion and Degradation of Materials"
+    ]
   },
   {
     "slug": "mathematics-for-architecture-i",
     "code": "ENSH104",
     "title": "Mathematics for Architecture I",
     "objective": "To equip students with a sound understanding of calculus and geometry enabling them to effectively apply these principles in their respective fields.",
-    "seoTitle": "Mathematics for Architecture I (ENSH104)",
-    "seoDescription": "Mathematics for Architecture I (ENSH104): equip students with a sound understanding of calculus and geometry enabling them to effectively apply these…"
+    "units": [
+      "Two Dimensional Geometry",
+      "Derivatives and its Applications",
+      "Antiderivatives and its Applications",
+      "Three Dimensional Geometry",
+      "Partial Differentiations and its Applications",
+      "Multiple Integrals and its Applications"
+    ]
   },
   {
     "slug": "mathematics-for-architecture-ii",
     "code": "ENSH155",
     "title": "Mathematics for Architecture II",
     "objective": "To equip students with a sound understanding of vector, matrices, probability and statistics enabling them to effectively apply these principles in their respective fields.",
-    "seoTitle": "Mathematics for Architecture II (ENSH155)",
-    "seoDescription": "Mathematics for Architecture II (ENSH155): equip students with a sound understanding of vector, matrices, probability and statistics enabling them to…"
+    "units": [
+      "Vector Algebra and Calculus",
+      "Matrices and their Applications",
+      "Statistics",
+      "Probability",
+      "Mensuration"
+    ]
   },
   {
     "slug": "mechanical-operation",
     "code": "ENCH251",
     "title": "Mechanical Operation",
     "objective": "To provide basic understanding of particulate solid characterization, storage, and handling, and to equip students with the principles of size reduction and mixing and the operation of equipment used for these processes, focusing on the working principles of solid-liquid, solid-gas, and solid-solid mechanical separation processes and the associated equipment.",
-    "seoTitle": "Mechanical Operation (ENCH251)",
-    "seoDescription": "Mechanical Operation (ENCH251): provide basic understanding of particulate solid characterization, storage, and handling, and to equip students with the…"
+    "units": [
+      "Particles Properties",
+      "Storage and Conveying of Solids",
+      "Mixing of Particulate Solid",
+      "Mechanical Separation",
+      "Size Reduction and Enlargement",
+      "Settling",
+      "Agitation and Mixing of Liquids",
+      "Filtration"
+    ]
   },
   {
     "slug": "mechanics-of-solids",
     "code": "ENME251",
     "title": "Mechanics of Solids",
     "objective": "To provide fundamental principles and skills of solid mechanics and enable students to apply theoretical knowledge to practical problems through design exercises, familiarizing them with the methods and tools to analyze different engineering problems.",
-    "seoTitle": "Mechanics of Solids (ENME251)",
-    "seoDescription": "Mechanics of Solids (ENME251): provide fundamental principles and skills of solid mechanics and enable students to apply theoretical knowledge to practical…"
+    "units": [
+      "Introduction",
+      "Three-Dimensional Stress",
+      "Analysis of Deformation",
+      "Strain Energy and Applications of Energy Method",
+      "Curved Beam",
+      "Unsymmetrical Bending and Shear Center",
+      "Thin and Thick Wall Cylinder",
+      "Torsion",
+      "Contact Stresses"
+    ]
   },
   {
     "slug": "metrology",
     "code": "ENME204",
     "title": "Metrology",
     "objective": "To impart knowledge of the fundamental principles of metrology, its significance in engineering, various measurement techniques and instruments, and to apply the concepts of metrology for quality control and precise measurement of manufactured products.",
-    "seoTitle": "Metrology (ENME204)",
-    "seoDescription": "Metrology (ENME204): impart knowledge of the fundamental principles of metrology, its significance in engineering, various measurement techniques and…"
+    "units": [
+      "Introduction",
+      "Measurement Errors and Uncertainty",
+      "Standards of Measurements",
+      "Linear, Angular and Taper Measurement",
+      "Comparators",
+      "Interferometry",
+      "Limits, Fits and Tolerances",
+      "Gauges",
+      "Measurement of Surface Finish",
+      "Gear Measurement",
+      "Measurement of Screw Threads",
+      "Acceptance Tests for Machine Tools",
+      "Measuring Machines",
+      "Quality Control Management"
+    ]
   },
   {
     "slug": "microprocessors-and-microcontrollers",
     "code": "ENEX251",
     "title": "Microprocessors and Microcontrollers",
     "objective": "This course provides knowledge of microprocessors and microcontrollers to be able to develop assembly and C level programming and to develop a microprocessor/microcontroller-based system.",
-    "seoTitle": "Microprocessors and Microcontrollers (ENEX251)",
-    "seoDescription": "Microprocessors and Microcontrollers (ENEX251): knowledge of microprocessors and microcontrollers to be able to develop assembly and C level programming and…"
+    "units": [
+      "Introduction",
+      "The 8085 Microprocessor",
+      "The 8086 Microprocessor",
+      "Microprocessor System",
+      "The 8051 Microcontroller"
+    ]
   },
   {
     "slug": "microprocessors",
     "code": "ENEX201",
     "title": "Microprocessors",
     "objective": "To familiarize students with architecture, programming, hardware and application of microprocessor",
-    "seoTitle": "Microprocessors (ENEX201)",
-    "seoDescription": "Microprocessors (ENEX201): familiarize students with architecture, programming, hardware and application of microprocessor"
+    "units": [
+      "Introductio",
+      "Programming with 8085 Microprocessor",
+      "Programming with 8086 Microprocessor",
+      "Microprocessor System",
+      "Interrupt Operations",
+      "Advanced Topics"
+    ]
   },
   {
     "slug": "minor-project",
     "code": "ENEX353",
     "title": "Minor Project",
     "objective": "This course enables students to carry out a small-scale engineering research- or product-based project in the field of electronics, communication, and information engineering, thereby developing practical skills and hands-on experience in system design, implementation, and testing.",
-    "seoTitle": "Minor Project (ENEX353)",
-    "seoDescription": "Minor Project (ENEX353): carry out a small-scale engineering research- or product-based project in the field of electronics, communication, and information…"
+    "units": [
+      "Project Selection and Planning",
+      "Literature Review and Proposal",
+      "Design, Development and Project Management",
+      "Implementation and Testing"
+    ]
   },
   {
     "slug": "monitoring-and-instrumentation",
     "code": "ENAS251",
     "title": "Monitoring and Instrumentation",
     "objective": "To introduce students to condition and fault monitoring techniques, non-destructive techniques, and the methods for instrumentation and sensing in the aerospace industry and research, including the principle and application of intrusive and non-intrusive techniques and hands-on experience in developing and applying sensors important in aerospace engineering.",
-    "seoTitle": "Monitoring and Instrumentation (ENAS251)",
-    "seoDescription": "Monitoring and Instrumentation (ENAS251): introduce students to condition and fault monitoring techniques, non-destructive techniques, and the methods for…"
+    "units": [
+      "Fundamentals of Measurement Systems",
+      "Digital Signal Processing",
+      "Dynamic Response of Measurement System",
+      "Measurement Systems",
+      "Condition Monitoring",
+      "Non-Destructive Testing",
+      "Optical Techniques"
+    ]
   },
   {
     "slug": "numerical-methods",
     "code": "ENSH252",
     "title": "Numerical Method",
     "objective": "To introduce numerical methods used for the solution of engineering problems. The course emphasizes algorithm development and programming and application to realistic engineering problems.",
-    "seoTitle": "Numerical Method (ENSH252)",
-    "seoDescription": "Numerical Method (ENSH252): introduce numerical methods used for the solution of engineering problems. The course emphasizes algorithm development and…"
+    "units": [
+      "Introduction, Approximation and errors of computation",
+      "Solutions of Nonlinear Equations",
+      "Solution of system of linear algebraic equations",
+      "Interpolation",
+      "Numerical Differentiation and Integration",
+      "Solution of ordinary differential equations",
+      "Numerical solution of Partial differential Equation"
+    ]
   },
   {
     "slug": "object-oriented-programming",
     "code": "ENCT151",
     "title": "Object Oriented Programming",
     "objective": "To familiarize students with the C++ Programming language and use the language to develop object oriented programs",
-    "seoTitle": "Object Oriented Programming (ENCT151)",
-    "seoDescription": "Object Oriented Programming (ENCT151): familiarize students with the C++ Programming language and use the language to develop object oriented programs"
+    "units": [
+      "Introduction to Object Oriented Programming",
+      "Introduction to C++",
+      "C++ Language Constructs",
+      "Objects and Classes",
+      "Operator Overloading",
+      "Inheritance",
+      "Polymorphism and Dynamic Binding",
+      "Stream Computation for Console and File Input /Output",
+      "Templates",
+      "Exception Handling"
+    ]
   },
   {
     "slug": "operating-system",
     "code": "ENCT254",
     "title": "Operating System",
     "objective": "The objective of this course is to familiarize students with the different aspects of operating systems and encourage them to use these ideas in designing operating systems.",
-    "seoTitle": "Operating System (ENCT254)",
-    "seoDescription": "Operating System (ENCT254): familiarize students with the different aspects of operating systems and encourage them to use these ideas in designing operating…"
+    "units": [
+      "Introduction",
+      "Process Management",
+      "Process Communication and Synchronization",
+      "I/O and Memory Management",
+      "File Systems",
+      "Security and System Administration",
+      "Hypervisors and Virtual Systems",
+      "Overview of Contemporary OS"
+    ]
   },
   {
     "slug": "organic-and-inorganic-chemistry",
     "code": "ENSH154",
     "title": "Organic and Inorganic Chemistry",
     "objective": "To familiarize the student with basic information of organic chemistry, inorganic chemistry and biologically important organic compounds.",
-    "seoTitle": "Organic and Inorganic Chemistry (ENSH154)",
-    "seoDescription": "Organic and Inorganic Chemistry (ENSH154): familiarize the student with basic information of organic chemistry, inorganic chemistry and biologically important…"
+    "units": [
+      "Reactive Intermediates in Organic Reaction",
+      "Heterocyclic Compounds",
+      "Pericyclic Reaction",
+      "Coordination Chemistry",
+      "Organometallic Compounds",
+      "Solvent",
+      "Industrial Important Compounds",
+      "Carbohydrates and Lipids",
+      "Amino Acid, Proteins",
+      "Metabolites and Molecular Genetics"
+    ]
   },
   {
     "slug": "organization-and-management",
     "code": "ENME304",
     "title": "Organization and Mangement",
     "objective": "To give knowledge about organizational management and internal organization of companies required for managing and enterprise. Also to make familiar with personnel management, case study, management information system motivation and leadership for developing managerial skills.",
-    "seoTitle": "Organization and Mangement (ENME304)",
-    "seoDescription": "Organization and Mangement (ENME304): give knowledge about organizational management and internal organization of companies required for managing and…"
+    "units": [
+      "Introduction",
+      "Personal Management",
+      "Motivation, Leadership and Entrepreneurship",
+      "Case Studies",
+      "Management Information System"
+    ]
   },
   {
     "slug": "physical-and-analytical-chemistry",
     "code": "ENSH205",
     "title": "Physical and Analytical Chemistry",
     "objective": "The objective of this course is to provide fundamental concepts of general physical chemistry and analytical chemistry along with the application of analytical and instrumental techniques in the field of chemical engineering.",
-    "seoTitle": "Physical and Analytical Chemistry (ENSH205)",
-    "seoDescription": "Physical and Analytical Chemistry (ENSH205): fundamental concepts of general physical chemistry and analytical chemistry along with the application of…"
+    "units": [
+      "States of Matter",
+      "Liquefaction of Gas",
+      "Solution",
+      "Basic Thermodynamics",
+      "Chemical Kinetics",
+      "Basic Concept of Chemical Analysis",
+      "Instrumental Method of Analysis"
+    ]
   },
   {
     "slug": "physical-geodesy",
     "code": "ENGE254",
     "title": "Physical Geodesy",
     "objective": "The objective of this course is to provide fundamental understanding of Earth's gravity systems and its rotation and revolution, which are essential for establishing coordinate systems, datum, and reference ellipsoids. It also introduces relative horizontal and vertical positioning systems, equipping students with the foundational knowledge necessary to navigate and apply geodetic concepts effectively.",
-    "seoTitle": "Physical Geodesy (ENGE254)",
-    "seoDescription": "Physical Geodesy (ENGE254): fundamental understanding of Earth's gravity systems and its rotation and revolution, which are essential for establishing…"
+    "units": [
+      "Introduction",
+      "Reference System and Reference Frame",
+      "Gravity Field of the Earth",
+      "Geodetic Astronomy and Time Systems",
+      "Mathematical Concepts of Geodesy",
+      "Gravity Reduction and Gravity Field Determination",
+      "Gravity Measurement Methods",
+      "Geodesy Challenges and Future Perspectives"
+    ]
   },
   {
     "slug": "postharvest-engineering",
     "code": "ENAE305",
     "title": "Postharvest Engineering",
     "objective": "The objective of this course is to familiarize students with the principles of processing and handling of cereals, pulses, oilseeds, fruits, vegetables, and animal products. It also aims to equip students to apply appropriate unit operations, equipment, and design considerations for efficient and sustainable processing in food industries.",
-    "seoTitle": "Postharvest Engineering (ENAE305)",
-    "seoDescription": "Postharvest Engineering (ENAE305): familiarize students with the principles of processing and handling of cereals, pulses, oilseeds, fruits, vegetables, and…"
+    "units": [
+      "Food Processing",
+      "Cleaning and Grading",
+      "Size Reduction",
+      "Mixing",
+      "Separation",
+      "Filtration",
+      "Material Handling",
+      "Moisture Content",
+      "Drying",
+      "Storage"
+    ]
   },
   {
     "slug": "power-system-analysis-i",
     "code": "ENEE205",
     "title": "Power System Analysis I",
     "objective": "To introduce and establish a solid foundation in fundamental principles and basic analysis techniques in the field of electrical power system engineering.",
-    "seoTitle": "Power System Analysis I (ENEE205)",
-    "seoDescription": "Power System Analysis I (ENEE205): introduce and establish a solid foundation in fundamental principles and basic analysis techniques in the field of…"
+    "units": [
+      "Introduction to Power System",
+      "Overhead and Underground Transmission",
+      "Computational Technique",
+      "Line Parameter Calculations",
+      "Transmission Line Modeling",
+      "Performance Analysis"
+    ]
   },
   {
     "slug": "precision-agriculture",
     "code": "ENAE355",
     "title": "Precision Agriculture",
     "objective": "The objective of this course is to provide fundamental knowledge of precision agriculture principles and technologies. Upon completion, students will be able to apply tools such as GIS, GPS, remote sensing, IoT, and variable rate technologies, analyze spatial and temporal agricultural data, evaluate sustainable and intelligent farming practices, and design precision-based solutions for efficient, modern, and sustainable agricultural production.",
-    "seoTitle": "Precision Agriculture (ENAE355)",
-    "seoDescription": "Precision Agriculture (ENAE355): fundamental knowledge of precision agriculture principles and technologies. Upon completion, students will be able to apply…"
+    "units": [
+      "Introduction",
+      "Emerging Tools and Technologies in Precision Agriculture",
+      "Processes Involved in Precision Agriculture",
+      "Precision Livestock Farming",
+      "Internet of Things, Sensor Networks and Artificial Intelligence",
+      "Sustainability of Precision Agriculture",
+      "Policy and Practices of Precision Agriculture in Nepal"
+    ]
   },
   {
     "slug": "principles-of-geographic-information-system",
     "code": "ENGE202",
     "title": "Principles of Geographic Information System",
     "objective": "The objective of this course is to introduce basic principles, concepts and applications of Geographical Information System (GIS). Students will acquire knowledge and skill on structures of spatial and attribute data, coordinate systems, transformations and projections, and data integration, processing and analysis of GIS data to derive meaningful output and make maps.",
-    "seoTitle": "Principles of Geographic Information System (ENGE202)",
-    "seoDescription": "Principles of Geographic Information System (ENGE202): basic principles, concepts and applications of Geographical Information System (GIS). Students will…"
+    "units": [
+      "Overview of GIS and GIS Software",
+      "Coordinate Systems and Map Projections",
+      "Spatial Data Models",
+      "Database Concepts",
+      "Data Sources and Acquisition",
+      "Spatial Data Analysis",
+      "Terrain Modeling",
+      "Watershed Analysis",
+      "Cartography and Map Making"
+    ]
   },
   {
     "slug": "principles-of-photogrammetry",
     "code": "ENGE252",
     "title": "Principles of Photogrammetry",
     "objective": "The objective of the photogrammetry course is to gain familiarity with the basic principles of photogrammetric operations. The course emphasizes mathematical concepts in photogrammetry, the possibility of object space reconstruction from imagery and incorporation of additional sensory data from GPS/INS units in photogrammetric triangulation.",
-    "seoTitle": "Principles of Photogrammetry (ENGE252)",
-    "seoDescription": "Principles of Photogrammetry (ENGE252): The objective of the photogrammetry course is to gain familiarity with the basic principles of photogrammetric…"
+    "units": [
+      "Introduction",
+      "Principles of Photography and Imaging Devices",
+      "Elementary Photogrammetry",
+      "Mathematical Concepts in Analog Photogrammetry",
+      "Intersection, Resection and Photogrammetric Triangulation",
+      "Direct Versus Indirect Orientation",
+      "Digital Photogrammetry",
+      "Photogrammetric Products"
+    ]
   },
   {
     "slug": "principles-of-remote-sensing",
     "code": "ENGE301",
     "title": "Principles of Remote Sensing",
     "objective": "The objective of this course is to provide foundational principles, evolution and applications of remote sensing. It emphasizes the electromagnetic spectrum, remote sensing platforms, sensors, and data acquisition systems, enabling students to apply hands-on skills in satellite image preprocessing and effective data analysis.",
-    "seoTitle": "Principles of Remote Sensing (ENGE301)",
-    "seoDescription": "Principles of Remote Sensing (ENGE301): foundational principles, evolution and applications of remote sensing. It emphasizes the electromagnetic spectrum…"
+    "units": [
+      "Introduction",
+      "Electromagnetic Spectrum and Radiometry",
+      "Remote Sensing Platforms and Sensors",
+      "Satellite Image Preprocessing",
+      "Interpretation of Satellite Images and Image Statistics",
+      "Digital Image Classification and Accuracy Assessment"
+    ]
   },
   {
     "slug": "probability-and-statistics",
     "code": "ENSH304",
     "title": "Probability and Statistics",
     "objective": "The objective of this course is to equip students with foundational knowledge in probability and statistics essential for engineering applications, developing skills in statistical data analysis and the interpretation and effective communication of statistical results to make informed, data-driven decisions.",
-    "seoTitle": "Probability and Statistics (ENSH304)",
-    "seoDescription": "Probability and Statistics (ENSH304): foundational knowledge in probability and statistics essential for engineering applications, developing skills in…"
+    "units": [
+      "Descriptive Statistics and Basic Probability",
+      "Probability Distributions and Sampling Distribution",
+      "Statistical Inference",
+      "Correlation and Regression",
+      "Statistical Quality Control"
+    ]
   },
   {
     "slug": "process-dynamics-and-control",
     "code": "ENCH352",
     "title": "Process Dynamics and Control",
     "objective": "To familiarize students with the basics of dynamic system theory and practice, and to equip them with the tools necessary for control system design and analysis of chemical processes.",
-    "seoTitle": "Process Dynamics and Control (ENCH352)",
-    "seoDescription": "Process Dynamics and Control (ENCH352): familiarize students with the basics of dynamic system theory and practice, and to equip them with the tools necessary…"
+    "units": [
+      "Introduction",
+      "Dynamic Behavior of Open-Loop System",
+      "Dynamic Behavior of Closed-Loop System",
+      "Frequency Response",
+      "Process Applications"
+    ]
   },
   {
     "slug": "process-heat-transfer",
     "code": "ENCH255",
     "title": "Process Heat Transfer",
     "objective": "To equip students with the skills to solve one-dimensional and two-dimensional heat transfer problems both analytically and numerically, applying energy balance equations and rate laws to steady and unsteady state heat transfer and phase change processes, and using correlations to solve problems related to different heat exchangers.",
-    "seoTitle": "Process Heat Transfer (ENCH255)",
-    "seoDescription": "Process Heat Transfer (ENCH255): equip students with the skills to solve one-dimensional and two-dimensional heat transfer problems both analytically and…"
+    "units": [
+      "Fundamentals of Heat Transfer",
+      "Steady State One-Dimensional (1D) Conduction",
+      "Steady State Two-Dimensional (2D) Conduction",
+      "Time Dependent Conduction",
+      "Fundamentals of Convection",
+      "External Forced Convection",
+      "Internal Forced Convection",
+      "Natural (Free) Convection",
+      "Boiling and Condensation Processes",
+      "Heat Exchangers",
+      "Fundamentals of Radiation",
+      "Radiative Transfer Between Surfaces"
+    ]
   },
   {
     "slug": "professional-and-social-engineering",
     "code": "ENCE355",
     "title": "Professional and Social Engineering",
     "objective": "The course introduces the interrelationship among technology, environment, and society, emphasizing the ethical, professional, and legal responsibilities of engineers.",
-    "seoTitle": "Professional and Social Engineering (ENCE355)",
-    "seoDescription": "Professional and Social Engineering (ENCE355): interrelationship among technology, environment, and society, emphasizing the ethical, professional, and legal…"
+    "units": [
+      "Technology, Environment and Society",
+      "Ethics and Professionalism",
+      "Engineering Practice and Legal Framework",
+      "Professional Skill and Career Development",
+      "Social Engineering",
+      "Engineers in Society"
+    ]
   },
   {
     "slug": "professional-engineering-economics",
     "code": "ENME356",
     "title": "Professional Engineering Economics",
     "objective": "To provide comprehensive knowledge of engineering economics, focusing on business operations, financial project analysis and the impact of engineering decisions on a firm's financial viability, equipping engineers with theoretical foundations and modern decision-making tools including optimization and simulation to make informed financial decisions under uncertainty and risk.",
-    "seoTitle": "Professional Engineering Economics (ENME356)",
-    "seoDescription": "Professional Engineering Economics (ENME356): provide comprehensive knowledge of engineering economics, focusing on business operations, financial project…"
+    "units": [
+      "Engineering Economics and Cost Concepts",
+      "Financial Statements",
+      "Interest Rate and Economic Equivalence",
+      "Project Evaluation Techniques",
+      "Depreciation",
+      "Income Tax and Discounted Cash-flow Models",
+      "Project Risk Analysis",
+      "Economic Analysis in Public Project"
+    ]
   },
   {
     "slug": "project-engineering-and-management",
     "code": "ENGE352",
     "title": "Project Engineering and Management",
     "objective": "The objective of this course is to introduce fundamental principles of project engineering and management relevant to geomatics practice. The course covers feasibility studies, preparation, evaluation, and implementation of project proposals, and emphasizes planning, scheduling, budgeting, and control techniques along with management of project risks and resources.",
-    "seoTitle": "Project Engineering and Management (ENGE352)",
-    "seoDescription": "Project Engineering and Management (ENGE352): fundamental principles of project engineering and management relevant to geomatics practice. The course covers…"
+    "units": [
+      "Introduction",
+      "Project Appraisal and Feasibility Studies",
+      "Project Planning and Scheduling",
+      "Procurement of Goods, Works and Services",
+      "Project Implementation, Monitoring and Control",
+      "Project Financing and Risk Management",
+      "Project Leadership and Team Management",
+      "Project Closure and Post-Project Evaluation"
+    ]
   },
   {
     "slug": "project-i",
     "code": "ENGE415",
     "title": "Project I",
     "objective": "The objective of the project work is to enable students to integrate and apply the knowledge and skills acquired throughout the Geomatics Engineering program to solve real-world problems. Under the guidance of faculty supervisor(s), students work in groups to plan, execute, and evaluate a project addressing practical challenges related to society and the environment, and present their findings in a comprehensive project report.",
-    "seoTitle": "Project I (ENGE415)",
-    "seoDescription": "Project I (ENGE415): The objective of the project work is to enable students to integrate and apply the knowledge and skills acquired throughout the Geomatics…"
+    "units": [
+      "Design Type Project",
+      "Dissertation Type Project",
+      "Experimental Type Project"
+    ]
   },
   {
     "slug": "project-ii",
     "code": "ENGE461",
     "title": "Project II",
     "objective": "The objective of Project II is to enable students to complete a comprehensive geomatics engineering project by applying surveying, GIS, remote sensing, photogrammetry, cartography, geospatial data science, web mapping, land administration, and related technologies to real-world problems. Students develop skills in data processing, spatial analysis, model development, application implementation, validation, technical reporting, and professional presentation of project outcomes.",
-    "seoTitle": "Project II (ENGE461)",
-    "seoDescription": "Project II (ENGE461): The objective of Project II is to enable students to complete a comprehensive geomatics engineering project by applying surveying, GIS…"
+    "units": [
+      "Design and Application-Type Project",
+      "Dissertation-Type Project",
+      "Experimental-Type Project"
+    ]
   },
   {
     "slug": "project-management-and-professional-practice",
     "code": "ENME463",
     "title": "Project Management and Professional Practice",
     "objective": "To provide students with the skills to identify, plan and execute engineering projects through the development of formal feasibility studies and project proposals, covering project scheduling, resource controlling and risk management along with modern management trends and techniques.",
-    "seoTitle": "Project Management and Professional Practice (ENME463)",
-    "seoDescription": "Project Management and Professional Practice (ENME463): provide students with the skills to identify, plan and execute engineering projects through the…"
+    "units": [
+      "Introduction of Project and Project Management",
+      "Project Appraisal and Project Formulation",
+      "Project Planning and Scheduling",
+      "Project Implementation and Controlling",
+      "Project Risk Management and Project Finance",
+      "Procurement and Contract Management",
+      "Profession, Ethics and Professional Practices",
+      "Regulatory Environment"
+    ]
   },
   {
     "slug": "project-management",
     "code": "ENIE412",
     "title": "Project Management",
     "objective": "To make the students able to plan monitor and control project and project related activities",
-    "seoTitle": "Project Management (ENIE412)",
-    "seoDescription": "Project Management (ENIE412): make the students able to plan monitor and control project and project related activities"
+    "units": [
+      "Introduction",
+      "Project Management Body of Knowledge",
+      "Portfolio and Project Management Institutes’ (PMI) Framework",
+      "Project Management",
+      "Project and Organizational structure",
+      "Project Management Process Groups",
+      "Project Integration Management",
+      "Project Time Management",
+      "Project Cost Management",
+      "Project quality management",
+      "Project Communication Management",
+      "Project Risk Management",
+      "Project Procurement Management",
+      "Developing Custom Processes for IT projects",
+      "Balanced scorecard and ICT project management"
+    ]
   },
   {
     "slug": "propagation-and-antenna",
     "code": "ENEX303",
     "title": "Propagation and Antenna",
     "objective": "This course covers wave propagation and antenna fundamentals, basic antenna parameters and arrays, antenna classifications, propagation and the radio frequency spectrum, propagation between antennas, and link budget calculation.",
-    "seoTitle": "Propagation and Antenna (ENEX303)",
-    "seoDescription": "Propagation and Antenna (ENEX303): wave propagation and antenna fundamentals, basic antenna parameters and arrays, antenna classifications, propagation and…"
+    "units": [
+      "Wave Propagation and Antenna Fundamentals",
+      "Basic Antenna Parameters and Arrays",
+      "Antenna Classifications",
+      "Propagation and Radio Frequency Spectrum",
+      "Propagation between Antennas",
+      "Link Budget"
+    ]
   },
   {
     "slug": "ranging-techniques",
     "code": "ENGE354",
     "title": "Ranging Techniques",
     "objective": "The objective of this course is to introduce the fundamental principles of active remote sensing techniques, including LiDAR and RADAR imaging, used in geomatics applications. The course emphasizes airborne laser scanning (ALS) data acquisition and processing, along with their practical applications in real-world mapping, terrain modeling, and engineering problem-solving.",
-    "seoTitle": "Ranging Techniques (ENGE354)",
-    "seoDescription": "Ranging Techniques (ENGE354): fundamental principles of active remote sensing techniques, including LiDAR and RADAR imaging, used in geomatics applications…"
+    "units": [
+      "Introduction",
+      "LiDAR",
+      "Airborne Laser Scanning (ALS) Technology",
+      "Visualization of ALS Data",
+      "Mobile and Terrestrial Laser Scanning (MLS and TLS)",
+      "Segmentation of Point Clouds",
+      "Applications of LIDAR",
+      "Radar Imaging Technology",
+      "Radar Image Interpretation"
+    ]
   },
   {
     "slug": "renewable-energy-and-conversion-devices",
     "code": "ENAE251",
     "title": "Renewable Energy and Conversion Devices",
     "objective": "The objective of this course is to provide fundamental knowledge to detect potential renewable energy sources near to farm and development of skills on their conversion devices. After completion of this course, the students will be able to use locally available energy sources to fulfill the requirements of farm power devices using appropriate tools and methodology.",
-    "seoTitle": "Renewable Energy and Conversion Devices (ENAE251)",
-    "seoDescription": "Renewable Energy and Conversion Devices (ENAE251): fundamental knowledge to detect potential renewable energy sources near to farm and development of skills…"
+    "units": [
+      "Introduction",
+      "Solar Energy",
+      "Bioenergy Technologies",
+      "Wind Energy",
+      "Micro and Small Hydroelectric Systems"
+    ]
   },
   {
     "slug": "sanitary-engineering",
     "code": "ENCE305",
     "title": "Sanitary Engineering",
     "objective": "The course provides comprehensive knowledge of sanitary and wastewater engineering and management, covering theories, design principles, and practical applications in wastewater examination, microbiology, disposal, treatment plant design, and sludge management.",
-    "seoTitle": "Sanitary Engineering (ENCE305)",
-    "seoDescription": "Sanitary Engineering (ENCE305): comprehensive knowledge of sanitary and wastewater engineering and management, covering theories, design principles, and…"
+    "units": [
+      "Introduction",
+      "Quantity of Wastewater",
+      "Design and Construction of Sewers",
+      "Sewer Appurtenances",
+      "Wastewater Microbiology",
+      "Characteristics and Examination of Wastewater",
+      "Wastewater Disposal",
+      "Wastewater Treatment",
+      "Sludge Treatment and Disposal",
+      "Onsite Sanitation of Waste from Isolated Facilities"
+    ]
   },
   {
     "slug": "satellite-geodesy-and-gnss",
     "code": "ENGE302",
     "title": "Satellite Geodesy and GNSS",
     "objective": "The objective of this course is to provide concepts of the principles of satellite geodesy and Global Navigation Satellite Systems (GNSS). By the end of the course the students will be able to analyze satellite data and perform geodetic computations for different engineering applications.",
-    "seoTitle": "Satellite Geodesy and GNSS (ENGE302)",
-    "seoDescription": "Satellite Geodesy and GNSS (ENGE302): concepts of the principles of satellite geodesy and Global Navigation Satellite Systems (GNSS). By the end of the course…"
+    "units": [
+      "Introduction",
+      "Satellite Orbits and Dynamics",
+      "GNSS Constellations and Working Principles",
+      "GNSS Signal and Range Determinations",
+      "Errors and Accuracy in GNSS",
+      "Mathematical Models for GPS Positioning",
+      "Static and Kinematic Positioning and Data Processing",
+      "GNSS Augmentation and other Navigation System",
+      "GNSS Receivers and Applications"
+    ]
   },
   {
     "slug": "signal-and-transform",
     "code": "ENGE203",
     "title": "Signal and Transform",
     "objective": "The objective of this course is to provide students with an understanding of key signal processing techniques and their applications in geospatial data analysis. Students will learn to apply techniques like Fourier and wavelet transforms, along with digital filtering, to enhance and process spatial data, and gain advanced signal processing skills for practical geomatics applications.",
-    "seoTitle": "Signal and Transform (ENGE203)",
-    "seoDescription": "Signal and Transform (ENGE203): students with an understanding of key signal processing techniques and their applications in geospatial data analysis…"
+    "units": [
+      "Fundamentals of Signal Processing in Geomatics",
+      "Fourier Transform for Geospatial Analysis",
+      "Digital Filtering Techniques for Spatial Data",
+      "Wavelet Transform and Multiresolution Analysis",
+      "Time-Frequency Analysis for Geospatial Data",
+      "Advanced Signal Processing Techniques"
+    ]
   },
   {
     "slug": "signals-and-systems",
     "code": "ENEX255",
     "title": "Signals and Systems",
     "objective": "This course provides students with a fundamental understanding of how signals are represented, analyzed, and processed in various systems, covering signal classification, time and frequency domain analysis, convolution and Fourier analysis, so that students can solve problems related to signal processing and system analysis and design and optimize systems effectively.",
-    "seoTitle": "Signals and Systems (ENEX255)",
-    "seoDescription": "Signals and Systems (ENEX255): students with a fundamental understanding of how signals are represented, analyzed, and processed in various systems, covering…"
+    "units": [
+      "Signal and its Types",
+      "Fourier Series",
+      "Fourier Transform",
+      "Linear Time Invariant (LTI) System",
+      "Sampling",
+      "Frequency Response of Continuous and Discrete Time Systems"
+    ]
   },
   {
     "slug": "simulation-and-modeling",
     "code": "ENCT353",
     "title": "Simulation and Modeling",
     "objective": "The objective of this course is to develop knowledge of modeling and simulation techniques for discrete and continuous systems, emphasizing the development and analysis of simulation models, generation and testing of random numbers and variables, and application of simulation methods to evaluate the performance of stochastic systems.",
-    "seoTitle": "Simulation and Modeling (ENCT353)",
-    "seoDescription": "Simulation and Modeling (ENCT353): develop knowledge of modeling and simulation techniques for discrete and continuous systems, emphasizing the development…"
+    "units": [
+      "Introduction to Simulation",
+      "Physical and Mathematical Models",
+      "Simulation of Continuous System",
+      "Simulation of Queuing System",
+      "Markov Chains",
+      "Random Number",
+      "Verification and Validation of Simulation Models",
+      "Analysis of Simulation Output",
+      "Simulation Software",
+      "Simulation of Computer Systems"
+    ]
   },
   {
     "slug": "sociology-and-culture",
     "code": "ENAR305",
     "title": "Sociology and Culture",
     "objective": "The objective is to introduce the sociological and cultural foundations of human settlements and architecture, focusing on the human-environment relationship and how social structures, cultural practices and civilizations shape spatial organization and architecture, enabling students to apply these perspectives to Nepali architectural traditions and contemporary practices.",
-    "seoTitle": "Sociology and Culture (ENAR305)",
-    "seoDescription": "Sociology and Culture (ENAR305): sociological and cultural foundations of human settlements and architecture, focusing on the human-environment relationship…"
+    "units": [
+      "Sociology, Society and Human-Environment Relationship",
+      "Social Structure, Institutions and Social Processes",
+      "Culture and Civilization",
+      "Social and Cultural Dimensions of Architecture in Nepal",
+      "Social Change and Modernization",
+      "Applied Study: Socio-Cultural Analysis"
+    ]
   },
   {
     "slug": "software-engineering",
     "code": "ENCT352",
     "title": "Software Engineering",
     "objective": "The objective of this course is to provide students with a foundation in software engineering covering software characteristics, principles, process models, requirements engineering, system and object-oriented modeling, architectural and design principles, coding standards, testing and quality assurance, along with modern practices such as CI/CD, containerization and AI-assisted development.",
-    "seoTitle": "Software Engineering (ENCT352)",
-    "seoDescription": "Software Engineering (ENCT352): students with a foundation in software engineering covering software characteristics, principles, process models, requirements…"
+    "units": [
+      "Introduction",
+      "The Software Process",
+      "Software Requirements Engineering",
+      "Architectural Design",
+      "System Modeling",
+      "Coding and Testing",
+      "Software Quality, Assurance, Maintenance",
+      "Software Configuration Management",
+      "Recent Trends"
+    ]
   },
   {
     "slug": "soil-and-water-conservation-engineering",
     "code": "ENAE351",
     "title": "Soil and Water Conservation Engineering",
     "objective": "The objective of this course is to provide fundamental principle, processes and mechanism of soil erosion, analyze their impacts on land productivity and apply appropriate soil and water conservation measures. After completion of course, students will be able to design suitable soil and water conservation structures for protection and restoration, particularly considering the physiographic and climatic conditions of Nepal.",
-    "seoTitle": "Soil and Water Conservation Engineering (ENAE351)",
-    "seoDescription": "Soil and Water Conservation Engineering (ENAE351): fundamental principle, processes and mechanism of soil erosion, analyze their impacts on land productivity…"
+    "units": [
+      "Introduction",
+      "Soil Erosion by Water and Wind",
+      "Soil Loss Estimation and Monitoring",
+      "Landslide, Landslip and Mass Wasting",
+      "Erosion Control: Non-Structural Measures",
+      "Erosion Control: Structural Control Measures",
+      "Water Conservation and Management: Arid and Semi-Arid Areas",
+      "Watershed Management and Institutional Arrangement",
+      "Remote Sensing, GIS and Erosion Model"
+    ]
   },
   {
     "slug": "soil-mechanics",
     "code": "ENCE253",
     "title": "Soil Mechanics",
     "objective": "The main objective of this course is to introduce the fundamental concepts of soil, including its index and engineering properties, and to provide knowledge of mechanical behavior under static and dynamic loading.",
-    "seoTitle": "Soil Mechanics (ENCE253)",
-    "seoDescription": "Soil Mechanics (ENCE253): fundamental concepts of soil, including its index and engineering properties, and to provide knowledge of mechanical behavior under…"
+    "units": [
+      "Introduction",
+      "Phase Relationship, Index Property and Soil Classification",
+      "Soil Water, Permeability and Seepage Analysis",
+      "Soil Stresses",
+      "Consolidation",
+      "Shear Strength",
+      "Soil Compaction"
+    ]
   },
   {
     "slug": "soil-science",
     "code": "ENAE152",
     "title": "Soil Science",
     "objective": "To develop understanding about soil forming processes and soil as natural body/medium for storage and movement of water, gases, heat, nutrients and physical and chemical properties of soil.",
-    "seoTitle": "Soil Science (ENAE152)",
-    "seoDescription": "Soil Science (ENAE152): develop understanding about soil forming processes and soil as natural body/medium for storage and movement of water, gases, heat…"
+    "units": [
+      "Concept and Importance of Soil",
+      "Soil Genesis and Classification",
+      "Soil Survey and Mapping",
+      "Soil Physical Properties",
+      "Soil Chemical Properties",
+      "Soil Fertility and Plant Nutrition"
+    ]
   },
   {
     "slug": "spatial-data-infrastructure",
     "code": "ENGE412",
     "title": "Spatial Data Infrastructure",
     "objective": "The objective of this course is to describe the key principles, components, and technologies of Spatial Data Infrastructure (SDI) necessary for effective design and implementation, including both technical and institutional arrangements. It also aims to analyze, model and assess SDI development approaches and spatial enablement systems in local, national, regional and global contexts.",
-    "seoTitle": "Spatial Data Infrastructure (ENGE412)",
-    "seoDescription": "Spatial Data Infrastructure (ENGE412): describe the key principles, components, and technologies of Spatial Data Infrastructure (SDI) necessary for effective…"
+    "units": [
+      "Introduction",
+      "Data Quality and Standards",
+      "Meta-data Principles",
+      "Geospatial Data Catalogue",
+      "SDI Guiding Principles",
+      "Open GIS and Web Mapping",
+      "Policy and Organizational Structure",
+      "Applications and Future Trends"
+    ]
   },
   {
     "slug": "strength-of-materials",
     "code": "ENCE151",
     "title": "Strength of Materials",
     "objective": "The primary goal of the course is to build the fundamental understanding of students on geometric properties of sections, material behavior, stress-strain relations, flexure, torsion, buckling and failure types in the structural elements due to external loads and temperature variations.",
-    "seoTitle": "Strength of Materials (ENCE151)",
-    "seoDescription": "Strength of Materials (ENCE151): The primary goal of the course is to build the fundamental understanding of students on geometric properties of sections…"
+    "units": [
+      "Simple Stress and Strain",
+      "Geometric Properties of Sections",
+      "Principal Stress Analysis in 2D Planes",
+      "Principal Strain Analysis",
+      "Thin Walled Vessels",
+      "Torsion",
+      "Theory of Flexure",
+      "Column Theory"
+    ]
   },
   {
     "slug": "survey-camp",
     "code": "ENCE256",
     "title": "Survey Camp",
     "objective": "The primary objective of the survey camp is to equip students with the practical experience and skills needed to apply their theoretical knowledge of Engineering Surveying in real-world conditions.",
-    "seoTitle": "Survey Camp (ENCE256)",
-    "seoDescription": "Survey Camp (ENCE256): The primary objective of the survey camp is to equip students with the practical experience and skills needed to apply their…"
+    "units": [
+      "Establishment of Horizontal Control for Major Traverse",
+      "Minor Traverse and Topographic Survey",
+      "Bridge Site Survey",
+      "Road Alignment Survey"
+    ]
   },
   {
     "slug": "technical-english",
     "code": "ENSH303",
     "title": "Technical English",
     "objective": "The objective of this course is to develop proficiency in formal and academic writing with a focus on technical communication, providing fundamental concepts and methodologies for preparing proposals, scientific manuscripts and technical reports, while fostering skills to logically link ideas and effectively present project work, seminars and conference papers.",
-    "seoTitle": "Technical English (ENSH303)",
-    "seoDescription": "Technical English (ENSH303): develop proficiency in formal and academic writing with a focus on technical communication, providing fundamental concepts and…"
+    "units": [
+      "Technical Proposals",
+      "Research Proposals",
+      "Technical Reports",
+      "Manuscript for Journal",
+      "Citation and Referencing"
+    ]
   },
   {
     "slug": "telecommunication-and-computer-networks",
     "code": "ENEX352",
     "title": "Telecommunication and Computer Networks",
     "objective": "This course provides a foundational understanding of telecommunications and computer networking, including data communication principles, network architectures, and communication protocols, developing the ability to analyze network models, routing, congestion control, and security mechanisms, and apply networking concepts in designing and evaluating modern communication systems.",
-    "seoTitle": "Telecommunication and Computer Networks (ENEX352)",
-    "seoDescription": "Telecommunication and Computer Networks (ENEX352): foundational understanding of telecommunications and computer networking, including data communication…"
+    "units": [
+      "Introduction",
+      "Switching and Multiplexing",
+      "Telephone Traffic",
+      "Network Models",
+      "Physical and Data Link Layer",
+      "Network Layer",
+      "Transport Layer",
+      "Application Layer",
+      "Advanced Topics"
+    ]
   },
   {
     "slug": "theory-and-design-of-machine-elements",
     "code": "ENME307",
     "title": "Theory and Design of Machine Elements",
     "objective": "To provide students the concepts of kinematics of machine and machine elements, enabling them to analyze and solve problems related to motion, and after completion to design machine elements.",
-    "seoTitle": "Theory and Design of Machine Elements (ENME307)",
-    "seoDescription": "Theory and Design of Machine Elements (ENME307): provide students the concepts of kinematics of machine and machine elements, enabling them to analyze and…"
+    "units": [
+      "Basic Concept of Mechanism",
+      "Cams",
+      "Gears",
+      "Gear Trains",
+      "Fundamentals of Machine Design",
+      "Shaft",
+      "Spur Gear",
+      "Belt"
+    ]
   },
   {
     "slug": "theory-of-computation",
     "code": "ENCT203",
     "title": "Theory of Computation",
     "objective": "To provide basic understanding of theory of automata, formal languages, turing machines and computational complexity",
-    "seoTitle": "Theory of Computation (ENCT203)",
-    "seoDescription": "Theory of Computation (ENCT203): provide basic understanding of theory of automata, formal languages, turing machines and computational complexity"
+    "units": [
+      "Introduction",
+      "Finite Automata",
+      "Context free language",
+      "Turing machine",
+      "Undecidability",
+      "Computational Complexity"
+    ]
   },
   {
     "slug": "theory-of-errors-and-adjustment",
     "code": "ENGE304",
     "title": "Theory of Errors and Adjustment",
     "objective": "The objective of this course is to impart knowledge on errors and adjustment of survey measurements and develop skills in computer programming.",
-    "seoTitle": "Theory of Errors and Adjustment (ENGE304)",
-    "seoDescription": "Theory of Errors and Adjustment (ENGE304): impart knowledge on errors and adjustment of survey measurements and develop skills in computer programming."
+    "units": [
+      "Introduction",
+      "Error Analysis and Propagation",
+      "Random Error Theory",
+      "Mathematical Models",
+      "Covariance and Correlation",
+      "Least Square Method",
+      "Confidence Region Estimation",
+      "Statistical Testing and Assessment of Results"
+    ]
   },
   {
     "slug": "theory-of-machine",
     "code": "ENME257",
     "title": "Theory of Machine",
     "objective": "To provide knowledge on various mechanisms used in machines and devices and to conduct comprehensive analyses of machines and mechanisms, including linkages, gears, gear trains, cams and followers.",
-    "seoTitle": "Theory of Machine (ENME257)",
-    "seoDescription": "Theory of Machine (ENME257): provide knowledge on various mechanisms used in machines and devices and to conduct comprehensive analyses of machines and…"
+    "units": [
+      "Introduction",
+      "Kinematic Analysis of Mechanisms",
+      "Kinetic Analysis of Mechanisms",
+      "Cams and Followers",
+      "Toothed Gear",
+      "Bevel, Helical and Worm Gears",
+      "Simple and Planetary Gear Trains"
+    ]
   },
   {
     "slug": "theory-of-machines-and-mechanism",
     "code": "ENME303",
     "title": "Theory of Machines and Mechanisms",
     "objective": "To provide students with a comprehensive understanding of the concepts of kinematics and dynamics of machine, enabling them to analyze and solve problems related to motion and forces within mechanisms.",
-    "seoTitle": "Theory of Machines and Mechanisms (ENME303)",
-    "seoDescription": "Theory of Machines and Mechanisms (ENME303): provide students with a comprehensive understanding of the concepts of kinematics and dynamics of machine…"
+    "units": [
+      "Basic Concept of Mechanism",
+      "Velocity and Acceleration in Mechanisms",
+      "Kinematic Synthesis of Mechanisms",
+      "Cams",
+      "Spur Gears",
+      "Helical Gears, Bevel Gears, and Worm and Worm Gears",
+      "Gear Trains",
+      "Graphical Method of Force Analysis",
+      "Balancing",
+      "Gyroscopic Couples, Flywheel, and Governors"
+    ]
   },
   {
     "slug": "theory-of-machines-and-mechanisms",
     "code": "ENME256",
     "title": "Theory of Machines and Mechanisms",
     "objective": "To provide theoretical knowledge on various mechanisms used in machines and devices and to conduct comprehensive analyses of machines and mechanisms, including linkages, gears, gear trains, cams and followers, along with their dynamic and vibratory responses.",
-    "seoTitle": "Theory of Machines and Mechanisms (ENME256)",
-    "seoDescription": "Theory of Machines and Mechanisms (ENME256): provide theoretical knowledge on various mechanisms used in machines and devices and to conduct comprehensive…"
+    "units": [
+      "Introduction",
+      "Kinematic Analysis of Mechanisms",
+      "Kinetic Analysis of Mechanisms",
+      "Cams and Followers",
+      "Gear and Gear Train",
+      "Gyroscopic Effect, Flywheel and Governors",
+      "Dynamic Balancing",
+      "Mechanical Vibration"
+    ]
   },
   {
     "slug": "theory-of-structures-i",
     "code": "ENCE202",
     "title": "Theory of Structures I",
     "objective": "To develop concepts and analytical skills to compute structural responses (stresses and deformations) in determinate structures subjected to static loads by manual calculation as well as matrix method of analysis using computer software.",
-    "seoTitle": "Theory of Structures I (ENCE202)",
-    "seoDescription": "Theory of Structures I (ENCE202): develop concepts and analytical skills to compute structural responses (stresses and deformations) in determinate structures…"
+    "units": [
+      "Introduction",
+      "Strain Energy Method",
+      "Virtual Work Method",
+      "Deflection of Beams",
+      "Influence Lines for Simple Structures",
+      "Statically Determinate Arches",
+      "Suspension Cable Systems",
+      "Simple Space Truss"
+    ]
   },
   {
     "slug": "theory-of-structures-ii",
     "code": "ENCE252",
     "title": "Theory of Structures II",
     "objective": "The course introduces key terminology and concepts related to displacements, stresses, strains, stiffness, and other parameters essential for understanding indeterminate systems, and equips students with analytical tools including matrix methods and plastic analysis.",
-    "seoTitle": "Theory of Structures II (ENCE252)",
-    "seoDescription": "Theory of Structures II (ENCE252): key terminology and concepts related to displacements, stresses, strains, stiffness, and other parameters essential for…"
+    "units": [
+      "Introduction",
+      "Theorem of Displacements",
+      "Force Method",
+      "Analysis of Indeterminate Arches",
+      "Slope Deflection Method",
+      "Moment Distribution Method",
+      "Stiffness Matrix Method",
+      "Influence Line for Indeterminate Beams",
+      "Introduction to Plastic Analysis"
+    ]
   },
   {
     "slug": "tractor-systems-and-control",
     "code": "ENAE252",
     "title": "Tractor Systems and Control",
     "objective": "The main objective of this course is to introduce fundamental concepts, principles, and components of farm tractors and control systems, along with their applications. It also emphasizes the significance of ergonomic science and its role in tractor design, and aims to equip students with the knowledge to analyze and optimize tractor applications for cost-effective field operations.",
-    "seoTitle": "Tractor Systems and Control (ENAE252)",
-    "seoDescription": "Tractor Systems and Control (ENAE252): fundamental concepts, principles, and components of farm tractors and control systems, along with their applications…"
+    "units": [
+      "Tractor as Source of Mechanical Farm Power",
+      "Systems and Controls in Farm Tractors",
+      "Traction and Traction Theory",
+      "Mechanics of Tractor Chassis",
+      "Tractor Hitching",
+      "Power Tiller and Mini Tiller",
+      "Ergonomic Principles in Tractor Design",
+      "Tractor Testing",
+      "Economics of Tractor Use"
+    ]
   },
   {
     "slug": "transport-phenomena",
     "code": "ENCH303",
     "title": "Transport Phenomena",
     "objective": "To provide concepts of the fundamental mechanisms governing the transport of momentum, energy, and mass, with emphasis on the use of shell balance and equations of change, so that students can analyze, evaluate, and design transport processes in engineering applications through rigorous problem formulation and solution.",
-    "seoTitle": "Transport Phenomena (ENCH303)",
-    "seoDescription": "Transport Phenomena (ENCH303): provide concepts of the fundamental mechanisms governing the transport of momentum, energy, and mass, with emphasis on the use…"
+    "units": [
+      "Introduction and Momentum Transport",
+      "Shell Momentum Balances and Velocity Distributions",
+      "Equation of Change for Isothermal Systems",
+      "Mechanism of Energy Transport",
+      "Shell Energy Balances and Temperature Distributions",
+      "Equations of Change for Non-Isothermal Systems",
+      "Mechanism of Mass Transport",
+      "Shell Mass Balance and Concentration Distribution",
+      "Equations of Change for Binary Mixtures",
+      "Multicomponent Macroscopic Balances"
+    ]
   },
   {
     "slug": "transportation-engineering-i",
     "code": "ENCE304",
     "title": "Transportation Engineering I",
     "objective": "The course equips civil engineering students with foundational transportation knowledge, enabling them to select highway alignments, design geometric elements, understand drainage components, and identify material requirements for construction.",
-    "seoTitle": "Transportation Engineering I (ENCE304)",
-    "seoDescription": "Transportation Engineering I (ENCE304): equips civil engineering students with foundational transportation knowledge, enabling them to select highway…"
+    "units": [
+      "Transportation System, Planning and Engineering",
+      "Highway Engineering",
+      "Geometric Design of Highway",
+      "Highway Drainage",
+      "Highway Materials"
+    ]
   },
   {
     "slug": "transportation-engineering-ii",
     "code": "ENCE353",
     "title": "Transportation Engineering II",
     "objective": "The course equips students with foundational knowledge in traffic engineering, traffic survey, traffic control and management, basic principles of pavement design, construction processes of bituminous and cement concrete roads, and various highway pavement problems and maintenance methods.",
-    "seoTitle": "Transportation Engineering II (ENCE353)",
-    "seoDescription": "Transportation Engineering II (ENCE353): foundational knowledge in traffic engineering, traffic survey, traffic control and management, basic principles of…"
+    "units": [
+      "Traffic Studies and Analysis",
+      "Traffic Control Methods",
+      "Pavement Design",
+      "Road Construction Technology",
+      "Pavement Maintenance"
+    ]
   },
   {
     "slug": "unmanned-aerial-systems",
     "code": "ENAS354",
     "title": "Unmanned Aerial Systems",
     "objective": "To provide the fundamental principles of unmanned aerial vehicle (UAV) development, research and applications, with a focus on airframe optimization, flight control, autonomy and navigation, and sensor-based feedback to improve UAV performance and pilot effectiveness.",
-    "seoTitle": "Unmanned Aerial Systems (ENAS354)",
-    "seoDescription": "Unmanned Aerial Systems (ENAS354): provide the fundamental principles of unmanned aerial vehicle (UAV) development, research and applications, with a focus on…"
+    "units": [
+      "Introduction",
+      "UAV Co-ordinate System, Aerodynamics and Flight Mechanics",
+      "Fixed-Wing UAV Design Principles",
+      "Quadrotor UAV Design Principles",
+      "UAV Avionics and Sensors",
+      "Autonomous Navigation and Control Systems",
+      "UAV Applications and Regulations"
+    ]
   },
   {
     "slug": "water-supply-engineering",
     "code": "ENCE254",
     "title": "Water Supply Engineering",
     "objective": "This course is designed to offer a comprehensive understanding of Water Supply Engineering, covering theories, design considerations, and practical knowledge including water requirements, sources, quality examination, treatment plant design, reservoirs, distribution networks, and advanced treatment methods.",
-    "seoTitle": "Water Supply Engineering (ENCE254)",
-    "seoDescription": "Water Supply Engineering (ENCE254): offer a comprehensive understanding of Water Supply Engineering, covering theories, design considerations, and practical…"
+    "units": [
+      "Introduction",
+      "Sources of Water",
+      "Quantity of Water",
+      "Quality of Water",
+      "Intakes",
+      "Water Treatment",
+      "Reservoirs and Distribution System",
+      "Conveyance of Water",
+      "Pipe Appurtenances, Operation and Maintenance"
+    ]
   },
   {
     "slug": "web-technologies-and-applications",
     "code": "ENCT302",
     "title": "Web Technologies and Applications",
     "objective": "To introduce the key foundations of the Web, essential technologies and knowledge needed for web application development, and to highlight the recent developments on the dynamic area of the Web.",
-    "seoTitle": "Web Technologies and Applications (ENCT302)",
-    "seoDescription": "Web Technologies and Applications (ENCT302): introduce the key foundations of the Web, essential technologies and knowledge needed for web application…"
+    "units": [
+      "Introduction",
+      "Web basics",
+      "Server-side programming",
+      "Client-side scripting",
+      "Web applications",
+      "Web 2.0",
+      "Information representation and sharing - XML",
+      "Web services",
+      "The Semantic Web"
+    ]
   },
   {
     "slug": "working-drawing",
     "code": "ENAR304",
     "title": "Working Drawing",
     "objective": "The objective is to introduce the principles of working drawings and construction documentation for medium-scale, multi-storey buildings, enabling students to produce coordinated plans, sections, elevations and details and prepare comprehensive architectural and construction drawings applicable to varied design contexts.",
-    "seoTitle": "Working Drawing (ENAR304)",
-    "seoDescription": "Working Drawing (ENAR304): principles of working drawings and construction documentation for medium-scale, multi-storey buildings, enabling students to…"
+    "units": [
+      "Architectural Drawing",
+      "Structural Drawing",
+      "Time Problem"
+    ]
   },
   {
     "slug": "workshop-technology",
     "code": "ENME155",
     "title": "Workshop Technology",
     "objective": "To impart knowledge and skill components in the field of basic workshop technology. To be familiar with different hand and machine tools required for manufacturing simple metal components and articles.",
-    "seoTitle": "Workshop Technology (ENME155)",
-    "seoDescription": "Workshop Technology (ENME155): impart knowledge and skill components in the field of basic workshop technology. To be familiar with different hand and machine…"
+    "units": [
+      "General safety Considerations",
+      "Hand Working Operations",
+      "Measuring and Gauging",
+      "Drills and Drilling Processes",
+      "Machine Tools",
+      "Material Properties",
+      "Sheet Metal Works",
+      "Foundry Practice",
+      "Forging Practice",
+      "Metal Joining"
+    ]
   }
 ]
 
